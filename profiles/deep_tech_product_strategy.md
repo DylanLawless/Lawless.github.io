@@ -61,6 +61,19 @@ In serious life-science products, taste is a technical discipline. It shows up i
 
 <section class="profile-section" markdown="1">
 
+## Portfolio samples
+
+* [Switzerland Omics](http://switzerlandomics.ch/)
+* [Genomic Vault](https://genomicvault.switzerlandomics.ch)
+* [Swiss Genomics Association](https://www.swissgenomicsassociation.ch)
+* [SwissPedHealth](https://swisspedhealth.com/)
+* [Variant Impact](https://variantimpact.vercel.app)
+
+</section>
+
+
+<section class="profile-section" markdown="1">
+
 ## What this work resolves
 
 <div class="profile-grid">

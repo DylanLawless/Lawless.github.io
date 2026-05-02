@@ -8,10 +8,10 @@ permalink: "/profile/"
 <section class="profile-hero" markdown="1">
 
 <p class="profile-subtitle">
-The same scientific work can look different from the bench, the clinic, the data team, or the product room.
+Scientific research from first principles to polished products.
 </p>
 
-My career bridges those rooms. The profiles below gather the relevant parts around the problem you may need solved.
+These profiles organise my experience around the problems teams need to solve across evidence, data, software, infrastructure, and delivery.
 
 </section>
 

@@ -1,51 +1,54 @@
 ---
 title: About
 layout: page
-description: About Dylan Lawless
+description: About this website and professional profile
 permalink: "/about/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-I work at the interface of biomedical science, statistical computing, product development, and regulated data infrastructure.
+This website is my online profile, CV, and public record of work.
 
-My background is in statistical genomics and translational data science, but my work is broader than analysis alone. I build methods, software, standards, and user-facing systems that turn complex biomedical data into products people can use, inspect, trust, and deploy.
+It exists because my work rarely fits cleanly under one job title. I began in molecular biology, immunology, genomics, and computational analysis. Over time, the work moved further along the chain from basic science to real-world use.
 
-I have worked across academic research, hospitals, biotech-facing projects, clinical trial environments, start-up development, and regulated data systems. This gives me a practical view of what is often missing between discovery and adoption: not just a result, but a system that is scientifically sound, technically robust, legally aware, clearly designed, and understandable to the people who need to use it.
+The focus became less about producing a result once, and more about making that result reliable, documented, reusable, and clear enough for other teams to build on.
 
-## What I do
+That is why the site is organised through professional profiles. The same experience can be relevant from the clinic, the lab, the data team, the software team, the product room, or the regulated setting. Each profile gathers the relevant parts around a different problem.
 
-I develop biomedical technologies from first principles through to usable systems.
+The common thread is simple: I work on how serious scientific work becomes usable. A method, a workflow, a platform, a standard, a report, a product, or a decision system.
 
-That includes statistical methods, genomic interpretation frameworks, reproducible pipelines, full-stack applications, technical standards, product narratives, regulatory positioning, and delivery infrastructure. I am interested in the full path from scientific idea to operational product: evidence, software, interface, trust, documentation, distribution, and adoption.
+<div class="profile-actions">
+  <a href="{{ '/profile/' | relative_url }}" class="button-link">
+    Profile / CV
+  </a>
 
-My work spans several scales. For instance, regulated clinical workflows for approximately 1,000 children with rare disease in Swiss children’s hospitals, international translational studies of up to 5,000 participants, and biobank-scale whole-genome analyses exceeding 100,000 participants.
+  <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary">
+    Technologies
+  </a>
 
-## Where I fit
+  <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
+    Publications
+  </a>
 
-I sit between technical and decision-making worlds.
+  <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
+    Contact
+  </a>
+</div>
 
-I work with scientists on methods, clinicians on interpretation, engineers on implementation, executives on product direction, and external partners on credibility, governance, and due diligence. I focus on technical details, but I also care about how the system is perceived, explained, shipped, and maintained.
+## Major employment and public output
 
-This is the work I am best suited for: building the bridge between serious biomedical science and products that can survive outside the lab.
+[EPFL](https://www.epfl.ch/en/) ·
+[University of Zürich](https://www.uzh.ch/de.html) ·
+[University Children’s Hospital Zürich](https://www.kispi.uzh.ch/) ·
+[University of Leeds](https://www.leeds.ac.uk/) ·
+[Trinity College Dublin](https://www.tcd.ie/) ·
+[University College Cork](https://www.ucc.ie/)
 
-## How I think about products
+[Switzerland Omics](http://switzerlandomics.ch/) ·
+[Genomic Vault](https://genomicvault.switzerlandomics.ch) ·
+[Swiss Genomics Association](https://www.swissgenomicsassociation.ch) ·
+[SwissPedHealth](https://swisspedhealth.com/) ·
+[Variant Impact](https://variantimpact.vercel.app) ·
+[YouTube](https://www.youtube.com/@SwitzerlandOmics)
 
-A biomedical product is not just code, a model, or a report.
-
-It is a complete system of evidence, design, trust, operation, and communication. The statistics need to be defensible. The software needs to be reproducible. The data flow needs to be governed. The interface needs to make sense. The message needs to be precise. The regulatory boundary needs to be clear.
-
-When those layers are aligned, a complex technology becomes usable.
-
-## Current work
-
-I am a senior scientist at the University of Zürich and University Children’s Hospital Zürich, working across paediatric genomics, intensive care, rare disease, and national data infrastructure.
-
-I also founded Switzerland Omics to translate peer-reviewed genomics research into deployable products, standards, and regulated data infrastructure for research, healthcare, and industry.
-
-I co-founded the Swiss Genomics Association to help build independent standards and organisational infrastructure for verifiable evidence in omics and clinical data systems.
-## Background
-
-I completed a PhD in Medicine at the University of Leeds, an MSc in Immunology at Trinity College Dublin, and a BSc in Microbiology at University College Cork.
-
-My interests include statistical genomics, Bayesian inference, multi-omics, scientific software, clinical data systems, product development, evidence standards, and regulated biomedical workflows.
+{% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="45s" %}
