@@ -11,33 +11,6 @@ $white: #ffffff;
 $white-offset: #f3f2f2;
 $steel: #5c5a5a;
 
-// Semantic colours
-$text-main: $black;
-$text-muted: $steel;
-$border-light: #d8d6d6;
-
-// Header
-$header-background-color: $black;
-$header-text-color: $white;
-$logo-text-color: $white;
-
-// Menu
-$menu-link-color: $white;
-$menu-link-hover-color: $white;
-$menu-link-active-color: $white;
-
-// Mobile menu
-$mobile-menu-background-color: $black;
-$mobile-menu-link-color: $white;
-$hamburger-color: $white;
-$hamburger-active-color: $white;
-
-// Buttons
-$button-background-color: $primary;
-$button-hover-background-color: $primary-dark;
-$button-text-color: $white;
-$button-border-color: $black;
-
 // Links
 $link-color: $primary;
 $link-decoration: none;
@@ -45,9 +18,9 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Footer
-$footer-background-color: $black;
+$footer-background-color: $primary;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($black, 7%);
+$sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
 
 // Fonts
@@ -139,69 +112,6 @@ $font-family-heading: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
 @import "pages/page-tech";
 @import "page-infra-maturity";
 
-
-// Site chrome colour overrides
-// These are placed after component imports so the existing component files do not need to change.
-
-.header {
-  color: $header-text-color;
-  background-color: $header-background-color;
-  border-bottom: 1px solid rgba($white, 0.12);
-}
-
-.main-menu > ul > li > a {
-  color: $menu-link-color;
-}
-
-.main-menu > ul > li > a:hover {
-  color: $menu-link-hover-color;
-}
-
-.main-menu > ul > li.active > a {
-  color: $menu-link-active-color;
-}
-
-.main-menu > ul > li.active > a:hover {
-  color: $menu-link-active-color;
-}
-
-.main-menu-mobile {
-  background: $mobile-menu-background-color;
-}
-
-.main-menu-mobile ul li a {
-  color: $mobile-menu-link-color;
-}
-
-.hamburger .hamburger-inner,
-.hamburger .hamburger-inner::before,
-.hamburger .hamburger-inner::after {
-  background: $hamburger-color;
-}
-
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner::before,
-.hamburger.is-active .hamburger-inner::after {
-  background: $hamburger-active-color;
-}
-
-.button {
-  background: $button-background-color;
-  color: $button-text-color;
-  border: 1px solid $button-border-color;
-}
-
-.button:hover {
-  background-color: $button-hover-background-color;
-  color: $button-text-color;
-  border-color: $button-border-color;
-}
-
-.footer .footer-title {
-  color: $footer-text-color;
-}
-
-
 body {
   font-size: 1rem;
   line-height: 1.2;
@@ -220,7 +130,7 @@ body {
 
 .logo-text {
     font-size: 20px; /* Set font size, adjust as needed */
-    color: $logo-text-color; /* Set text color, change as needed */
+    color: #000; /* Set text color, change as needed */
     margin-left: 10px; /* Space between logo and text */
 }
 
@@ -250,11 +160,12 @@ html {
   align-items: center;
   justify-content: center;
   padding: 12px 20px;
-  background-color: $button-background-color;
-  color: $button-text-color;
+  background-color: $primary;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  border: 1px solid $button-border-color;
+  border: none;
+  // border: 1px solid $black;
   font-size: 16px;
   line-height: 1;
   cursor: pointer;
@@ -263,9 +174,7 @@ html {
 }
 
 .button-link:hover {
-  background-color: $button-hover-background-color;
-  color: $button-text-color;
-  border-color: $button-border-color;
+  background-color: $secondary;
 }
 
 /* CSS */
@@ -331,8 +240,8 @@ pre.code-copy code {
 
 /* global action colours */
 :root{
-  --action-bg: #{$primary};        /* primary */
-  --action-hover: #{$primary-dark};     /* primary dark */
+  --action-bg: #e5261f;        /* primary */
+  --action-hover: #a01b16;     /* primary dark */
 }
 
 /* action card */

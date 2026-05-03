@@ -33,6 +33,45 @@ Scientific software needs to preserve the evidence while making the work operati
 
 <section class="profile-section" markdown="1">
 
+## What this work resolves
+
+<div class="profile-grid">
+
+  <div class="profile-card">
+    <h3>Research code to system</h3>
+    <p>
+    Scientific code needs structure, documentation, testing discipline, versioning, and outputs that other people can understand and reuse.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Data to report</h3>
+    <p>
+    Complex omics and clinical workflows need structured reports, machine-readable outputs, and clear links between input, processing, and interpretation.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Method to product</h3>
+    <p>
+    Statistical methods become more useful when they are wrapped in usable interfaces, reproducible workflows, and practical decision support.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Prototype to infrastructure</h3>
+    <p>
+    Biomedical software has to operate across data quality, security, governance, user needs, and long-term maintainability.
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="profile-section" markdown="1">
+
 ## Evidence at a glance
 
 <div class="profile-metrics">
@@ -85,87 +124,6 @@ Scientific software needs to preserve the evidence while making the work operati
 
 </section>
 
-
-<section class="profile-section" markdown="1">
-
-## What this work resolves
-
-<div class="profile-grid">
-
-  <div class="profile-card">
-    <h3>Research code to system</h3>
-    <p>
-    Scientific code needs structure, documentation, testing discipline, versioning, and outputs that other people can understand and reuse.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Data to report</h3>
-    <p>
-    Complex omics and clinical workflows need structured reports, machine-readable outputs, and clear links between input, processing, and interpretation.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Method to product</h3>
-    <p>
-    Statistical methods become more useful when they are wrapped in usable interfaces, reproducible workflows, and practical decision support.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Prototype to infrastructure</h3>
-    <p>
-    Biomedical software has to operate across data quality, security, governance, user needs, and long-term maintainability.
-    </p>
-  </div>
-
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## Relevant experience
-
-<div class="profile-experience-list">
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2023 to present · Universitäts-Kinderspital Zürich</div>
-    <h3>Reproducible clinical genomics and multi-omics workflows</h3>
-    <p>
-    Built R and Python workflows for genome-wide, rare variant, gene-level, and multi-omic analyses in secure Linux and high-performance computing environments.
-    </p>
-    <p class="profile-experience-proof">
-    WGS, RNA-seq, proteomics, metabolomics, EHR-linked data, approximately 1,000 children, more than 100 TB of biomedical data, structured outputs for clinical research review.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">Selected product development · Switzerland Omics</div>
-    <h3>Scientific software, reporting, and data products</h3>
-    <p>
-    Developed product-facing biomedical data workflows that translate statistical genomics methods into reproducible reporting, probabilistic interpretation, and secure data systems.
-    </p>
-    <p class="profile-experience-proof">
-    R packages, CRAN releases, structured HTML reports, YAML criteria, PostgreSQL, Supabase, Next.js, React, TypeScript, APIs, authenticated scientific software.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2018 to 2023 · EPFL Global Health Institute</div>
-    <h3>Analytical workflow development for translational cohorts</h3>
-    <p>
-    Built reproducible statistical and computational workflows across infectious, inflammatory, genomic, and multi-omic cohort studies.
-    </p>
-    <p class="profile-experience-proof">
-    Cohorts up to 5,000 participants, R, Python, Linux, high-dimensional modelling, rare variant analysis, data visualisation, reports, figures, and collaborative scientific outputs.
-    </p>
-  </article>
-
-</div>
-
-</section>
 
 <section class="profile-section" markdown="1">
 
@@ -253,7 +211,7 @@ Scientific software needs to preserve the evidence while making the work operati
 
 {% assign pubs = site.data.publications | reverse %}
 
-{% assign selected_dois = "10.1093/bioinformatics/btaf676,10.1002/gepi.70025,10.1101/2025.03.20.25324319,10.1101/2025.03.25.25324607,10.64898/2025.12.02.25341503,10.1101/2025.06.12.25329504" | split: "," %}
+{% assign selected_dois = "10.1093/bioinformatics/btaf676,10.1002/gepi.70025,10.1101/2025.03.20.25324319,10.1101/2025.03.25.25324607,10.64898/2025.12.02.25341503" | split: "," %}
 
 {% for doi in selected_dois %}
   {% assign selected_pub = pubs | where: "doi", doi | first %}
@@ -272,6 +230,50 @@ Scientific software needs to preserve the evidence while making the work operati
 </div>
 
 </section>
+
+<section class="profile-section" markdown="1">
+
+## Relevant experience
+
+<div class="profile-experience-list">
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">3 years (2023 to present) · Universitäts-Kinderspital Zürich</div>
+    <h3>Reproducible clinical genomics and multi-omics workflows</h3>
+    <p>
+    Built R and Python workflows for genome-wide, rare variant, gene-level, and multi-omic analyses in secure Linux and high-performance computing environments.
+    </p>
+    <p class="profile-experience-proof">
+    WGS, RNA-seq, proteomics, metabolomics, EHR-linked data, approximately 1,000 children, more than 100 TB of biomedical data, structured outputs for clinical research review.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">Selected product development · Switzerland Omics</div>
+    <h3>Scientific software, reporting, and data products</h3>
+    <p>
+    Developed product-facing biomedical data workflows that translate statistical genomics methods into reproducible reporting, probabilistic interpretation, and secure data systems.
+    </p>
+    <p class="profile-experience-proof">
+    R packages, CRAN releases, structured HTML reports, YAML criteria, PostgreSQL, Supabase, Next.js, React, TypeScript, APIs, authenticated scientific software.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">5 years (2018 to 2023) · EPFL Global Health Institute</div>
+    <h3>Analytical workflow development for translational cohorts</h3>
+    <p>
+    Built reproducible statistical and computational workflows across infectious, inflammatory, genomic, and multi-omic cohort studies.
+    </p>
+    <p class="profile-experience-proof">
+    Cohorts up to 5,000 participants, R, Python, Linux, high-dimensional modelling, rare variant analysis, data visualisation, reports, figures, and collaborative scientific outputs.
+    </p>
+  </article>
+
+</div>
+
+</section>
+
 
 <section class="profile-section" markdown="1">
 

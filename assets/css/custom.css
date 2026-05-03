@@ -236,16 +236,42 @@
 }
 
 /* Split heading: large title with small metadata */
+/* .split-heading { */
+/*   display: flex; */
+/*   align-items: baseline; */
+/*   flex-wrap: wrap; */
+/*   gap: 0.35rem 0.75rem; */
+/*   margin: 0 0 0.9rem; */
+/*   color: #2f2f41; */
+/* } */
+/**/
+/* .split-heading-main { */
+/*   font-size: clamp(2.1rem, 4vw, 3rem); */
+/*   line-height: 1.05; */
+/*   letter-spacing: -0.03em; */
+/*   font-weight: 700; */
+/* } */
+
+/* .split-heading-meta { */
+/*   display: inline-block; */
+/*   font-size: 0.78rem; */
+/*   line-height: 1; */
+/*   letter-spacing: 0.04em; */
+/*   color: #5c5a5a; */
+/*   font-weight: 400; */
+/*   white-space: nowrap; */
+/* } */
+
+
+/* Split heading: stacked title with small metadata */
 .split-heading {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.75rem;
+  display: block;
   margin: 0 0 0.9rem;
   color: #2f2f41;
 }
 
 .split-heading-main {
+  display: block;
   font-size: clamp(2.1rem, 4vw, 3rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
@@ -253,14 +279,15 @@
 }
 
 .split-heading-meta {
-  display: inline-block;
+  display: block;
+  margin-top: 0.45rem;
   font-size: 0.78rem;
   line-height: 1;
   letter-spacing: 0.04em;
   color: #5c5a5a;
   font-weight: 400;
-  white-space: nowrap;
 }
+
 
 /* Force clean stacking before the layout starts to feel cramped */
 @media (max-width: 640px) {

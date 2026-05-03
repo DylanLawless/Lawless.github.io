@@ -9,7 +9,7 @@ intro_image_hide_on_mobile: false
 
 This website is my online profile, CV, and public record of work.
 
-It exists because my work rarely fits cleanly under one job title. I began in molecular biology, immunology, genomics, and computational analysis. Over time, the work moved further along the chain from basic science to real-world use.
+It exists because my work rarely fits cleanly under one job title. I began in molecular biology, pathogen infection, immunology, genomics, and computational analysis. Over time, the work moved further along the chain from basic science to real-world use.
 
 The focus became less about producing a result once, and more about making that result reliable, documented, reusable, and clear enough for other teams to build on.
 
@@ -18,17 +18,17 @@ That is why the site is organised through professional profiles. The same experi
 The common thread is simple: I work on how serious scientific work becomes usable. A method, a workflow, a platform, a standard, a report, a product, or a decision system.
 
 <div class="profile-actions">
-  <a href="{{ '/profile/' | relative_url }}" class="button-link">
-    Profile / CV
-  </a>
-
-  <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary">
-    Technologies
-  </a>
-
-  <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
-    Publications
-  </a>
+  <!-- <a href="{{ '/profile/' | relative_url }}" class="button-link"> -->
+  <!--   Profile / CV -->
+  <!-- </a> -->
+  <!---->
+  <!-- <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary"> -->
+  <!--   Technologies -->
+  <!-- </a> -->
+  <!---->
+  <!-- <a href="{{ '/publications/' | relative_url }}" class="button-link secondary"> -->
+  <!--   Publications -->
+  <!-- </a> -->
 
   <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
     Contact

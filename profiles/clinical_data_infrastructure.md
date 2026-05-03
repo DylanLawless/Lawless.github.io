@@ -33,6 +33,44 @@ Regulated biomedical work depends on secure data flow, reproducible analysis, tr
 
 <section class="profile-section" markdown="1">
 
+## What this work resolves
+
+<div class="profile-grid">
+
+  <div class="profile-card">
+    <h3>Traceable evidence</h3>
+    <p>
+    Clinical data workflows need clear links between source data, processing, analysis, interpretation, and final output.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Secure reuse</h3>
+    <p>
+    Biomedical data becomes more valuable when it can be reused safely across research, clinical, governance, and translational contexts.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Regulated reporting</h3>
+    <p>
+    Reports, databases, pipelines, and documentation need enough structure to support review, quality control, and later audit.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Cross-functional delivery</h3>
+    <p>
+    Clinical infrastructure has to satisfy clinicians, data scientists, bioinformaticians, governance teams, software teams, and decision-makers at the same time.
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
 ## Evidence at a glance
 
 <div class="profile-metrics">
@@ -81,87 +119,6 @@ Regulated biomedical work depends on secure data flow, reproducible analysis, tr
     duration="0:23"
     caption="PanelAppRex AI. Harmonised disease-gene panels from structured clinical and genetic queries. For humans and for machines."
   %}
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## What this work resolves
-
-<div class="profile-grid">
-
-  <div class="profile-card">
-    <h3>Traceable evidence</h3>
-    <p>
-    Clinical data workflows need clear links between source data, processing, analysis, interpretation, and final output.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Secure reuse</h3>
-    <p>
-    Biomedical data becomes more valuable when it can be reused safely across research, clinical, governance, and translational contexts.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Regulated reporting</h3>
-    <p>
-    Reports, databases, pipelines, and documentation need enough structure to support review, quality control, and later audit.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Cross-functional delivery</h3>
-    <p>
-    Clinical infrastructure has to satisfy clinicians, data scientists, bioinformaticians, governance teams, software teams, and decision-makers at the same time.
-    </p>
-  </div>
-
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## Relevant experience
-
-<div class="profile-experience-list">
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2023 to present · Universitäts-Kinderspital Zürich</div>
-    <h3>Secure clinical genomics and data infrastructure</h3>
-    <p>
-    Designed analytical workflows and clinical research databases for paediatric critical care, rare disease, genomics, multi-omics, and EHR-linked research.
-    </p>
-    <p class="profile-experience-proof">
-    Approximately 1,000 children, more than 100 TB of biomedical data, three hospitals, SwissPedHealth National Data Stream, Swiss Pediatric Sepsis Study, governance-facing workflows.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2018 to 2023 · EPFL Global Health Institute</div>
-    <h3>Translational cohort systems and analytical delivery</h3>
-    <p>
-    Built reproducible computational workflows for infectious, inflammatory, and translational studies across Swiss and international collaborators.
-    </p>
-    <p class="profile-experience-proof">
-    Cohorts up to 5,000 participants, multidisciplinary teams across EPFL, ETH Zürich, Swiss university hospitals, Swiss TPH, and international partners.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2014 to 2015 · ACM Global Laboratories</div>
-    <h3>Regulated laboratory and clinical trial delivery</h3>
-    <p>
-    Delivered biomarker and assay workflows in a regulated bioanalytical laboratory serving global clinical trial programmes.
-    </p>
-    <p class="profile-experience-proof">
-    Quality-controlled assay delivery, documentation discipline, biomarker workflows, regulated laboratory operations, development-stage decision support.
-    </p>
-  </article>
-
 </div>
 
 </section>
@@ -229,8 +186,6 @@ Regulated biomedical work depends on secure data flow, reproducible analysis, tr
 - [Qualifying variant database](https://switzerlandomics.ch/technologies/qv_database/):
 reusable YAML criteria for reproducible genomic variant interpretation, published in [Lawless et al (2026)](https://doi.org/10.1093/bioinformatics/btaf676).
 
-- [PanelAppRex AI](https://switzerlandomics.ch/technologies/panelAppRexAi/): harmonised disease-gene panels from structured clinical and genetic queries, preprinted in [Quant Group et al (2025)](https://doi.org/10.1101/2025.03.20.25324319).
-
 <div class="profile-link-row">
   <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary">
     View all technologies
@@ -253,7 +208,7 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 
 {% assign pubs = site.data.publications | reverse %}
 
-{% assign selected_dois = "10.1093/bioinformatics/btaf676,10.1101/2025.03.20.25324319,10.1101/2025.03.25.25324607,10.1101/2025.06.12.25329504,10.1002/gepi.70025,10.1182/blood.2020005844" | split: "," %}
+{% assign selected_dois = "10.1093/bioinformatics/btaf676,10.1182/blood.2020005844,10.7554/eLife.72559,10.3389/fimmu.2018.01527" | split: "," %}
 
 {% for doi in selected_dois %}
   {% assign selected_pub = pubs | where: "doi", doi | first %}
@@ -269,6 +224,49 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
   <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
     View all publications
   </a>
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
+## Relevant experience
+
+<div class="profile-experience-list">
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">2023 to present · Universitäts-Kinderspital Zürich</div>
+    <h3>Secure clinical genomics and data infrastructure</h3>
+    <p>
+    Designed analytical workflows and clinical research databases for paediatric critical care, rare disease, genomics, multi-omics, and EHR-linked research.
+    </p>
+    <p class="profile-experience-proof">
+    Approximately 1,000 children, more than 100 TB of biomedical data, three hospitals, SwissPedHealth National Data Stream, Swiss Pediatric Sepsis Study, governance-facing workflows.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">2018 to 2023 · EPFL Global Health Institute</div>
+    <h3>Translational cohort systems and analytical delivery</h3>
+    <p>
+    Built reproducible computational workflows for infectious, inflammatory, and translational studies across Swiss and international collaborators.
+    </p>
+    <p class="profile-experience-proof">
+    Cohorts up to 5,000 participants, multidisciplinary teams across EPFL, ETH Zürich, Swiss university hospitals, Swiss TPH, and international partners.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">2014 to 2015 · ACM Global Laboratories</div>
+    <h3>Regulated laboratory and clinical trial delivery</h3>
+    <p>
+    Delivered biomarker and assay workflows in a regulated bioanalytical laboratory serving global clinical trial programmes.
+    </p>
+    <p class="profile-experience-proof">
+    Quality-controlled assay delivery, documentation discipline, biomarker workflows, regulated laboratory operations, development-stage decision support.
+    </p>
+  </article>
+
 </div>
 
 </section>

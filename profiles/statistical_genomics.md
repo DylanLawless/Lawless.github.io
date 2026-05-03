@@ -33,6 +33,45 @@ Statistical genomics depends on the chain between study design, cohort structure
 
 <section class="profile-section" markdown="1">
 
+## What this work resolves
+
+<div class="profile-grid">
+
+  <div class="profile-card">
+    <h3>Cohort evidence</h3>
+    <p>
+    Genetic association studies need more than variant filtering. Cohort structure, ancestry, phenotype definition, missingness, and test design determine whether the result can be trusted.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Rare variant signal</h3>
+    <p>
+    Rare variant analyses need pathway, gene, variant, and burden logic that remains interpretable when events are sparse and uncertainty is large.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Multi-omic interpretation</h3>
+    <p>
+    DNA, RNA-seq, proteomics, metabolomics, and clinical data need a statistical layer that connects molecular signal to disease biology and patient stratification.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Reusable inference</h3>
+    <p>
+    Population evidence becomes more valuable when analyses are reproducible, versioned, visualised clearly, and reusable beyond the first manuscript or internal report.
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="profile-section" markdown="1">
+
 ## Evidence at a glance
 
 <div class="profile-metrics">
@@ -82,88 +121,6 @@ Statistical genomics depends on the chain between study design, cohort structure
     duration="1:23"
     caption="Quant, The missing element in genomic interpretation. Database, scan, and state-of-the-art algorithm.."
   %}
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-
-## What this work resolves
-
-<div class="profile-grid">
-
-  <div class="profile-card">
-    <h3>Cohort evidence</h3>
-    <p>
-    Genetic association studies need more than variant filtering. Cohort structure, ancestry, phenotype definition, missingness, and test design determine whether the result can be trusted.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Rare variant signal</h3>
-    <p>
-    Rare variant analyses need pathway, gene, variant, and burden logic that remains interpretable when events are sparse and uncertainty is large.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Multi-omic interpretation</h3>
-    <p>
-    DNA, RNA-seq, proteomics, metabolomics, and clinical data need a statistical layer that connects molecular signal to disease biology and patient stratification.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Reusable inference</h3>
-    <p>
-    Population evidence becomes more valuable when analyses are reproducible, versioned, visualised clearly, and reusable beyond the first manuscript or internal report.
-    </p>
-  </div>
-
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## Relevant experience
-
-<div class="profile-experience-list">
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2023 to present · Universitäts-Kinderspital Zürich</div>
-    <h3>Genome-wide and multi-omic analysis in paediatric disease</h3>
-    <p>
-    Lead computational and translational analyses within the Swiss Pediatric Sepsis Study and SwissPedHealth National Data Stream, funded at approximately CHF 1M and CHF 5M across three hospitals.
-    </p>
-    <p class="profile-experience-proof">
-    WGS, RNA-seq, proteomics, metabolomics, clinical phenotypes, EHR-linked data, approximately 1,000 children, more than 100 TB of biomedical data, rare variant and gene-level analysis.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2018 to 2023 · EPFL Global Health Institute</div>
-    <h3>Statistical genetics across translational cohorts</h3>
-    <p>
-    Developed statistical genetics, computational biology, and multi-omic workflows across sepsis, tuberculosis, asthma, infectious disease, and chronic inflammatory disease studies.
-    </p>
-    <p class="profile-experience-proof">
-    Cohorts up to 5,000 participants, more than CHF 3M in competitive research support, population statistical genetics, rare variant testing, Bayesian reasoning, reproducible computational workflows.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2015 to 2018 · University of Leeds, School of Medicine</div>
-    <h3>Human genetics in severe immune disease</h3>
-    <p>
-    Led genomic discovery and clinical interpretation in rare immune disease within a translational hospital setting.
-    </p>
-    <p class="profile-experience-proof">
-    Approximately 500 severe clinical cases, genome sequencing, molecular biology, immune-mediated disease, treatment-related findings, and disease mechanism interpretation.
-    </p>
-  </article>
-
 </div>
 
 </section>
@@ -254,7 +211,7 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 
 {% assign pubs = site.data.publications | reverse %}
 
-{% assign selected_dois = "10.1101/2025.06.12.25329504,10.1002/gepi.70025,10.1093/bioinformatics/btaf676,10.1101/2025.03.25.25324607,10.1101/2025.03.20.25324319,10.1007/s10875-019-00670-z" | split: "," %}
+{% assign selected_dois = "10.1101/2025.06.12.25329504,10.1002/gepi.70025,10.1007/s10875-019-00670-z,10.1093/infdis/jiac442,10.1016/j.jaci.2018.02.007" | split: "," %}
 
 {% for doi in selected_dois %}
   {% assign selected_pub = pubs | where: "doi", doi | first %}
@@ -270,6 +227,49 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
   <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
     View all publications
   </a>
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
+## Relevant experience
+
+<div class="profile-experience-list">
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">3 years (2023 to present) · Universitäts-Kinderspital Zürich</div>
+    <h3>Genome-wide and multi-omic analysis in paediatric disease</h3>
+    <p>
+    Lead computational and translational analyses within the Swiss Pediatric Sepsis Study and SwissPedHealth National Data Stream, funded at approximately CHF 1M and CHF 5M across three hospitals.
+    </p>
+    <p class="profile-experience-proof">
+    WGS, RNA-seq, proteomics, metabolomics, clinical phenotypes, EHR-linked data, approximately 1,000 children, more than 100 TB of biomedical data, rare variant and gene-level analysis.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">5 years (2018 to 2023) · EPFL Global Health Institute</div>
+    <h3>Statistical genetics across translational cohorts</h3>
+    <p>
+    Developed statistical genetics, computational biology, and multi-omic workflows across sepsis, tuberculosis, asthma, infectious disease, and chronic inflammatory disease studies.
+    </p>
+    <p class="profile-experience-proof">
+    Cohorts up to 5,000 participants, more than CHF 3M in competitive research support, population statistical genetics, rare variant testing, Bayesian reasoning, reproducible computational workflows.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">3 years (2015 to 2018) · University of Leeds, School of Medicine</div>
+    <h3>Human genetics in severe immune disease</h3>
+    <p>
+    Led genomic discovery and clinical interpretation in rare immune disease within a translational hospital setting.
+    </p>
+    <p class="profile-experience-proof">
+    Approximately 500 severe clinical cases, genome sequencing, molecular biology, immune-mediated disease, treatment-related findings, and disease mechanism interpretation.
+    </p>
+  </article>
+
 </div>
 
 </section>

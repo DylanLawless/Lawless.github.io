@@ -14,7 +14,7 @@ permalink: "/profiles/precision-medicine/"
 Candidate variants do not become clinical evidence by themselves.
 </p>
 
-Rare disease interpretation depends on the chain between phenotype, inheritance, molecular mechanism, assay evidence, prior knowledge, and reproducible reporting. My work builds that chain across clinical genomics, immune disease, multi-omics, functional validation, and patient-level evidence systems.
+Rare disease interpretation depends on the chain between phenotype, inheritance, molecular mechanism, assay evidence, prior knowledge, and reproducible reporting. My work builds that chain across clinical genomics, genetic disease, multi-omics, functional validation, and patient-level evidence systems.
 
 <div class="profile-actions">
   <a href="{{ '/contact' | relative_url }}" class="button-link">
@@ -31,6 +31,45 @@ Rare disease interpretation depends on the chain between phenotype, inheritance,
 </div>
 
 </section>
+
+<section class="profile-section" markdown="1">
+
+## What this work resolves
+
+<div class="profile-grid">
+
+  <div class="profile-card">
+    <h3>Variant evidence</h3>
+    <p>
+    WGS, inheritance models, phenotype matching, ACMG-style classification logic, disease-gene validity, allele frequency, segregation, and prior evidence need to support one defensible conclusion.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Molecular mechanism</h3>
+    <p>
+    Rare disease interpretation often needs experimental and computational evidence to meet. My background includes disease genetics in immunonology, oncology, infectious diseases, molecular biology, functional validation, and mechanism-led clinical interpretation.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Multi-omics interpretation</h3>
+    <p>
+    DNA, RNA-seq, proteomics, metabolomics, outlier detection, and phenotype-linked molecular data need a structured layer that turns assay output into patient-level evidence.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Reusable clinical evidence</h3>
+    <p>
+    Rare disease workflows need reports, panels, priors, pipelines, and databases that can be inspected, versioned, audited, and reused beyond the first case review.
+    </p>
+  </div>
+
+</div>
+
+</section>
+
 
 <section class="profile-section" markdown="1">
 
@@ -82,87 +121,6 @@ Rare disease interpretation depends on the chain between phenotype, inheritance,
     duration="0:23"
     caption="PanelAppRex AI. Harmonised disease-gene panels from structured clinical and genetic queries. For humans and for machines."
   %}
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## What this work resolves
-
-<div class="profile-grid">
-
-  <div class="profile-card">
-    <h3>Variant evidence</h3>
-    <p>
-    WGS, inheritance models, phenotype matching, ACMG-style classification logic, disease-gene validity, allele frequency, segregation, and prior evidence need to support one defensible conclusion.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Molecular mechanism</h3>
-    <p>
-    Rare disease interpretation often needs experimental and computational evidence to meet. My background includes disease genetics in immunonology, oncology, infectious diseases, molecular biology, functional validation, and mechanism-led clinical interpretation.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Multi-omics interpretation</h3>
-    <p>
-    DNA, RNA-seq, proteomics, metabolomics, outlier detection, and phenotype-linked molecular data need a structured layer that turns assay output into patient-level evidence.
-    </p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Reusable clinical evidence</h3>
-    <p>
-    Rare disease workflows need reports, panels, priors, pipelines, and databases that can be inspected, versioned, audited, and reused beyond the first case review.
-    </p>
-  </div>
-
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## Relevant experience
-
-<div class="profile-experience-list">
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2023 to present · Universitäts-Kinderspital Zürich</div>
-    <h3>Clinical genomics, rare disease, and multi-omics infrastructure</h3>
-    <p>
-    Lead computational and translational analyses within the Swiss Pediatric Sepsis Study and SwissPedHealth National Data Stream, CHF 1M and CHF 5M multi-institutional programmes across three hospitals.
-    </p>
-    <p class="profile-experience-proof">
-    WGS, RNA-seq, proteomics, metabolomics, EHR-linked data, approximately 1,000 children, more than 100 TB of biomedical data, reproducible R and Python workflows, secure HPC environments.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">2018 to 2023 · EPFL Global Health Institute</div>
-    <h3>Statistical genetics and translational cohort analysis</h3>
-    <p>
-    Developed statistical genetics, computational biology, and multi-omic workflows across infectious, inflammatory, and translational cohort studies supported by more than CHF 3M in competitive research funding.
-    </p>
-    <p class="profile-experience-proof">
-    Cohorts up to 5,000 participants, sepsis, tuberculosis, asthma, infectious disease, chronic inflammatory disease, rare variant testing, Bayesian reasoning, population statistical genetics.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta"> 3 years (2015 to 2018) · University of Leeds, School of Medicine</div>
-    <h3>Rare immune disease discovery and functional validation</h3>
-    <p>
-    Led genomic discovery and functional validation in severe immune-mediated disease within a translational hospital setting.
-    </p>
-    <p class="profile-experience-proof">
-    Approximately 500 severe clinical cases, genome sequencing, molecular biology, clinical interpretation, treatment-related findings, germline TET2 deficiency, IUIS disease classification.
-    </p>
-  </article>
-
 </div>
 
 </section>
@@ -273,6 +231,50 @@ the open standard for variant interpretation. Defining reusable YAML criteria fo
 </div>
 
 </section>
+
+<section class="profile-section" markdown="1">
+
+## Relevant experience
+
+<div class="profile-experience-list">
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">3 years (2023 to present) · Universitäts-Kinderspital Zürich</div>
+    <h3>Clinical genomics, rare disease, and multi-omics infrastructure</h3>
+    <p>
+    Lead computational and translational analyses within the Swiss Pediatric Sepsis Study and SwissPedHealth National Data Stream, CHF 1M and CHF 5M multi-institutional programmes across three hospitals.
+    </p>
+    <p class="profile-experience-proof">
+    WGS, RNA-seq, proteomics, metabolomics, EHR-linked data, approximately 1,000 children, more than 100 TB of biomedical data, reproducible R and Python workflows, secure HPC environments.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">5 years (2018 to 2023) · EPFL Global Health Institute</div>
+    <h3>Statistical genetics and translational cohort analysis</h3>
+    <p>
+    Developed statistical genetics, computational biology, and multi-omic workflows across infectious, inflammatory, and translational cohort studies supported by more than CHF 3M in competitive research funding.
+    </p>
+    <p class="profile-experience-proof">
+    Cohorts up to 5,000 participants, sepsis, tuberculosis, asthma, infectious disease, chronic inflammatory disease, rare variant testing, Bayesian reasoning, population statistical genetics.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta"> 3 years (2015 to 2018) · University of Leeds, School of Medicine</div>
+    <h3>Rare immune disease discovery and functional validation</h3>
+    <p>
+    Led genomic discovery and functional validation in severe immune-mediated disease within a translational hospital setting.
+    </p>
+    <p class="profile-experience-proof">
+    Approximately 500 severe clinical cases, genome sequencing, molecular biology, clinical interpretation, treatment-related findings, germline TET2 deficiency, IUIS disease classification.
+    </p>
+  </article>
+
+</div>
+
+</section>
+
 
 <section class="profile-section" markdown="1">
 

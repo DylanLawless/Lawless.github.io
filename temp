@@ -1,0 +1,162 @@
+.
+├── 404.html
+├── CNAME
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── _blog
+│   └── founder_stories_wiriting_guide.md
+├── _config.yml
+├── _data
+│   ├── collaborator_logos.yml
+│   ├── contact.yml
+│   ├── features.json
+│   ├── menus.yml
+│   ├── publications.yml
+│   ├── seo.yml
+│   └── social.json
+├── _includes
+│   ├── call.html
+│   ├── collaborator_logo_marquee.html
+│   ├── footer.html
+│   ├── google-analytics.html
+│   ├── hamburger.html
+│   ├── header.html
+│   ├── infrastructure_maturity.bak
+│   ├── infrastructure_maturity.html
+│   ├── lazy_video.html
+│   ├── main-menu-mobile.html
+│   ├── main-menu.html
+│   ├── mathjax.html
+│   ├── newsletter_signup.html
+│   ├── quant_card.html
+│   ├── quant_card_v0.html
+│   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   ├── social.html
+│   └── sub-footer.html
+├── _layouts
+│   ├── contact.html
+│   ├── default.html
+│   ├── default_no_brand.html
+│   ├── default_panelapprex.html
+│   ├── home.html
+│   ├── learn-index.html
+│   ├── learn.html
+│   ├── mathjax.html
+│   ├── page.html
+│   ├── page_no_brand.html
+│   ├── page_wide.html
+│   ├── team.html
+│   ├── teams.html
+│   ├── tech.html
+│   └── technologies.html
+├── _sass
+│   ├── _bootstrap-variables.scss
+│   ├── bootstrap
+│   ├── components
+│   ├── custom
+│   ├── libraries
+│   └── pages
+├── _site
+│   ├── 404
+│   ├── CNAME
+│   ├── about
+│   ├── assets
+│   ├── blog
+│   ├── builtatlightspeed.json
+│   ├── contact
+│   ├── demo.html
+│   ├── images
+│   ├── index.html
+│   ├── jek.sh
+│   ├── kill_serve.sh
+│   ├── learn
+│   ├── legal
+│   ├── newsletter_signup
+│   ├── partnerships
+│   ├── profil_long
+│   ├── profile
+│   ├── profiles
+│   ├── publications
+│   ├── publications_selected
+│   ├── releases
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── team
+│   ├── technologies
+│   ├── technologies_gallery
+│   ├── technologies_readme.txt
+│   ├── video_player_example.md
+│   └── videos
+├── _team
+│   ├── advisor-brand-communication.md
+│   ├── advisor-scientific.md
+│   ├── advisor-security-regulatory.md
+│   ├── bill-mcdonald.md
+│   └── dylan-lawless.md
+├── about.md
+├── assets
+│   ├── css
+│   ├── fonts
+│   ├── js
+│   ├── pdf
+│   ├── quant
+│   ├── qv_database
+│   ├── qv_submission.md
+│   └── submission_mailing_list.md
+├── blog.md
+├── builtatlightspeed.json
+├── contact.md
+├── demo.html
+├── images
+│   ├── 2025_E_L_Laurent_etherial_precision
+│   ├── ORCID-iD_icon_vector.svg
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── bsmg_recommendation_screenshot.png
+│   ├── collaborator_logos
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── logo
+│   ├── profile
+│   ├── site.webmanifest
+│   ├── social
+│   └── team
+├── index.md
+├── jek.sh
+├── kill_serve.sh
+├── learn.md
+├── legal.md
+├── newsletter_signup.md
+├── partnerships.md
+├── profile.md
+├── profile_long.md
+├── profiles
+│   ├── biomedical_software_systems.md
+│   ├── clinical_data_infrastructure.md
+│   ├── deep_tech_product_strategy.md
+│   ├── precision_medicine.md
+│   └── statistical_genomics.md
+├── publications.md
+├── publications_selected.md
+├── releases.md
+├── team.md
+├── technologies.md
+├── technologies_gallery.md
+├── technologies_readme.txt
+├── temp
+├── video_player_example.md
+└── videos
+    ├── 20250512_qualifying_variants_v1.MP4
+    ├── 20250627_quant_scan_v1_compressed.mov
+    ├── 20260207_Archipelago_promo.mp4
+    ├── 20260227_panelapprex_promo_2_crop.mov
+    ├── Archipelago_thumbnail.png
+    ├── panelapprex_thumbnail.png
+    ├── quant_icons_thumbnail.jpg
+    └── qv_thumbnail.jpg
+
+48 directories, 111 files

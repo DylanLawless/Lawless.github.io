@@ -11,14 +11,14 @@ permalink: "/profile/"
 Scientific research from first principles to polished products.
 </p>
 
-These profiles organise my experience around the problems teams need to solve across evidence, data, software, infrastructure, and delivery.
+<!-- These profiles organise my experience around the problems teams need to solve across evidence, data, software, infrastructure, and delivery. -->
 
 </section>
 
 
 <section class="profile-section profile-router" markdown="1">
 
-## Professional profiles
+<!-- ## Professional profiles -->
 
 <div class="route-grid">
 
@@ -87,9 +87,8 @@ These profiles organise my experience around the problems teams need to solve ac
 ## From discovery to delivery
 
 In life sciences, useful products come from a chain of decisions: what biology to trust, what evidence to generate, what method to use, what must be documented, and what users need before they can act.
-
-My career has moved through that chain in sequence. I began in primary research, in molecular biology and biochemistry, then moved through computational biology, population-scale multi-omics, translational precision medicine, clinical trials, regulated data systems, scientific software, and product-facing evidence design.
-
+My career has moved through that chain in sequence. 
+<!-- I began in primary research, in molecular biology and biochemistry, then moved through computational biology, population-scale multi-omics, translational precision medicine, clinical trials, regulated data systems, scientific software, and product-facing evidence design. -->
 My interests focus on a practical view of discovery, evidence, implementation, regulation, and adoption as one connected system.
 
 <!-- 

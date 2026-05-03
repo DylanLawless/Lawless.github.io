@@ -33,47 +33,6 @@ In serious life-science products, taste is a technical discipline. It shows up i
 
 <section class="profile-section" markdown="1">
 
-## Evidence at a glance
-
-<div class="profile-metrics">
-  <div class="profile-metric">
-    <strong>Bench to product</strong>
-    <span>experience from molecular biology and disease discovery to software, product design, regulation, and adoption</span>
-  </div>
-
-  <div class="profile-metric">
-    <strong>Successful products</strong>
-    <span>public scientific technologies spanning statistical evidence, genomics, visualisation, reporting, and infrastructure</span>
-  </div>
-
-  <div class="profile-metric">
-    <strong>Market design</strong>
-    <span>institutional and product identities, including Switzerland Omics, SwissPedHealth, and Swiss Genomics Association</span>
-  </div>
-
-  <div class="profile-metric">
-    <strong>Full product chain</strong>
-    <span>naming, domain strategy, UX, data architecture, documentation, IP, regulation, distribution, and commercial model</span>
-  </div>
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1">
-
-## Portfolio samples
-
-* [Switzerland Omics](http://switzerlandomics.ch/)
-* [Genomic Vault](https://genomicvault.switzerlandomics.ch)
-* [Swiss Genomics Association](https://www.swissgenomicsassociation.ch)
-* [SwissPedHealth](https://swisspedhealth.com/)
-* [Variant Impact](https://variantimpact.vercel.app)
-
-</section>
-
-
-<section class="profile-section" markdown="1">
-
 ## What this work resolves
 
 <div class="profile-grid">
@@ -112,55 +71,41 @@ In serious life-science products, taste is a technical discipline. It shows up i
 
 <section class="profile-section" markdown="1">
 
-## Relevant product work
+## Evidence at a glance
 
-<div class="profile-experience-list">
+<div class="profile-metrics">
+  <div class="profile-metric">
+    <strong>Bench to product</strong>
+    <span>experience from molecular biology and disease discovery to software, product design, regulation, and adoption</span>
+  </div>
 
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">Switzerland Omics · product system</div>
-    <h3>Scientific brand, product architecture, and evidence design</h3>
-    <p>
-    Built a complete scientific product environment for probabilistic genomics, including public positioning, visual language, product taxonomy, regulatory framing, technical writing, and user-facing evidence concepts.
-    </p>
-    <p class="profile-experience-proof">
-    Switzerlandomics.ch, Quant DB, Quant Scan, Quant Calc, Genomic Vault, evidence frameworks, regulatory positioning, product pages, scientific documentation, and market-facing technical communication.
-    </p>
-  </article>
+  <div class="profile-metric">
+    <strong>Successful products</strong>
+    <span>public scientific technologies spanning statistical evidence, genomics, visualisation, reporting, and infrastructure</span>
+  </div>
 
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">Variant Impact · product design book</div>
-    <h3>Protein variant interpretation as a complete product system</h3>
-    <p>
-    Designed the product logic for a web system that connects missense variant prediction, protein structure, functional annotation, and molecular context into one navigable interpretation workflow.
-    </p>
-    <p class="profile-experience-proof">
-    Naming, positioning, canonical domain strategy, UX, search logic, route structure, data model, UniProt, gnomAD, AlphaFold, ClinVar, MANE, documentation, security, cost control, IP, regulation, SEO, and commercial model.
-    </p>
-  </article>
+  <div class="profile-metric">
+    <strong>Market design</strong>
+    <span>institutional and product identities, including Switzerland Omics, SwissPedHealth, and Swiss Genomics Association</span>
+  </div>
 
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">Scientific software · public tools</div>
-    <h3>Methods translated into usable scientific products</h3>
-    <p>
-    Developed software and data products that give statistical and biomedical methods a clear visual, conceptual, and operational form.
-    </p>
-    <p class="profile-experience-proof">
-    Archipelago, QuantBayes, VCFheader, PanelAppRex AI, Qualifying variant database, IEI genetics database, CRAN releases, structured HTML reports, YAML criteria, and publication-linked software.
-    </p>
-  </article>
-
-  <article class="profile-experience-card">
-    <div class="profile-experience-meta">Institutional identity · trust and adoption</div>
-    <h3>Public-facing biomedical systems with institutional credibility</h3>
-    <p>
-    Built or shaped public identities for scientific and clinical initiatives where clarity, restraint, governance, and trust matter more than novelty.
-    </p>
-    <p class="profile-experience-proof">
-    SwissPedHealth, Swiss Genomics Association, Switzerland Omics, collaborator-facing communication, clinical research positioning, biomedical infrastructure messaging, and high-trust public presentation.
-    </p>
-  </article>
-
+  <div class="profile-metric">
+    <strong>Full product chain</strong>
+    <span>naming, domain strategy, UX, data architecture, documentation, IP, regulation, distribution, and commercial model</span>
+  </div>
 </div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
+## Portfolio samples
+
+* [Switzerland Omics](http://switzerlandomics.ch/)
+* [Genomic Vault](https://genomicvault.switzerlandomics.ch)
+* [Swiss Genomics Association](https://www.swissgenomicsassociation.ch)
+* [SwissPedHealth](https://swisspedhealth.com/)
+* [Variant Impact](https://variantimpact.vercel.app)
 
 </section>
 
@@ -258,7 +203,7 @@ In serious life-science products, taste is a technical discipline. It shows up i
 
 {% assign pubs = site.data.publications | reverse %}
 
-{% assign selected_dois = "10.64898/2025.12.02.25341503,10.1093/bioinformatics/btaf676,10.1002/gepi.70025,10.1101/2025.03.20.25324319,10.1101/2025.03.25.25324607,10.1101/2025.06.12.25329504" | split: "," %}
+{% assign selected_dois = "10.64898/2025.12.02.25341503,10.1093/bioinformatics/btaf676,10.1101/2025.03.20.25324319" | split: "," %}
 
 {% for doi in selected_dois %}
   {% assign selected_pub = pubs | where: "doi", doi | first %}
@@ -274,6 +219,60 @@ In serious life-science products, taste is a technical discipline. It shows up i
   <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
     View all publications
   </a>
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
+## Relevant product work
+
+<div class="profile-experience-list">
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">Switzerland Omics · product system</div>
+    <h3>Scientific brand, product architecture, and evidence design</h3>
+    <p>
+    Built a complete scientific product environment for probabilistic genomics, including public positioning, visual language, product taxonomy, regulatory framing, technical writing, and user-facing evidence concepts.
+    </p>
+    <p class="profile-experience-proof">
+    Switzerlandomics.ch, Quant DB, Quant Scan, Quant Calc, Genomic Vault, evidence frameworks, regulatory positioning, product pages, scientific documentation, and market-facing technical communication.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">Variant Impact · product design book</div>
+    <h3>Protein variant interpretation as a complete product system</h3>
+    <p>
+    Designed the product logic for a web system that connects missense variant prediction, protein structure, functional annotation, and molecular context into one navigable interpretation workflow.
+    </p>
+    <p class="profile-experience-proof">
+    Naming, positioning, canonical domain strategy, UX, search logic, route structure, data model, UniProt, gnomAD, AlphaFold, ClinVar, MANE, documentation, security, cost control, IP, regulation, SEO, and commercial model.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">Scientific software · public tools</div>
+    <h3>Methods translated into usable scientific products</h3>
+    <p>
+    Developed software and data products that give statistical and biomedical methods a clear visual, conceptual, and operational form.
+    </p>
+    <p class="profile-experience-proof">
+    Archipelago, QuantBayes, VCFheader, PanelAppRex AI, Qualifying variant database, IEI genetics database, CRAN releases, structured HTML reports, YAML criteria, and publication-linked software.
+    </p>
+  </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">Institutional identity · trust and adoption</div>
+    <h3>Public-facing biomedical systems with institutional credibility</h3>
+    <p>
+    Built or shaped public identities for scientific and clinical initiatives where clarity, restraint, governance, and trust matter more than novelty.
+    </p>
+    <p class="profile-experience-proof">
+    SwissPedHealth, Swiss Genomics Association, Switzerland Omics, collaborator-facing communication, clinical research positioning, biomedical infrastructure messaging, and high-trust public presentation.
+    </p>
+  </article>
+
 </div>
 
 </section>
