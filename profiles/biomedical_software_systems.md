@@ -113,7 +113,7 @@ Scientific software needs to preserve the evidence while making the work operati
   %}
 
   {% include lazy_video.html
-    src="/videos/20250627_quant_scan_v1.MOV"
+    src="/videos/20250627_quant_scan_v1_compressed.mp4"
     poster="/videos/quant_icons_thumbnail.jpg"
     alt="Second demo video preview"
     badge="Video demo"

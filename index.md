@@ -1,7 +1,7 @@
 ---
-title: Switzerland Omics
+title: Lawless.ch
 layout: home
-description: Auditable genomic infrastructure for precision medicine, statistical genomics, epidemiology, and bioinformatic interpretation across clinical, research, and industrial settings.
+description: Dylan Lawless, PhD, is a Zürich-based expert in scientific software, statistics, genomics, clinical data, rare disease interpretation, multi-omics analysis, Bayesian variant evidence, and biomedical data infrastructure. 15 years in big data, high-performance computing, DNA, RNA, proteomics, multi-omics, and precision medicine. From first principles to polished scientific products.
 intro_image: "images/profile/dylan_small.jpg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
