@@ -1,21 +1,32 @@
 ---
 title: About
 layout: page
-description: About this website and professional profile
+description: "Dylan Lawless works across biomedical science, genomics, multi-omics, statistics, software, data infrastructure, and product delivery to turn scientific work into usable systems."
 permalink: "/about/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-This website is my online profile, CV, and public record of work.
+<!-- Scientific product builder -->
+<!-- Biomedical evidence architect -->
+<!-- Scientific systems builder -->
+<!-- Translational biomedical technologist -->
+<!-- Precision medicine systems lead -->
+<!-- Biomedical product and evidence lead -->
+<!---->
+<!-- The most flexible and senior-sounding is probably: -->
+<!-- Scientific systems builder -->
 
-It exists because my work rarely fits cleanly under one job title. I began in molecular biology, pathogen infection, immunology, genomics, and computational analysis. Over time, the work moved further along the chain from basic science to real-world use.
+My work is about turning difficult biomedical science into clear, usable systems.
 
-The focus became less about producing a result once, and more about making that result reliable, documented, reusable, and clear enough for other teams to build on.
+The role is difficult to reduce to one job title because it sits between the parts that usually get separated: biology, data, statistics, software, documentation, product judgement, and delivery. This connective layer is often invisible, but it is the backbone of whether serious scientific work becomes useful.
 
-That is why the site is organised through professional profiles. The same experience can be relevant from the clinic, the lab, the data team, the software team, the product room, or the regulated setting. Each profile gathers the relevant parts around a different problem.
+I take scientific problems from discovery to use: biology, evidence, method, data structure, interface, documentation, and decision.
 
-The common thread is simple: I work on how serious scientific work becomes usable. A method, a workflow, a platform, a standard, a report, a product, or a decision system.
+A serious biomedical product is not only a correct analysis or a working tool. It is a complete system people can understand, inspect, trust, and use.
+
+This site presents my work through several professional profiles because the same experience matters in different rooms: the clinic, the lab, the data team, the software team, the product room, and the regulated setting.
+
 
 <div class="profile-actions">
   <!-- <a href="{{ '/profile/' | relative_url }}" class="button-link"> -->
@@ -35,14 +46,16 @@ The common thread is simple: I work on how serious scientific work becomes usabl
   </a>
 </div>
 
-## Major employment and public output
+## Academic training
 
-[EPFL](https://www.epfl.ch/en/) ·
-[University of Zürich](https://www.uzh.ch/de.html) ·
-[University Children’s Hospital Zürich](https://www.kispi.uzh.ch/) ·
-[University of Leeds](https://www.leeds.ac.uk/) ·
-[Trinity College Dublin](https://www.tcd.ie/) ·
-[University College Cork](https://www.ucc.ie/)
+- BSc Biochemistry and Microbiology at [University College Cork](https://www.ucc.ie/) (4 years)
+- MSc in Immunology at [Trinity College Dublin](https://www.tcd.ie/Biochemistry), with first class honours (1 year)
+- Innate immunity training with Prof. Andrea Ablasser at [EPFL](https://www.epfl.ch/labs/ablasserlab/) (1 year)
+- PhD in Medicine at the School of Medicine and St. James’s University Hospital, [University of Leeds](https://medicinehealth.leeds.ac.uk/), under Prof. Sinisa Savic, focused on rare immune disease discovery, genomic interpretation, and functional validation (4 years)
+- Postdoctoral research with Prof. Jacques Fellay at [EPFL](https://www.epfl.ch/labs/fellay-lab/), working on the human genomics of infection and immunity (5 years)
+- Translational medicine at the University of Zurich and the Department of Intensive Care and Neonatology, [Universitäts-Kinderspital Zürich](https://www.kispi.uzh.ch/kinderspital/fachkompetenzen/angebot-fuer-patientinnen-und-patienten/intensivmedizin-neonatologie), with Prof. Luregn Schlapbach, across clinical genomics, multi-omics, and paediatric critical care (3 years)
+
+## Scientific products and public output
 
 [Switzerland Omics](http://switzerlandomics.ch/) ·
 [Genomic Vault](https://genomicvault.switzerlandomics.ch) ·
