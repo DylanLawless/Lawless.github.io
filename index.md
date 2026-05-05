@@ -20,7 +20,10 @@ Across data, software, translational medicine, and product delivery.
 
 <div>
   <a href="{{ '/profile/' | relative_url }}" class="button-link">
-    Profile / CV
+    Profile
+  </a>
+  <a href="{{ '/about/' | relative_url }}" class="button-link">
+    CV
   </a>
   <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
     Contact

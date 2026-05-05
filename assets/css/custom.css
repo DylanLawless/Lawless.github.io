@@ -843,3 +843,95 @@
     font-size: 0.92rem;
   }
 }
+
+/* Tables */
+
+.table-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Base table class */
+.content-table,
+.table-dates-description {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.content-table th,
+.content-table td,
+.table-dates-description th,
+.table-dates-description td {
+  vertical-align: top;
+}
+
+.content-table th,
+.table-dates-description th {
+  white-space: nowrap;
+}
+
+/* Column wrapping utilities for HTML tables */
+.content-table .col-nowrap,
+.content-table col.col-nowrap {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.content-table .col-wrap,
+.content-table col.col-wrap {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.content-table .col-date,
+.content-table col.col-date {
+  width: 8rem;
+}
+
+.content-table .col-year,
+.content-table col.col-year {
+  width: 5.5rem;
+}
+
+.content-table .col-small,
+.content-table col.col-small {
+  width: 10rem;
+}
+
+.content-table .col-medium,
+.content-table col.col-medium {
+  width: 14rem;
+}
+
+.content-table .col-fluid,
+.content-table col.col-fluid {
+  width: auto;
+}
+
+/* Markdown table variant: dates plus description */
+.table-dates-description th:first-child,
+.table-dates-description td:first-child {
+  width: 8rem;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.table-dates-description th:nth-child(2),
+.table-dates-description td:nth-child(2) {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+@media (max-width: 767.98px) {
+  .table-dates-description th:first-child,
+  .table-dates-description td:first-child {
+    width: 6.5rem;
+  }
+}
