@@ -1,5 +1,10 @@
 #!/bin/bash
 # bundle install
+set -e
+cd cranlogs
+sh run_update.sh
+cd ..
+
 bundle exec jekyll serve &
 sleep 3
 

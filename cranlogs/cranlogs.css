@@ -1,0 +1,161 @@
+.cranlogs-page,
+.cranlogs-page * {
+  box-sizing: border-box;
+}
+
+.cranlogs-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.65rem;
+  color: #2f2f41;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-stretch: normal;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.cranlogs-hero {
+  max-width: 46rem;
+  padding-top: 0.5rem;
+}
+
+.cranlogs-kicker {
+  margin: 0 0 0.55rem;
+  color: #5c5a5a;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+.cranlogs-hero h1 {
+}
+
+.cranlogs-lead {
+  margin: 0;
+  color: #5c5a5a;
+}
+
+.cranlogs-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.cranlogs-metric-card {
+  padding: 1.15rem 1.2rem;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(47, 47, 65, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 0.38rem;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 1px 2px rgba(47, 47, 65, 0.04),
+    0 10px 26px rgba(47, 47, 65, 0.055);
+}
+
+.cranlogs-metric-label {
+  color: #5c5a5a;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.cranlogs-metric-card strong {
+  color: #e5261f;
+  font-size: clamp(1.75rem, 2.6vw, 2.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+.cranlogs-metric-card span:last-child {
+  color: #5c5a5a;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.cranlog-card {
+  background: #ffffff;
+  border: 1px solid rgba(47, 47, 65, 0.12);
+  border-radius: 16px;
+  padding: 1.35rem;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 1px 2px rgba(47, 47, 65, 0.04),
+    0 10px 26px rgba(47, 47, 65, 0.055);
+}
+
+.cranlog-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.cranlog-header h2 {
+  margin: 0;
+  color: #2f2f41;
+  font-size: 1.35rem;
+  line-height: 1.22;
+  letter-spacing: -0.015em;
+  font-weight: 650;
+}
+
+.cranlog-header p {
+  margin: 0.35rem 0 0;
+  color: #5c5a5a;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.cranlog-total {
+  color: #e5261f;
+  font-weight: 650;
+  white-space: nowrap;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.cranlog-card canvas {
+  width: 100% !important;
+  height: 420px !important;
+  font-family: inherit !important;
+}
+
+.cranlogs-status {
+  margin: 0;
+  color: #5c5a5a;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 768px) {
+  .cranlogs-page {
+    gap: 1.25rem;
+  }
+
+  .cranlogs-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .cranlog-card {
+    padding: 1rem;
+    border-radius: 14px;
+  }
+
+  .cranlog-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .cranlog-card canvas {
+    height: 360px !important;
+  }
+}
