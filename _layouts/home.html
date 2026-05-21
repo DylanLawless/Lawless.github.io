@@ -4,28 +4,32 @@ bodyClass: "page-home"
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<div class="intro">
-  <div class="container">
+
+<div class="intro intro-home">
+  <div class="container intro-home-content">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
+
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
         {% endif %}
       </div>
+
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-
-				<img
-				  alt="{{ page.title }}"
-				  class="intro-image{% if page.intro_image_absolute %} intro-image-home-profile{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
-				  src="{{ page.intro_image | relative_url }}"
-				/>
-
-      </div>
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+          <img
+            alt="{{ page.title }}"
+            class="intro-image{% if page.intro_image_absolute %} intro-image-home-profile{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+            src="{{ page.intro_image | relative_url }}"
+          />
+        </div>
       {% endif %}
-
     </div>
+  </div>
+
+  <div class="intro-home-marquee">
+    {% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="120s" %}
   </div>
 </div>
 

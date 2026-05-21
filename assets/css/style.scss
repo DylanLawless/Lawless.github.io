@@ -1123,3 +1123,18 @@ li img[src*="cranlogs.r-pkg.org/badges"] {
     gap: 0.6rem 1.25rem;
   }
 }
+
+.page-home .intro-home {
+  min-height: calc(100vh - var(--header-height, 0px));
+  display: flex;
+  flex-direction: column;
+}
+
+.page-home .intro-home-content {
+  flex: 1;
+}
+
+.page-home .intro-home-marquee {
+  margin-top: auto;
+  padding-bottom: 2rem;
+}

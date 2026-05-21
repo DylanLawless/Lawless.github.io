@@ -14,7 +14,7 @@ permalink: "/profiles/precision-medicine/"
 Candidate variants do not become clinical evidence by themselves.
 </p>
 
-Rare disease interpretation depends on the chain between phenotype, inheritance, molecular mechanism, assay evidence, prior knowledge, and reproducible reporting. My work builds that chain across clinical genomics, genetic disease, multi-omics, functional validation, and patient-level evidence systems.
+Rare disease interpretation often needs experimental and computational evidence to meet. My background includes disease genetics in immunology, oncology, infectious disease, molecular biology, functional validation, and mechanism-led clinical interpretation.
 
 <div class="profile-actions">
   <a href="{{ '/contact' | relative_url }}" class="button-link">
@@ -141,7 +141,7 @@ Rare disease interpretation depends on the chain between phenotype, inheritance,
   <div class="profile-card">
     <h3>Multi-omics and assays</h3>
     <p>
-    RNA-seq, proteomics, metabolomics, biomarker workflows, outlier analysis, patient stratification, molecular integration, Illumina sequencing contexts, Roche-style clinical assay environments, and experimental-computational interpretation.
+    RNA-seq, proteomics, metabolomics, biomarker workflows, outlier analysis, patient stratification, molecular integration, Illumina sequencing contexts, regulated clinical assay environments, and experimental-computational interpretation.
     </p>
   </div>
 
@@ -280,7 +280,7 @@ the open standard for variant interpretation. Defining reusable YAML criteria fo
 
 ## Working fit
 
-Rare disease and precision medicine teams need evidence that survives review. The useful output is not another filtered variant list. It is a traceable conclusion. If you want to solve this problem, get in touch. 
+Rare disease and precision medicine teams need evidence that supports review. The useful output is not another filtered variant list, but a traceable conclusion linking phenotype, mechanism, molecular evidence, and uncertainty.
 
 </section>
 

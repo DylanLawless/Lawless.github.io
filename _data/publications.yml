@@ -1,3 +1,26 @@
+- id: quant_group_2026_panelapprex
+  title: "PanelAppRex aggregates disease gene panels and facilitates sophisticated search"
+  authors: "Quant Group, Simon Boutry, Ali Saadat, Sinisa Savic, Luregn J. Schlapbach, Jacques Fellay, Dylan Lawless"
+  journal: "Bioinformatics Advances"
+  year: 2026
+  month: "May"
+  doi: "10.1093/bioadv/vbag115"
+  url: "https://doi.org/10.1093/bioadv/vbag115"
+  publisher: "Oxford Academic"
+  type: "Article"
+
+  # - id: quant_group_2025_panelapprex
+#   title: "PanelAppRex aggregates disease gene panels and facilitates sophisticated search"
+#   authors: "Quant Group, Simon Boutry, Ali Saadat, Sinisa Savic, Luregn J. Schlapbach, Jacques Fellay, Dylan Lawless"
+#   journal: "medRxiv"
+#   year: 2025
+#   month: "March"
+#   doi: "10.1101/2025.03.20.25324319"
+#   url: "https://doi.org/10.1101/2025.03.20.25324319"
+#   publisher: "openRxiv"
+#   type: "Preprint"
+
+
 - id: lawless_2026_qv
   title: "Application of qualifying variants for genomic analysis"
   authors: "Dylan Lawless, Ali Saadat, Mariam Ait Oumelloul, Simon Boutry, Veronika Stadler, Sabine Österle, Jan Armida, David Haerry, D. Sean Froese, Luregn J. Schlapbach, Jacques Fellay"
@@ -93,17 +116,6 @@
   month: "March"
   doi: "10.1101/2025.03.25.25324607"
   url: "https://doi.org/10.1101/2025.03.25.25324607"
-  publisher: "openRxiv"
-  type: "Preprint"
-
-- id: quant_group_2025_panelapprex
-  title: "PanelAppRex aggregates disease gene panels and facilitates sophisticated search"
-  authors: "Quant Group, Simon Boutry, Ali Saadat, Sinisa Savic, Luregn J. Schlapbach, Jacques Fellay, Dylan Lawless"
-  journal: "medRxiv"
-  year: 2025
-  month: "March"
-  doi: "10.1101/2025.03.20.25324319"
-  url: "https://doi.org/10.1101/2025.03.20.25324319"
   publisher: "openRxiv"
   type: "Preprint"
 

@@ -9,9 +9,10 @@ permalink: /cranlogs/
 
 <section class="cranlogs-page">
   <header class="cranlogs-hero">
-    <p class="cranlogs-kicker">Software adoption</p>
+    <!-- <p class="cranlogs-kicker">Software adoption</p> -->
     <p class="cranlogs-lead">
-      Combined download activity for public R packages used reporting, statistical evidence, genetic analysis, and clinical trials methods.
+      Combined download activity for public R packages only. These packages focus on data reporting, statistical evidence, genetic analysis, and clinical trials methods.  
+These metrics <b><em>do not</em></b> include software relseases on other platforms (i.e. macOS, Linux binaries, etc.).
     </p>
   </header>
 

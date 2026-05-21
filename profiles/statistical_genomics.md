@@ -13,7 +13,8 @@ permalink: "/profiles/statistical-genomics/"
 Large biological datasets do not become evidence by scale alone.
 </p>
 
-Statistical genomics depends on the chain between study design, cohort structure, population genetics, molecular data, disease biology, uncertainty, and reproducible analysis. My work builds that chain across WGS statistics, rare variant analysis, multi-omics, clinical cohorts, and population-scale genomic data.
+Statistical genomics depends on the chain between study design, cohort structure, population genetics, molecular data, disease biology, uncertainty, and reproducible inference.
+My work builds that chain across WGS statistics, rare variant analysis, multi-omics, clinical cohorts, and population-scale genomic data.
 
 <div class="profile-actions">
   <a href="{{ '/contact' | relative_url }}" class="button-link">
@@ -119,7 +120,7 @@ Statistical genomics depends on the chain between study design, cohort structure
     alt="Second demo video preview"
     badge="Video demo"
     duration="1:23"
-    caption="Quant, The missing element in genomic interpretation. Database, scan, and state-of-the-art algorithm.."
+    caption="QuantCalc. Probabilistic genomic interpretation using priors, observed evidence, and Bayesian inference."
   %}
 </div>
 
@@ -278,7 +279,7 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 
 ## Working fit
 
-Statistical genomics teams need analyses that survive replication, review, and reuse. The useful output is not only a significant result. It is a defensible chain from cohort definition to interpretable evidence. If you want to solve this problem, get in touch.
+Statistical genomics teams need analyses that support replication, review, and reuse. The useful output is not only a significant result, but a defensible chain from cohort definition to interpretable evidence.
 
 </section>
 

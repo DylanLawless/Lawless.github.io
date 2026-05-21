@@ -1,7 +1,7 @@
 ---
-title: Deep-tech product and evidence strategy
+title: Biomedical evidence and product strategy
 layout: page_wide
-description: Deep-tech product strategy, scientific product design, evidence architecture, taste, trust, and regulated biomedical product delivery profile for Dylan Lawless
+description: Scientific product strategy, evidence architecture, regulated biomedical software, trust, documentation, and product-facing translational research profile for Dylan Lawless
 permalink: "/profiles/deep-tech-product-strategy/"
 ---
 
@@ -9,11 +9,12 @@ permalink: "/profiles/deep-tech-product-strategy/"
 
 <section class="profile-hero" markdown="1">
 
+
 <p class="profile-subtitle">
-Deep scientific products fail when taste is treated as decoration.
+Scientific products depend on evidence, usability, documentation, and trust.
 </p>
 
-In serious life-science products, taste is a technical discipline. It shows up in the data model, the interface, the documentation, the claims, the regulatory posture, the naming, the route structure, the visual system, and the parts of the product most users never see. My work brings that discipline to scientific software, biomedical evidence systems, precision medicine infrastructure, and product-facing research.
+In life-science products, scientific quality depends on more than the method. It depends on the data model, interface, documentation, claims, regulatory posture, identifiers, provenance, and the parts of the system most users never see. My work connects scientific software, biomedical evidence systems, precision medicine infrastructure, and product-facing research.
 
 <div class="profile-actions">
   <a href="{{ '/contact' | relative_url }}" class="button-link">
@@ -59,10 +60,10 @@ In serious life-science products, taste is a technical discipline. It shows up i
   </div>
 
   <div class="profile-card">
-    <h3>Commercial seriousness</h3>
-    <p>
-    Naming, trademarks, ownership, domains, documentation, SEO, support, pricing, and licensing affect whether a useful scientific product can survive beyond the first release.
-    </p>
+    <h3>Commercial viability</h3>
+        <p>
+        Naming, ownership, domains, documentation, support, licensing, and lifecycle maintenance affect whether a useful scientific product can survive beyond the first release.
+        </p>
   </div>
 
 </div>
@@ -75,23 +76,23 @@ In serious life-science products, taste is a technical discipline. It shows up i
 
 <div class="profile-metrics">
   <div class="profile-metric">
-    <strong>Bench to product</strong>
-    <span>experience from molecular biology and disease discovery to software, product design, regulation, and adoption</span>
+    <strong>Bench to system</strong>
+    <span>experience from molecular biology and disease discovery to software, documentation, regulation, and adoption</span>
   </div>
 
   <div class="profile-metric">
-    <strong>Successful products</strong>
-    <span>public scientific technologies spanning statistical evidence, genomics, visualisation, reporting, and infrastructure</span>
+    <strong>Public technologies</strong>
+    <span>scientific software and data products spanning genomic evidence, reporting, visualisation, and infrastructure</span>
   </div>
 
   <div class="profile-metric">
-    <strong>Market design</strong>
-    <span>institutional and product identities, including Switzerland Omics, SwissPedHealth, and Swiss Genomics Association</span>
+    <strong>30+</strong>
+    <span>stakeholders engaged across biotech, healthcare, academia, public-sector genomics, and clinical research</span>
   </div>
 
   <div class="profile-metric">
-    <strong>Full product chain</strong>
-    <span>naming, domain strategy, UX, data architecture, documentation, IP, regulation, distribution, and commercial model</span>
+    <strong>Product chain</strong>
+    <span>naming, UX, data architecture, documentation, IP, regulatory posture, distribution, and lifecycle maintenance</span>
   </div>
 </div>
 
@@ -118,7 +119,7 @@ In serious life-science products, taste is a technical discipline. It shows up i
   <div class="profile-card">
     <h3>Product judgement</h3>
     <p>
-    Product positioning, user needs, workflow design, feature discipline, adoption logic, pricing layers, commercial model, product taxonomy, and release communication.
+    Product positioning, user needs, workflow design, feature discipline, adoption logic, product taxonomy, documentation, stakeholder alignment, and release communication.
     </p>
   </div>
 
@@ -281,7 +282,7 @@ In serious life-science products, taste is a technical discipline. It shows up i
 
 ## Working fit
 
-Deep-tech teams need taste as much as technical depth. The useful output is a product where the science, data model, interface, documentation, claims, regulation, and commercial path all feel like one coherent system. If you want to build that kind of product, get in touch.
+Biomedical product teams need scientific systems that are credible, usable, documented, and reviewable. The useful output is a product where the science, data model, interface, documentation, claims, regulation, and adoption path form one coherent system.
 
 </section>
 

@@ -77,22 +77,23 @@ Scientific software needs to preserve the evidence while making the work operati
 <div class="profile-metrics">
   <div class="profile-metric">
     <strong>20+</strong>
-    <span>public scientific software and data products across genomics, evidence, and reporting</span>
+    <span>public scientific software, data, reporting, and evidence products across genomics and biomedical systems</span>
   </div>
 
   <div class="profile-metric">
-    <strong>National scale</strong>
-    <span>biomedical data supported through reproducible and secure analytical workflows</span>
+    <span>An average of</span>
+    <strong>3,000+</strong>
+    <span>combined CRAN downloads per quanter (i.e. 2026 Q1) across public R software</span>
   </div>
 
   <div class="profile-metric">
-    <strong>>10</strong>
-    <span>partners from biotech industry, hospital, and academia</span>
+    <strong>30+</strong>
+    <span>stakeholders engaged across biotech, healthcare, academia, public-sector genomics, and clinical research</span>
   </div>
 
   <div class="profile-metric">
-    <strong>Software</strong>
-    <span>production-oriented scientific software packages and workflows across Linux, MacOS, HPC, cloud, and web systems</span>
+    <strong>100+ TB</strong>
+    <span>biomedical data supported through secure, reproducible, and traceable analytical infrastructure</span>
   </div>
 </div>
 
@@ -118,7 +119,7 @@ Scientific software needs to preserve the evidence while making the work operati
     alt="Second demo video preview"
     badge="Video demo"
     duration="1:23"
-    caption="Quant, The missing element in genomic interpretation. Database, scan, and state-of-the-art algorithm.."
+    caption="QuantCalc. Probabilistic genomic interpretation using priors, observed evidence, and Bayesian inference."
   %}
 </div>
 
@@ -279,6 +280,6 @@ Scientific software needs to preserve the evidence while making the work operati
 
 ## Working fit
 
-Biomedical software teams need systems that keep the science intact. The useful output is not only an interface or a script. It is a maintained workflow where data, method, report, and user action stay connected. If you want to solve this problem, get in touch.
+Biomedical software teams need maintained workflows where data, method, report, and user action stay connected while preserving the underlying science.
 
 </section>

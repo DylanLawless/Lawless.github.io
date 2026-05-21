@@ -13,24 +13,19 @@ show_call_box: false
   <span class="split-heading-meta">PhD · Zürich</span>
 </h1>
 
+## From biomedical evidence to systems people can use.
 
-## From first principles to polished scientific products.
-
-Across data, software, translational medicine, and product delivery.
+Across genomics, multi-omics, clinical data, software, infrastructure, and product delivery.
 
 <div>
   <a href="{{ '/profile/' | relative_url }}" class="button-link">
     Profile
   </a>
   <a href="{{ '/about/' | relative_url }}" class="button-link">
-    CV
+    About
   </a>
   <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
     Contact
   </a>
 </div>
-
-
-
-
 

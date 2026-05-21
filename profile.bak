@@ -7,14 +7,8 @@ permalink: "/profile/"
 
 <section class="profile-hero" markdown="1">
 
-<!--
 <p class="profile-subtitle">
 Scientific research from first principles to polished products.
-</p>
--->
-
-<p class="profile-subtitle">
-Biomedical evidence, software, infrastructure, and product delivery from one connected scientific foundation.
 </p>
 
 <!-- These profiles organise my experience around the problems teams need to solve across evidence, data, software, infrastructure, and delivery. -->
@@ -29,17 +23,6 @@ Biomedical evidence, software, infrastructure, and product delivery from one con
 <div class="route-grid">
 
   <article class="route-card">
-    <h3>AI and agentic scientific systems</h3>
-    <p class="route-card-kicker">Agents, retrieval, verification, workflow automation</p>
-    <p class="route-card-body">
-      For teams using AI to turn documents, data, code, clinical information, and scientific workflows into reviewable systems.
-    </p>
-    <a href="{{ '/profiles/ai-agentic-scientific-systems/' | relative_url }}" class="route-card-link">
-      View profile
-    </a>
-  </article>
-
-  <article class="route-card">
     <h3>Rare disease and precision medicine</h3>
     <p class="route-card-kicker">Mechanism, diagnosis, multi-omics, variant evidence</p>
     <p class="route-card-body">
@@ -52,7 +35,7 @@ Biomedical evidence, software, infrastructure, and product delivery from one con
 
   <article class="route-card">
     <h3>Statistical genomics and epidemiology</h3>
-    <p class="route-card-kicker">Population evidence, inference, cohorts, GWAS, WGS, RNA-seq</p>
+    <p class="route-card-kicker">Population evidence, inference, cohorts, GWAS, WGS, RNA</p>
     <p class="route-card-body">
       For teams analysing large genomic cohorts where statistical evidence has to be reproducible, interpretable, and reusable.
     </p>
@@ -83,16 +66,16 @@ Biomedical evidence, software, infrastructure, and product delivery from one con
     </a>
   </article>
 
-<article class="route-card">
-  <h3>Commercial and product strategy</h3>
-  <p class="route-card-kicker">Product delivery, market translation, evidence architecture, adoption</p>
-  <p class="route-card-body">
-    For teams turning technical biomedical work into products, platforms, standards, and decision systems that can reach real users.
-  </p>
-  <a href="{{ '/profiles/deep-tech-product-strategy/' | relative_url }}" class="route-card-link">
-    View profile
-  </a>
-</article>
+  <article class="route-card">
+    <h3>Deep-tech product and evidence strategy</h3>
+    <p class="route-card-kicker">Product judgement, evidence architecture, adoption</p>
+    <p class="route-card-body">
+      For teams turning technical biomedical work into a product, platform, standard, or decision system people can trust.
+    </p>
+    <a href="{{ '/profiles/deep-tech-product-strategy/' | relative_url }}" class="route-card-link">
+      View profile
+    </a>
+  </article>
 
 </div>
 
@@ -103,10 +86,10 @@ Biomedical evidence, software, infrastructure, and product delivery from one con
 
 ## From discovery to delivery
 
-Useful biomedical work depends on a chain of decisions: what biology to trust, what evidence to generate, what method to use, what must be documented, and what users need before they can act.
-
-My work connects that chain across discovery, clinical evidence, statistical inference, regulated data infrastructure, software, documentation, product translation, and adoption.
-
+In life sciences, useful products come from a chain of decisions: what biology to trust, what evidence to generate, what method to use, what must be documented, and what users need before they can act.
+My career has moved through that chain in sequence. 
+<!-- I began in primary research, in molecular biology and biochemistry, then moved through computational biology, population-scale multi-omics, translational precision medicine, clinical trials, regulated data systems, scientific software, and product-facing evidence design. -->
+My interests focus on a practical view of discovery, evidence, implementation, regulation, and adoption as one connected system.
 
 <!-- 
 <div class="profile-actions"> 

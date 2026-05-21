@@ -691,11 +691,16 @@
   },
   {
     "date": "2026-05-19",
-    "count": 0,
+    "count": 5,
     "package": "archipelago"
   },
   {
     "date": "2026-05-20",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-05-21",
     "count": 0,
     "package": "archipelago"
   },
@@ -1391,11 +1396,16 @@
   },
   {
     "date": "2026-05-19",
-    "count": 0,
+    "count": 5,
     "package": "evidenceratio"
   },
   {
     "date": "2026-05-20",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-05-21",
     "count": 0,
     "package": "evidenceratio"
   },
@@ -2091,11 +2101,16 @@
   },
   {
     "date": "2026-05-19",
-    "count": 0,
+    "count": 4,
     "package": "quantbayes"
   },
   {
     "date": "2026-05-20",
+    "count": 0,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-05-21",
     "count": 0,
     "package": "quantbayes"
   },
@@ -2791,11 +2806,16 @@
   },
   {
     "date": "2026-05-19",
-    "count": 0,
+    "count": 12,
     "package": "vcfheader"
   },
   {
     "date": "2026-05-20",
+    "count": 0,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-05-21",
     "count": 0,
     "package": "vcfheader"
   }

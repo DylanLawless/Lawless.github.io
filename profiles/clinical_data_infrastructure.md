@@ -10,10 +10,11 @@ permalink: "/profiles/clinical-data-infrastructure/"
 <section class="profile-hero" markdown="1">
 
 <p class="profile-subtitle">
-Clinical data becomes useful when it can be trusted beyond the first analysis.
+Clinical data becomes useful when it remains traceable, reusable, and reviewable.
 </p>
 
-Regulated biomedical work depends on secure data flow, reproducible analysis, traceable decisions, clear documentation, and outputs that can survive review. My work connects clinical genomics, EHR-linked data, multi-omics, governance, secure compute, and structured reporting.
+Regulated biomedical work depends on secure data flow, reproducible analysis, traceable decisions, clear documentation, and outputs that support review, audit, and reuse.
+My work connects clinical genomics, EHR-linked data, multi-omics, governance, secure compute, and structured reporting.
 
 <div class="profile-actions">
   <a href="{{ '/contact' | relative_url }}" class="button-link">
@@ -275,7 +276,7 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 
 ## Working fit
 
-Clinical and regulated data teams need evidence systems that can be inspected, reused, and defended. The useful output is not only analysis. It is a reliable chain from source data to structured decision support. If you want to solve this problem, get in touch.
+Clinical and regulated data teams need evidence systems that can be inspected, reused, and defended. The useful output is not only analysis, but a reliable chain from source data to structured decision support.
 
 </section>
 
