@@ -7,26 +7,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-<!-- Scientific product builder -->
-<!-- Biomedical evidence architect -->
-<!-- Scientific systems builder -->
-<!-- Translational biomedical technologist -->
-<!-- Precision medicine systems lead -->
-<!-- Biomedical product and evidence lead -->
-<!---->
-<!-- The most flexible and senior-sounding is probably: -->
-<!-- Scientific systems builder -->
-
-
-
-
-
-
-My work connects biomedical science, multi-omics, statistics, software, data infrastructure, and product delivery.
-
-I focus on the chain that turns scientific work into usable systems: evidence, method, data structure, interface, documentation, governance, and decision support.
-
-This site presents my work through several professional profiles because the same experience matters in different settings: the lab, the data team, the clinic, the software team, the product room, and the regulated environment.
+<!-- My work connects biomedical science, multi-omics, statistics, software, data infrastructure, and product delivery. I focus on the chain that turns scientific work into usable systems: evidence, method, data structure, interface, documentation, governance, and decision support. This site presents my work through several professional profiles it connects different settings: the lab, the data team, the clinic, the software team, the product room, and the regulated environment. -->
 
 ## Academic training and employment
 
