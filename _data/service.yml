@@ -1,0 +1,47 @@
+# _data/service.yml
+# Public-renderable records for scientific service, leadership, and administrative roles.
+# Covers: association founder/officer, editorial boards, committee membership,
+# review panels, advisory roles, programme committees.
+# Distinct from grants.yml (funded employment) and employment (academic positions).
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   active | completed | emeritus
+#
+# TYPE VOCABULARY
+#   association_founder | association_officer | editorial_board | reviewer
+#   committee_member | advisory_board | programme_committee | working_group
+#   guest_lecturer | teaching_assistant
+#
+# MY_ROLE VOCABULARY
+#   founder_and_president | president | vice_president | secretary | treasurer
+#   board_member | editor | associate_editor | reviewer | chair | member
+#   guest_lecturer
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: sga_founder_president
+  organisation: "Swiss Genomics Association"
+  description: "Independent scientific association issuing normative standards for genomic evidence and reporting"
+  type: association_founder
+  my_role: founder_and_president
+  url: "https://www.swissgenomicsassociation.ch"
+  start: "2024"
+  end: ""
+  status: active
+  tags: [scientific_leadership, open_standard, cross_institutional, product_strategy]
+  weight: 3
+  note: "Founded the SGA as a neutral standards body. Issued QEM and ERRS standards. Members span Swiss academic, clinical, and industry bioinformatics."
+
+- id: epfl_bio491_guest_lecturer
+  organisation: "EPFL — BIO-491 New Tools and Research Strategies in Personalized Health"
+  description: "Master-level course introducing personalized health technologies, legal and ethical challenges, and research strategies. Course led by Prof. Jacques Fellay and Prof. Marc Friedli, Life Sciences Engineering programme."
+  type: guest_lecturer
+  my_role: guest_lecturer
+  url: "https://edu.epfl.ch/coursebook/en/new-tools-research-strategies-in-personalized-health-BIO-491"
+  start: "2021"
+  end: "2024"
+  status: completed
+  tags: [scientific_leadership, clinical_genomics, statistical_genetics, cross_institutional]
+  weight: 2
+  note: "Annual guest lectures across four consecutive years. Spring semester, 2 hours per week format. Topics drawn from human genomics of infection, immunity, and precision medicine."

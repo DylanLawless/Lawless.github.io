@@ -1,0 +1,57 @@
+{% comment %}
+  _includes/publication_line.html
+  Usage: {% include publication_line.html pub=pub %}
+  Renders one publication entry from _data/publications.yml
+{% endcomment %}
+
+{% assign p = include.pub %}
+
+<p class="publication-line">
+
+  {% comment %} Title — link to published DOI if available, else preprint url {% endcomment %}
+  {% if p.doi and p.doi != "" %}
+    <a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
+  {% elsif p.preprint_doi and p.preprint_doi != "" %}
+    <a href="https://doi.org/{{ p.preprint_doi }}">{{ p.title }}</a>
+  {% elsif p.url and p.url != "" %}
+    <a href="{{ p.url }}">{{ p.title }}</a>
+  {% else %}
+    {{ p.title }}
+  {% endif %}.
+
+  {{ p.authors }}.
+
+  {% comment %} Journal and bibliographic details — suppress empty parentheses and commas {% endcomment %}
+  {% if p.journal and p.journal != "" %}
+    <strong><em>{{ p.journal }}</em></strong>{% if p.volume and p.volume != "" %}, {{ p.volume }}{% endif %}{% if p.number and p.number != "" %}({{ p.number }}){% endif %}{% if p.pages and p.pages != "" %}, {{ p.pages }}{% endif %}{% if p.month and p.month != "" %}, {{ p.month }}{% endif %}{% if p.year and p.year != "" %} {{ p.year }}{% endif %}.
+  {% elsif p.year and p.year != "" %}
+    {{ p.year }}.
+  {% endif %}
+
+  {% comment %} Published DOI {% endcomment %}
+  {% if p.doi and p.doi != "" %}
+    DOI: <a href="https://doi.org/{{ p.doi }}">{{ p.doi }}</a>.
+  {% endif %}
+
+  {% comment %} Preprint link — always show if present; label differs based on whether published {% endcomment %}
+  {% if p.preprint_doi and p.preprint_doi != "" %}
+    {% if p.doi and p.doi != "" %}
+      <a href="https://doi.org/{{ p.preprint_doi }}" class="publication-preprint-link">Preprint</a>.
+    {% else %}
+      Preprint: <a href="https://doi.org/{{ p.preprint_doi }}">{{ p.preprint_doi }}</a>.
+    {% endif %}
+  {% endif %}
+
+  {% comment %} Status badge — show for everything except published {% endcomment %}
+  {% unless p.status == "published" %}
+    <span class="publication-status publication-status--{{ p.status }}">{{ p.status | replace: "_", " " }}</span>
+  {% endunless %}
+
+  {% comment %} Dimensions badge — only when a published DOI exists {% endcomment %}
+  {% if p.doi and p.doi != "" %}
+    <span class="publication-dimensions">
+      <span class="__dimensions_badge_embed__" data-doi="{{ p.doi }}" data-style="small_rectangle"></span>
+    </span>
+  {% endif %}
+
+</p>

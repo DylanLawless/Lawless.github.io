@@ -1,0 +1,44 @@
+# _data/standards.yml
+# Public-renderable records for normative standards issued by a body.
+# These are distinct from software (tools) and publications (manuscripts).
+# A standard is a versioned specification document with an issuing authority,
+# a Zenodo or registry DOI, and a defined scope.
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   draft | published | superseded
+#
+# TYPE VOCABULARY
+#   reporting_standard | data_standard | classification_standard | format_standard
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: qem_standard
+  name: "Qualifying Evidence Matrix (QEM) standard"
+  description: "Normative binary matrix format for verifiable evidence derived from rule-based evaluations, pipeline-independent and institution-neutral"
+  type: data_standard
+  issuing_body: "Swiss Genomics Association"
+  version: "1.0"
+  doi: "10.5281/zenodo.17936587"
+  url: "https://www.swissgenomicsassociation.ch/pages/sga_qem/"
+  date: "2025-12-15"
+  grant: ""
+  status: published
+  tags: [open_standard, reproducibility, regulated_delivery, clinical_genomics, data_infrastructure]
+  weight: 3
+  note: "Defines QEM as a pipeline-independent, institution-neutral binary matrix for evidence availability. Owned by the Swiss Genomics Association."
+
+- id: errs_standard
+  name: "Evidence Ratio Reporting Standard (ERRS)"
+  description: "Normative standard for likelihood-based evidential reporting — defines a unified triplet of effect estimate, uncertainty interval, and evidence ratio"
+  type: reporting_standard
+  issuing_body: "Swiss Genomics Association"
+  version: "1.0"
+  doi: "10.5281/zenodo.18261075"
+  url: "https://www.swissgenomicsassociation.ch/pages/sga_errs/"
+  date: "2026-01-15"
+  grant: ""
+  status: published
+  tags: [open_standard, reproducibility, regulated_delivery, statistical_genetics]
+  weight: 2
+  note: "Implemented in the evidenceratio R package. Designed for cross-study comparability in clinical, biomedical, and statistical research."

@@ -1,0 +1,17 @@
+# _data/datasets.yml — TEMPLATE ENTRY
+# Copy and fill for each new dataset deposition.
+
+- id: CHANGE_ME
+  name: ""
+  description: ""
+  type: gwas_catalogue         # gwas_catalogue | zenodo_dataset | database | data_standard | repository
+  repository: zenodo           # gwas_catalogue | zenodo | figshare | github | dryad | sra | ega
+  accession: ""                # e.g. GCST90726424 for GWAS catalogue; empty if DOI-only
+  url: ""
+  doi: ""
+  linked_publication: ""       # id from publications.yml if this data supports a paper
+  grant: ""
+  status: published            # registered | published | embargoed | deprecated
+  tags: []
+  weight: 1
+  note: ""

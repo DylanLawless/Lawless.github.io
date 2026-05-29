@@ -1,0 +1,17 @@
+# _data/service.yml — TEMPLATE ENTRY
+# Copy and fill for each new service or leadership role.
+
+- id: CHANGE_ME
+  organisation: ""
+  description: ""
+  type: association_founder    # association_founder | association_officer | editorial_board | reviewer
+                               # committee_member | advisory_board | programme_committee | working_group
+  my_role: member              # founder_and_president | president | vice_president | secretary | treasurer
+                               # board_member | editor | associate_editor | reviewer | chair | member
+  url: ""
+  start: ""                    # year or ISO 8601 date
+  end: ""                      # leave empty if ongoing
+  status: active               # active | completed | emeritus
+  tags: []
+  weight: 1
+  note: ""

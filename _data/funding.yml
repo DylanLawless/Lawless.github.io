@@ -1,0 +1,134 @@
+# _data/grants.yml
+# Public-renderable records for grants and funded programmes.
+#
+# MY_ROLE VOCABULARY
+#   pi | co_investigator | employee | named_contributor
+#
+# Most entries here are programmes where Dylan Lawless was employed as a
+# researcher or named contributor under a PI's grant — not grants he held.
+# The my_role field makes this distinction explicit and affects how each
+# entry is framed in applications (employee vs PI).
+#
+# STATUS VOCABULARY
+#   drafted | submitted | under_review | successful | unsuccessful | active | completed
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: grant_swisspedhealth_nds
+  title: "Pediatric Personalized Research Network Switzerland (SwissPedHealth) — Joint Pediatric National Data Stream"
+  pi: "Luregn Schlapbach, Julia Vogt"
+  my_role: employee
+  funder: "SPHN / PHRT"
+  grant_number: "NDS-2021-911"
+  scheme: "SPHN PHRT National Data Stream"
+  amount: "CHF 5,000,000"
+  institution: "University Children's Hospital Zurich, ETH Zurich"
+  start: "2022-09-01"
+  end: "2025-12-31"
+  url: "https://sphn.ch/network/projects/project-page_nds_swisspedhealth/"
+  status: completed
+  tags: [paediatrics, multi_omics, clinical_genomics, data_infrastructure, cross_institutional]
+  weight: 3
+  note: "Multi-institutional programme across UZH, ETHZ, UniBE, HUG, CHUV, EPFL and five children's hospitals."
+
+- id: grant_snf_201060_spss
+  title: "Derivation of pediatric sepsis phenotypes using machine learning applied to clinical, functional and genomic data from the Swiss Pediatric Sepsis Study"
+  pi: "Luregn Schlapbach, Johannes Trück"
+  my_role: employee
+  funder: "Swiss National Science Foundation"
+  grant_number: "320030_201060"
+  scheme: "Project funding, Division III"
+  amount: "CHF 930,302"
+  institution: "University Children's Hospital Zurich"
+  start: "2021-04-01"
+  end: "2026-03-31"
+  url: "https://data.snf.ch/grants/grant/201060"
+  status: completed
+  tags: [paediatrics, statistical_genetics, multi_omics, ai_systems, clinical_genomics, cross_institutional]
+  weight: 3
+  note: ""
+
+- id: grant_snf_175603_fellay_infections
+  title: "The interplay between human genetic variation, persistent infections and chronic inflammation: relevance for cardiovascular and neuropsychiatric morbidity"
+  pi: "Jacques Fellay"
+  my_role: employee
+  funder: "Swiss National Science Foundation"
+  grant_number: "175603"
+  scheme: "Project funding, Division III"
+  amount: "CHF 696,032"
+  institution: "EPFL Global Health Institute"
+  start: "2018-02-01"
+  end: "2022-07-31"
+  url: "https://data.snf.ch/grants/grant/175603"
+  status: completed
+  tags: [statistical_genetics, clinical_genomics, multi_omics, cross_institutional]
+  weight: 2
+  note: "CoLaus cohort. 5,000 participants. GWAS of immune responses to persistent infections."
+
+- id: grant_snf_177163_tb_sinergia
+  title: "Host-pathogen genomic interactions and their phenotypic impact in human tuberculosis"
+  pi: "Sebastien Gagneux, Jacques Fellay"
+  my_role: employee
+  funder: "Swiss National Science Foundation"
+  grant_number: "177163"
+  scheme: "Sinergia"
+  amount: "CHF 1,600,904"
+  institution: "EPFL Global Health Institute"
+  start: "2018-02-01"
+  end: "2023-01-31"
+  url: "https://data.snf.ch/grants/grant/177163"
+  status: completed
+  tags: [statistical_genetics, multi_omics, cross_institutional, clinical_genomics]
+  weight: 2
+  note: "Tanzania TB cohort. 1,200 patients. Joint host-pathogen genome analysis."
+
+- id: grant_nih_rsv_hartert
+  title: "Host susceptibility to respiratory syncytial virus infection during infancy"
+  pi: "Tina Hartert, Jacques Fellay"
+  my_role: employee
+  funder: "NIH / Swiss National Science Foundation"
+  grant_number: "NIH-U19AI095227, NIH-UL1RR024975, SNSF IZSEZ0_191968"
+  scheme: "Mixed NIH and SNSF international collaboration"
+  amount: ""
+  institution: "EPFL, Vanderbilt University"
+  start: "2019-01-01"
+  end: "2021-12-31"
+  url: ""
+  status: completed
+  tags: [statistical_genetics, clinical_genomics, cross_institutional]
+  weight: 2
+  note: "RSV GWAS in birth cohort. US-Swiss collaboration."
+
+- id: grant_microsoft_azure_2018
+  title: "Data Science and Machine Learning in Predictive Genomics"
+  pi: "Dylan Lawless"
+  my_role: pi
+  funder: "Microsoft Research"
+  grant_number: ""
+  scheme: "Microsoft Azure Research Award"
+  amount: "USD 100,000"
+  institution: "University of Leeds"
+  start: "2018-01-01"
+  end: "2018-12-31"
+  url: ""
+  status: completed
+  tags: [data_infrastructure, ai_systems, statistical_genetics]
+  weight: 2
+  note: "Competitive award. Cloud computing credits for genomic data science and ML."
+
+- id: grant_kispi_genomeswift
+  title: "GenomeSwift — Precision medicine in Kispi through rapid and automated genome analysis"
+  pi: "Dylan Lawless"
+  my_role: pi
+  funder: "Kispi UZH FZK Projektförderung"
+  grant_number: ""
+  scheme: "Heidi Ras 2024"
+  amount: "CHF 98,076"
+  institution: "University Children's Hospital Zurich"
+  start: "2024-08-01"
+  end: "2025-08-01"
+  url: "https://www.kispi.uzh.ch/forschungszentrum"
+  status: unsuccessful
+  tags: [software_product, clinical_genomics, ai_systems, paediatrics]
+  weight: 2
+  note: "Unsuccessful. Proposal covered automated WGS pipeline with AI-assisted variant interpretation (DeepSeek R1, Ollama)."

@@ -1,0 +1,68 @@
+# _data/media.yml
+# Public-renderable records for published videos and media coverage.
+# Covers YouTube, Vimeo, podcast appearances, press coverage, and other public media.
+# Separate from conferences.yml (live presentations).
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   published | unlisted | archived
+#
+# TYPE VOCABULARY
+#   video | press | podcast | interview | screencast
+#
+# HOST VOCABULARY
+#   YouTube | Vimeo | podcast_platform | news_outlet
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: media_2026_panelapprex_video
+  title: "PanelAppRex"
+  description: "Published video for PanelAppRex — harmonised disease-gene panels from structured clinical and genetic queries"
+  type: video
+  url: "https://vimeo.com/1193244150"
+  host: "Vimeo"
+  date: "2026-05-18"
+  linked_entry: quant_group_2026_panelapprex
+  status: published
+  tags: [ai_systems, clinical_genomics, rare_disease, software_product]
+  weight: 3
+  note: ""
+
+- id: media_2026_archipelago_video
+  title: "Archipelago plots bring variant set and single variant associations into one genomic view"
+  description: "Published video introducing the Archipelago method for visualising variant set association test statistics alongside single-variant results"
+  type: video
+  url: "https://www.youtube.com/watch?v=DPf7mRMQK4Q"
+  host: "YouTube"
+  date: "2026-02-15"
+  linked_entry: lawless_2026_archipelago
+  status: published
+  tags: [statistical_genetics, software_product, reproducibility, open_standard]
+  weight: 2
+  note: ""
+
+- id: media_2025_quant_scan_video
+  title: "QuantScan"
+  description: "Published video demonstrating QuantBayes probabilistic genomic interpretation — Bayesian posterior intervals for variant evidence sufficiency"
+  type: video
+  url: "https://www.youtube.com/watch?v=zyzeaGmvB5w"
+  host: "YouTube"
+  date: "2025-07-22"
+  linked_entry: quant_group_2025_quantbayes
+  status: published
+  tags: [bayesian_inference, clinical_genomics, software_product, product_strategy]
+  weight: 3
+  note: ""
+
+- id: media_2025_qv_database_video
+  title: "Qualifying variant database for genomic variant interpretation"
+  description: "Published video introducing the qualifying variant database — reusable YAML criteria for reproducible genomic variant interpretation"
+  type: video
+  url: "https://www.youtube.com/watch?v=gdftkmmcTsg"
+  host: "YouTube"
+  date: "2025-05-12"
+  linked_entry: lawless_2026_qv
+  status: published
+  tags: [open_standard, reproducibility, clinical_genomics, software_product]
+  weight: 2
+  note: ""

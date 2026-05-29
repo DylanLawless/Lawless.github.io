@@ -1,0 +1,95 @@
+# _data/awards.yml
+# Public-renderable records for prizes, scholarships, travel grants, and competitive awards.
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   shortlisted | awarded
+#
+# TYPE VOCABULARY
+#   research_prize | scholarship | travel_grant | poster_award | funding_award | recognition
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: award_2026_aws
+  title: "AWS Research Funding"
+  type: funding_award
+  body: "Amazon Web Services"
+  year: 2026
+  url: ""
+  linked_entry: ""
+  status: awarded
+  tags: [data_infrastructure, software_product, ai_systems]
+  weight: 2
+  note: ""
+
+- id: award_2023_fkz_research_prize
+  title: "Research prize"
+  type: research_prize
+  body: "FKZ Children's Research Centre 12th Symposium, University of Zurich"
+  year: 2023
+  url: "https://www.kispi.uzh.ch/forschungszentrum"
+  linked_entry: conf_2023_fkz_crc_award_talk
+  status: awarded
+  tags: [scientific_leadership, clinical_genomics, paediatrics, statistical_genetics]
+  weight: 3
+  note: "Awarded for talk: Uncovering novel genetic factors of pediatric sepsis through new tools for precision genomic medicine."
+
+- id: award_2019_eshg_poster
+  title: "Best poster candidate"
+  type: poster_award
+  body: "European Society of Human Genetics"
+  year: 2019
+  url: ""
+  linked_entry: ""
+  status: awarded
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: award_2018_microsoft_azure
+  title: "Microsoft Azure Research Award"
+  type: funding_award
+  body: "Microsoft Research"
+  year: 2018
+  url: ""
+  linked_entry: ""
+  status: awarded
+  tags: [data_infrastructure, ai_systems, statistical_genetics]
+  weight: 2
+  note: "Data Science and Machine Learning in Predictive Genomics."
+
+- id: award_2017_wellcome_travel
+  title: "Visitor Research Grant"
+  type: travel_grant
+  body: "Wellcome Genome Campus, Cambridge"
+  year: 2017
+  url: ""
+  linked_entry: conf_2017_wellcome_talk
+  status: awarded
+  tags: [scientific_leadership, rare_disease, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: award_2015_leeds_anniversary
+  title: "110th Anniversary Postgraduate Research Scholarship"
+  type: scholarship
+  body: "University of Leeds"
+  year: 2015
+  url: ""
+  linked_entry: ""
+  status: awarded
+  tags: [scientific_leadership, rare_disease]
+  weight: 2
+  note: "Competitive PhD scholarship."
+
+- id: award_2014_tcd_poster
+  title: "1st place Postgraduate Poster Prize"
+  type: poster_award
+  body: "Trinity College Dublin"
+  year: 2014
+  url: ""
+  linked_entry: ""
+  status: awarded
+  tags: [scientific_leadership]
+  weight: 1
+  note: ""

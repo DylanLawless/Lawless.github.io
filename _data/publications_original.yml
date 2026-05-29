@@ -1,0 +1,298 @@
+- id: quant_group_2026_panelapprex
+  title: "PanelAppRex aggregates disease gene panels and facilitates sophisticated search"
+  authors: "Quant Group, Simon Boutry, Ali Saadat, Sinisa Savic, Luregn J. Schlapbach, Jacques Fellay, Dylan Lawless"
+  journal: "Bioinformatics Advances"
+  year: 2026
+  month: "May"
+  doi: "10.1093/bioadv/vbag115"
+  url: "https://doi.org/10.1093/bioadv/vbag115"
+  publisher: "Oxford Academic"
+  type: "Article"
+
+  # - id: quant_group_2025_panelapprex
+#   title: "PanelAppRex aggregates disease gene panels and facilitates sophisticated search"
+#   authors: "Quant Group, Simon Boutry, Ali Saadat, Sinisa Savic, Luregn J. Schlapbach, Jacques Fellay, Dylan Lawless"
+#   journal: "medRxiv"
+#   year: 2025
+#   month: "March"
+#   doi: "10.1101/2025.03.20.25324319"
+#   url: "https://doi.org/10.1101/2025.03.20.25324319"
+#   publisher: "openRxiv"
+#   type: "Preprint"
+
+
+- id: lawless_2026_qv
+  title: "Application of qualifying variants for genomic analysis"
+  authors: "Dylan Lawless, Ali Saadat, Mariam Ait Oumelloul, Simon Boutry, Veronika Stadler, Sabine Österle, Jan Armida, David Haerry, D. Sean Froese, Luregn J. Schlapbach, Jacques Fellay"
+  journal: "Bioinformatics"
+  year: 2026
+  month: "January"
+  volume: "42"
+  number: "2"
+  pages: "btaf676"
+  doi: "10.1093/bioinformatics/btaf676"
+  url: "https://doi.org/10.1093/bioinformatics/btaf676"
+  publisher: "Oxford University Press"
+  type: "Article"
+
+- id: lawless_2026_archipelago
+  title: "Archipelago method for variant set association test statistics"
+  authors: "Dylan Lawless, Ali Saadat, Mariam Ait Oumelloul, Luregn J. Schlapbach, Jacques Fellay"
+  journal: "Genetic Epidemiology"
+  year: 2026
+  month: "January"
+  volume: "50"
+  number: "1"
+  pages: "e70025"
+  doi: "10.1002/gepi.70025"
+  url: "https://doi.org/10.1002/gepi.70025"
+  publisher: "Wiley"
+  type: "Article"
+
+- id: quant_group_2025_quantbayes
+  title: "A Bayesian model for quantifying genomic variant evidence sufficiency in Mendelian disease"
+  authors: "Quant Group, Ali Saadat, Shweta Pipaliya, Dylan Lawless"
+  journal: "medRxiv"
+  year: 2025
+  month: "December"
+  doi: "10.64898/2025.12.02.25341503"
+  url: "https://doi.org/10.64898/2025.12.02.25341503"
+  publisher: "openRxiv"
+  type: "Preprint"
+
+- id: soomann_2025_practical_guide_immunodeficiency
+  title: "A practical guide to diagnosing immunodeficiency"
+  authors: "Maarja Soomann, Austen Worth, Dylan Lawless, Johannes Trück"
+  journal: "Pediatric Infectious Disease Journal"
+  year: 2025
+  month: "July"
+  volume: "44"
+  number: "10"
+  pages: "e374–e377"
+  doi: "10.1097/INF.0000000000004904"
+  url: "https://doi.org/10.1097/INF.0000000000004904"
+  publisher: "Ovid Technologies"
+  type: "Article"
+
+- id: lawless_2025_pediatric_bacteremia_sepsis_gwas
+  title: "Genome-wide association study of pediatric bacteremia and sepsis"
+  authors: "Dylan Lawless, Flavia Aurelia Hodel, Christian W. Thorball, Zhi Ming Xu, Alessandro Borghesi, Eric Giannoni, Johannes Trück, Martin Stocker, Klara M. Posfay-Barbe, Ulrich Heininger, Sara Bernhard-Stirnemann, Anita Niederer-Loher, Christian R. Kahlert, Giancarlo Natalucci, Christa Relly, Christoph Berger, Thomas Riedel, Christoph Aebi, Philipp Agyeman, Jacques Fellay, Luregn J. Schlapbach"
+  journal: "medRxiv"
+  year: 2025
+  month: "June"
+  doi: "10.1101/2025.06.12.25329506"
+  url: "https://doi.org/10.1101/2025.06.12.25329506"
+  publisher: "openRxiv"
+  type: "Preprint"
+
+- id: lawless_2025_rare_variants_sepsis_children
+  title: "Rare variants in infection response protein pathways associated with sepsis in children"
+  authors: "Dylan Lawless, Pauline Rogg, Manon Bouzereau, Robin Fallegger, Zaira Seferbekova, Valeriia Timonina, Konstantin Popadin, Ali Saadat, Zhi Ming Xu, Simon Boutry, Christian W. Thorball, Flavia Hodel, Alessandro Borghesi, Johannes Trück, Martin Stocker, Klara M. Posfay-Barbe, Ulrich Heininger, Sara Bernhard-Stirnemann, Anita Niederer-Loher, Christian Kahlert, Giancarlo Natalucci, Christa Relly, Thomas Riedel, Christoph Aebi, Christoph Berger, Eric Giannoni, Philipp Agyeman, Jacques Fellay, Luregn J. Schlapbach"
+  journal: "medRxiv"
+  year: 2025
+  month: "June"
+  doi: "10.1101/2025.06.12.25329504"
+  url: "https://doi.org/10.1101/2025.06.12.25329504"
+  publisher: "openRxiv"
+  type: "Preprint"
+
+- id: lawless_2025_qv_preprint
+  title: "Application of qualifying variants for genomic analysis"
+  authors: "Dylan Lawless, Ali Saadat, Mariam Ait Oumelloul, Simon Boutry, Veronika Stadler, Sabine Österle, Jan Armida, David Haerry, D. Sean Froese, Luregn J. Schlapbach, Jacques Fellay"
+  journal: "medRxiv"
+  year: 2025
+  month: "May"
+  doi: "10.1101/2025.05.09.25324975"
+  url: "https://doi.org/10.1101/2025.05.09.25324975"
+  publisher: "openRxiv"
+  type: "Preprint"
+  published_as: "10.1093/bioinformatics/btaf676"
+
+- id: quant_group_2025_iei_priors
+  title: "Quantifying prior probabilities for disease-causing variants reveals the top genetic contributors in inborn errors of immunity"
+  authors: "Quant Group, Simon Boutry, Ali Saadat, Maarja Soomann, Johannes Trück, D. Sean Froese, Jacques Fellay, Sinisa Savic, Luregn J. Schlapbach, Dylan Lawless"
+  journal: "medRxiv"
+  year: 2025
+  month: "March"
+  doi: "10.1101/2025.03.25.25324607"
+  url: "https://doi.org/10.1101/2025.03.25.25324607"
+  publisher: "openRxiv"
+  type: "Preprint"
+
+- id: lawless_2025_actor_critic_variant_evidence
+  title: "An actor-critic reinforcement learning framework for variant evidence interpretation"
+  authors: "Dylan Lawless"
+  journal: "medRxiv"
+  year: 2025
+  month: "March"
+  doi: "10.1101/2025.03.14.25323954"
+  url: "https://doi.org/10.1101/2025.03.14.25323954"
+  publisher: "openRxiv"
+  type: "Preprint"
+
+- id: lawless_2025_archipelago_preprint
+  title: "Archipelago method for variant set association test statistics"
+  authors: "Dylan Lawless, Ali Saadat, Mariam Ait Oumelloul, Luregn J. Schlapbach, Jacques Fellay"
+  journal: "medRxiv"
+  year: 2025
+  month: "March"
+  doi: "10.1101/2025.03.17.25324111"
+  url: "https://doi.org/10.1101/2025.03.17.25324111"
+  publisher: "openRxiv"
+  type: "Preprint"
+  published_as: "10.1002/gepi.70025"
+
+- id: lawless_2024_reply_ai_allergy
+  title: "Reply to Dages et al: You AIn’t using it right, artificial intelligence progress in allergy"
+  authors: "Dylan Lawless"
+  journal: "Journal of Allergy and Clinical Immunology"
+  year: 2024
+  month: "January"
+  volume: "153"
+  number: "1"
+  pages: "355–356"
+  doi: "10.1016/j.jaci.2023.09.023"
+  url: "https://doi.org/10.1016/j.jaci.2023.09.023"
+  publisher: "Elsevier"
+  type: "Article"
+
+- id: lawless_2023_cftr_pid_bronchiectasis
+  title: "Prevalence of CFTR variants in primary immunodeficiency patients with bronchiectasis is an important modifying cofactor"
+  authors: "Dylan Lawless, Hana Lango Allen, James E. D. Thaventhiran, Sarah Goddard, Oliver S. Burren, Evie Robson, Daniel Peckham, Kenneth G. C. Smith, Sinisa Savic"
+  journal: "Journal of Allergy and Clinical Immunology"
+  year: 2023
+  month: "July"
+  volume: "152"
+  number: "1"
+  pages: "257–265"
+  doi: "10.1016/j.jaci.2023.01.035"
+  url: "https://doi.org/10.1016/j.jaci.2023.01.035"
+  publisher: "Elsevier"
+  type: "Article"
+
+- id: lawless_2022_rsv_prolonged_infection
+  title: "Viral genetic determinants of prolonged respiratory syncytial virus infection among infants in a healthy term birth cohort"
+  authors: "Dylan Lawless, Christopher G. McKennan, Suman R. Das, Thomas Junier, Zhi Ming Xu, Larry J. Anderson, Tebeb Gebretsadik, Meghan H. Shilts, Emma Larkin, Christian Rosas-Salazar, James D. Chappell, Jacques Fellay, Tina V. Hartert"
+  journal: "The Journal of Infectious Diseases"
+  year: 2022
+  month: "November"
+  volume: "227"
+  number: "10"
+  pages: "1194–1202"
+  doi: "10.1093/infdis/jiac442"
+  url: "https://doi.org/10.1093/infdis/jiac442"
+  publisher: "Oxford University Press"
+  type: "Article"
+
+- id: wu_2021_cracr2a
+  title: "Biallelic mutations in calcium release activated channel regulator 2A (CRACR2A) cause a primary immunodeficiency disorder"
+  authors: "Beibei Wu, Laura Rice, Jennifer Shrimpton, Dylan Lawless, Kieran Walker, Clive Carter, Lynn McKeown, Rashida Anwar, Gina M. Doody, Sonal Srikanth, Yousang Gwack, Sinisa Savic"
+  journal: "eLife"
+  year: 2021
+  month: "December"
+  volume: "10"
+  doi: "10.7554/eLife.72559"
+  url: "https://doi.org/10.7554/eLife.72559"
+  publisher: "eLife Sciences Publications"
+  type: "Article"
+
+- id: rueger_2020_ebv_sequence_diversity
+  title: "The influence of human genetic variation on Epstein-Barr virus sequence diversity"
+  authors: "Sina Rüeger, Christian Hammer, Alexis Loetscher, Paul J. McLaren, Dylan Lawless, Olivier Naret, Nina Khanna, Enos Bernasconi, Matthias Cavassini, Huldrych F. Günthard, Christian R. Kahlert, Andri Rauch, Daniel P. Depledge, Sofia Morfopoulou, Judith Breuer, Evgeny Zdobnov, Jacques Fellay"
+  journal: "bioRxiv"
+  year: 2020
+  month: "December"
+  doi: "10.1101/2020.12.02.20242370"
+  url: "https://doi.org/10.1101/2020.12.02.20242370"
+  publisher: "Cold Spring Harbor Laboratory"
+  type: "Preprint"
+
+- id: stremenova_spegarova_2020_tet2
+  title: "Germline TET2 loss of function causes childhood immunodeficiency and lymphoma"
+  authors: "Jarmila Stremenova Spegarova, Dylan Lawless, Siti Mardhiana Binti Mohamad, Karin R. Engelhardt, Gina Doody, Jennifer Shrimpton, Anne Rensing-Ehl, Stephan Ehl, Frederic Rieux-Laucat, Catherine Cargo, Helen Griffin, Aneta Mikulasova, Meghan Acres, Neil V. Morgan, James A. Poulter, Eamonn G. Sheridan, Philip Chetcuti, Sean O’Riordan, Rashida Anwar, Clive R. Carter, Stefan Przyborski, Kevin Windebank, Andrew J. Cant, Majlinda Lako, Chris M. Bacon, Sinisa Savic, Sophie Hambleton"
+  journal: "Blood"
+  year: 2020
+  month: "August"
+  volume: "136"
+  number: "9"
+  pages: "1055–1066"
+  doi: "10.1182/blood.2020005844"
+  url: "https://doi.org/10.1182/blood.2020005844"
+  publisher: "American Society of Hematology"
+  type: "Article"
+
+- id: abolhassani_2019_icos_deficiency
+  title: "Expanding clinical phenotype and novel insights into the pathogenesis of ICOS deficiency"
+  authors: "Hassan Abolhassani, Yasser M. El-Sherbiny, Gururaj Arumugakani, Clive Carter, Stephen Richards, Dylan Lawless, Philip Wood, Matthew Buckland, Marzieh Heydarzadeh, Asghar Aghamohammadi, Sophie Hambleton, Lennart Hammarström, Siobhan O. Burns, Rainer Doffinger, Sinisa Savic"
+  journal: "Journal of Clinical Immunology"
+  year: 2019
+  month: "December"
+  volume: "40"
+  number: "2"
+  pages: "277–288"
+  doi: "10.1007/s10875-019-00735-z"
+  url: "https://doi.org/10.1007/s10875-019-00735-z"
+  publisher: "Springer Nature"
+  type: "Article"
+
+- id: lawless_2019_rag1_rag2
+  title: "Predicting the occurrence of variants in RAG1 and RAG2"
+  authors: "Dylan Lawless, Hana Lango Allen, James Thaventhiran, Flavia Hodel, Rashida Anwar, Jacques Fellay, Jolan E. Walter, Sinisa Savic"
+  journal: "Journal of Clinical Immunology"
+  year: 2019
+  month: "August"
+  volume: "39"
+  number: "7"
+  pages: "688–701"
+  doi: "10.1007/s10875-019-00670-z"
+  url: "https://doi.org/10.1007/s10875-019-00670-z"
+  publisher: "Springer Nature"
+  type: "Article"
+
+- id: thwaites_2019_rag1_hmgb
+  title: "A novel RAG1 mutation reveals a critical in vivo role for HMGB1/2 during V(D)J recombination"
+  authors: "Daniel T. Thwaites, Clive Carter, Dylan Lawless, Sinisa Savic, Joan M. Boyes"
+  journal: "Blood"
+  year: 2019
+  month: "February"
+  volume: "133"
+  number: "8"
+  pages: "820–829"
+  doi: "10.1182/blood-2018-07-866939"
+  url: "https://doi.org/10.1182/blood-2018-07-866939"
+  publisher: "American Society of Hematology"
+  type: "Article"
+
+- id: lawless_2018_tnfaip3_stills
+  title: "A case of adult-onset Still’s disease caused by a novel splicing mutation in TNFAIP3 successfully treated with tocilizumab"
+  authors: "Dylan Lawless, Shelly Pathak, Thomas Edward Scambler, Lylia Ouboussad, Rashida Anwar, Sinisa Savic"
+  journal: "Frontiers in Immunology"
+  year: 2018
+  month: "July"
+  volume: "9"
+  doi: "10.3389/fimmu.2018.01527"
+  url: "https://doi.org/10.3389/fimmu.2018.01527"
+  publisher: "Frontiers Media"
+  type: "Article"
+
+- id: lawless_2018_rag_deficiency
+  title: "Prevalence and clinical challenges among adult primary immunodeficiency patients with RAG deficiency"
+  authors: "Dylan Lawless, Christopher B. Geier, Jennifer R. Farmer, Hana Lango Allen, Daniel Thwaites, Fatma Atschekzei, Michael Brown, David Buchbinder, Siobhan O. Burns, Manish J. Butte, Krisztian Csomos, Sai V. V. Deevi, William Egner, Stephan Ehl, Sinisa Savic"
+  journal: "Journal of Allergy and Clinical Immunology"
+  year: 2018
+  month: "February"
+  doi: "10.1016/j.jaci.2018.02.007"
+  url: "https://doi.org/10.1016/j.jaci.2018.02.007"
+  pmid: "29477728"
+  type: "Article"
+
+- id: masters_2016_pyrin_activation
+  title: "Familial autoinflammation with neutrophilic dermatosis reveals a regulatory mechanism of pyrin activation"
+  authors: "Seth L. Masters, V. Lagou, Isabelle Jéru, P. J. Baker, L. Van Eyck, D. A. Parry, Dylan Lawless, D. De Nardo, J. E. Garcia-Perez, L. F. Dagley, C. L. Holley, J. Dooley, F. Moghaddas, E. Pasciuto, P. Y. Jeandel, R. Sciot, D. Lyras, A. I. Webb, S. E. Nicholson, L. De Somer, E. Van Nieuwenhove, J. Ruuth-Praz, B. Copin, E. Cochet, M. Medlej-Hashim, A. Megarbane, K. Schroder, Sinisa Savic, A. Goris, S. Amselem, C. Wouters, A. Liston"
+  journal: "Science Translational Medicine"
+  doi: "10.1126/scitranslmed.aaf1471"
+  url: "https://doi.org/10.1126/scitranslmed.aaf1471"
+  year: 2016
+  volume: "8"
+  number: "332"
+  type: "Article"

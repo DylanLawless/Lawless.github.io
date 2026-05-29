@@ -1,0 +1,483 @@
+# _data/conferences.yml
+# Public-renderable records for conference presentations, posters, and invited talks.
+# Abstract text lives in _private/conferences_log.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   submitted | accepted | delivered | withdrawn
+#
+# TYPE VOCABULARY
+#   poster | contributed_talk | invited_talk | highlight_talk | award_talk | attended
+#
+# TAG VOCABULARY: same as publications.yml
+
+# --- 2025 ---
+
+- id: conf_2025_fkz_crc_poster
+  title: "From multiomic discovery to real-time rapid diagnostics"
+  event: "13th FKZ/CRC Children's Research Centre"
+  event_short: "FKZ/CRC 2025"
+  location: "Zurich"
+  date: "2025-10-23"
+  type: poster
+  url: "https://www.conftool.org/fzk-crc-retreat-2025/"
+  abstract_available: false
+  authors: ""
+  status: delivered
+  tags: [multi_omics, clinical_genomics, paediatrics, ai_systems]
+  weight: 1
+  note: ""
+
+- id: conf_2025_cbs_talk
+  title: "Quantifying variant evidence for precise, probabilistic genomics"
+  event: "Computational Biology Symposium Lausanne"
+  event_short: "CBS 2025"
+  location: "Lausanne"
+  date: "2025-09-18"
+  type: contributed_talk
+  url: "https://cbiosymposium.unil.ch"
+  abstract_available: true
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [bayesian_inference, statistical_genetics, clinical_genomics]
+  weight: 2
+  note: ""
+
+- id: conf_2025_cbs_poster
+  title: "Quantifying variant evidence for precise, probabilistic genomics"
+  event: "Computational Biology Symposium Lausanne"
+  event_short: "CBS 2025"
+  location: "Lausanne"
+  date: "2025-09-18"
+  type: poster
+  url: "https://cbiosymposium.unil.ch"
+  abstract_available: true
+  authors: "Quant Group, Simon Boutry, Ali Saadat, Maarja Soomann, Johannes Trück, D. Sean Froese, Jacques Fellay, Sinisa Savic, Luregn J. Schlapbach, Dylan Lawless"
+  status: delivered
+  tags: [bayesian_inference, statistical_genetics, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2025_bc2_talk
+  title: "From multiomic discovery to real-time rapid diagnostics: Pediatric sepsis and rare diseases at the children's hospital"
+  event: "BC2 Basel Computational Biology Conference"
+  event_short: "BC2 2025"
+  location: "Basel"
+  date: "2025-09-09"
+  type: contributed_talk
+  url: "https://www.bc2.ch"
+  abstract_available: true
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [multi_omics, clinical_genomics, paediatrics, ai_systems, software_product]
+  weight: 3
+  note: "Selected as highlight talk."
+
+- id: conf_2025_fkz_crc_retreat_poster
+  title: "A century-old problem in genetics solved by big data, Bayesian inference, and AI-driven diagnostics in SwissPedHealth"
+  event: "FKZ/CRC Annual Retreat"
+  event_short: "FKZ/CRC Retreat 2025"
+  location: ""
+  date: "2025-01-01"
+  type: poster
+  url: ""
+  abstract_available: false
+  authors: "Quant Group, Simon Boutry, Ali Saadat, Maarja Soomann, Johannes Trück, D. Sean Froese, Jacques Fellay, Sinisa Savic, Luregn J. Schlapbach, Dylan Lawless"
+  status: delivered
+  tags: [bayesian_inference, clinical_genomics, paediatrics, ai_systems]
+  weight: 1
+  note: ""
+
+# --- 2024 ---
+
+- id: conf_2024_data4health_poster_retro
+  title: "SwissPedHealth The Lighthouse Project's Retrospective Study: Multi-Omics Insights from Biobanked Samples"
+  event: "Data4Health"
+  event_short: "Data4Health 2024"
+  location: ""
+  date: "2024-01-01"
+  type: poster
+  url: ""
+  abstract_available: false
+  authors: ""
+  status: delivered
+  tags: [multi_omics, clinical_genomics, paediatrics, data_infrastructure]
+  weight: 1
+  note: ""
+
+- id: conf_2024_data4health_poster_prosp
+  title: "SwissPedHealth Lighthouse Project's Prospective Study: Multi-Omics for Rare Disease Diagnosis"
+  event: "Data4Health"
+  event_short: "Data4Health 2024"
+  location: ""
+  date: "2024-01-01"
+  type: poster
+  url: ""
+  abstract_available: false
+  authors: ""
+  status: delivered
+  tags: [multi_omics, clinical_genomics, paediatrics, rare_disease]
+  weight: 1
+  note: ""
+
+# --- 2023 ---
+
+- id: conf_2023_fkz_crc_award_talk
+  title: "Uncovering novel genetic factors of pediatric sepsis through new tools for precision genomic medicine"
+  event: "12th FKZ/CRC Children's Research Centre"
+  event_short: "FKZ/CRC 2023"
+  location: "Zurich"
+  date: "2023-10-26"
+  type: contributed talk
+  url: "https://www.kispi.uzh.ch/forschungszentrum"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [statistical_genetics, paediatrics, software_product, clinical_genomics]
+  weight: 3
+  note: "Research prize awarded."
+
+# --- 2022 ---
+
+- id: conf_2022_edcb_poster
+  title: "Joint host-pathogen genomic analysis identifies hepatitis B virus mutations associated with human NTCP and HLA class I variation"
+  event: "EDCB"
+  event_short: "EDCB 2022"
+  location: ""
+  date: "2022-01-01"
+  type: poster
+  url: ""
+  abstract_available: false
+  authors: "Zhi Ming Xu, Gnimah Eva Gnouamozi, Sina Rüeger, Patrick R. Shea, Maria Buti, Henry LY Chan, Patrick Marcellin, Dylan Lawless, Olivier Naret, Matthias Zeller, Arne Schneuing, Andreas Scheck, Thomas Junier, Darius Moradpour, Ondrej Podlaha, Zhaoshi Jiang, Vithika Suri, Anuj Gaggar, Mani Subramanian, Ed Gane, Bruno Correia, David B. Goldstein, David Gfeller, Stephan Urban, Jacques Fellay"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2022_ghi_poster
+  title: "Rare variant discovery by protein pathway analysis"
+  event: "GHI Annual Meeting"
+  event_short: "GHI 2022"
+  location: ""
+  date: "2022-01-01"
+  type: poster
+  url: ""
+  abstract_available: false
+  authors: "Dylan Lawless, Pauline Rogg, Robin Fallegger, Zaira Seferbekova, Manon Bouzereau, Jacques Fellay"
+  status: delivered
+  tags: [statistical_genetics, rare_disease, clinical_genomics]
+  weight: 1
+  note: ""
+
+# --- 2021 ---
+
+- id: conf_2021_epfl_seminar_a
+  title: "Human genomics of infection and immunity"
+  event: "Functional Genomics Seminar Series, EPFL"
+  event_short: "EPFL Seminar 2021"
+  location: "Lausanne"
+  date: "2021-01-01"
+  type: invited_talk
+  url: "https://www.epfl.ch/en/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 2
+  note: ""
+
+- id: conf_2021_health2030_seminar
+  title: "Genomic approaches to infection and immune disease"
+  event: "Health 2030 Genome Center"
+  event_short: "Health 2030 2021"
+  location: "Geneva"
+  date: "2021-01-01"
+  type: invited_talk
+  url: "https://www.health2030genome.ch"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 2
+  note: ""
+
+- id: conf_2021_vanderbilt_seminar
+  title: "Human genomics of respiratory infection"
+  event: "Vanderbilt University Medical Center, Asthma Research Center"
+  event_short: "Vanderbilt 2021"
+  location: "Nashville, TN"
+  date: "2021-01-01"
+  type: invited_talk
+  url: "https://www.vumc.org/medicine-public-health/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 2
+  note: ""
+
+# --- 2020 ---
+
+- id: conf_2020_eshg_talk
+  title: "Genome-wide association study of susceptibility to respiratory syncytial virus infection during infancy"
+  event: "European Society of Human Genetics"
+  event_short: "ESHG 2020"
+  location: "Berlin"
+  date: "2020-01-01"
+  type: contributed_talk
+  url: "https://www.eshg.org/"
+  abstract_available: false
+  authors: "Dylan Lawless, Christian Rosas-Salazar, Tebeb Gebretsadik, Kedir Turi, Brittney Snyder, Pingsheng Wu, Chris G McKennan, Thomas Junier, Jacques Fellay, Tina Hartert"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2020_eshg_poster
+  title: "Genome-wide association study of susceptibility to respiratory syncytial virus infection during infancy"
+  event: "European Society of Human Genetics"
+  event_short: "ESHG 2020"
+  location: "Berlin"
+  date: "2020-01-01"
+  type: poster
+  url: "https://www.eshg.org/"
+  abstract_available: false
+  authors: "Dylan Lawless, Christian Rosas-Salazar, Tebeb Gebretsadik, Kedir Turi, Brittney Snyder, Pingsheng Wu, Chris G McKennan, Thomas Junier, Jacques Fellay, Tina Hartert"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2020_epfl_seminar_b
+  title: "Human genomics of infection and immunity"
+  event: "Functional Genomics Seminar Series, EPFL"
+  event_short: "EPFL Seminar 2020"
+  location: "Lausanne"
+  date: "2020-01-01"
+  type: invited_talk
+  url: "https://www.epfl.ch/en/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 2
+  note: ""
+
+# --- 2019 ---
+
+- id: conf_2019_efpl_poster
+  title: "Rare genetic variants associated with sepsis in intensive care"
+  event: "EPFL Annual Meeting"
+  event_short: "EPFL 2019"
+  location: ""
+  date: "2019-01-01"
+  type: poster
+  url: ""
+  abstract_available: false
+  authors: "Zaira Seferbekova, Dylan Lawless, Jacques Fellay"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics, paediatrics]
+  weight: 1
+  note: ""
+
+- id: conf_2019_eshg_poster
+  title: "Rare variants in antiviral response genes drive severe viral respiratory infections in children"
+  event: "European Society of Human Genetics"
+  event_short: "ESHG 2019"
+  location: "Sweden"
+  date: "2019-01-01"
+  type: poster
+  url: "https://www.eshg.org/"
+  abstract_available: false
+  authors: "Dylan Lawless, Samira Asgari, Luregn J. Schlapbach, Jacques Fellay"
+  status: delivered
+  tags: [statistical_genetics, clinical_genomics, paediatrics]
+  weight: 1
+  note: ""
+
+# - id: conf_2019_eshg_talk
+#   title: "Human genetics of susceptibility to severe respiratory viral infections in children"
+#   event: "European Society of Human Genetics"
+#   event_short: "ESHG 2019"
+#   location: "Sweden"
+#   date: "2019-01-01"
+#   type: contributed_talk
+#   url: "https://www.eshg.org/"
+#   abstract_available: false
+#   authors: "Dylan Lawless"
+#   status: delivered
+#   tags: [statistical_genetics, clinical_genomics, paediatrics]
+#   weight: 1
+#   note: ""
+
+# --- 2018 ---
+
+- id: conf_2018_ga4gh_talk
+  title: "Genomic data sharing and privacy in the Global Alliance"
+  event: "Global Alliance for Genomics and Health (GA4GH) 6th Plenary"
+  event_short: "GA4GH 2018"
+  location: "Geneva"
+  date: "2018-01-01"
+  type: attended
+  url: "https://broadinstitute.swoogo.com/ga4gh6thplenary"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [data_infrastructure, regulated_delivery, cross_institutional]
+  weight: 2
+  note: ""
+
+- id: conf_2018_genopri_talk
+  title: "Genome privacy and genomic data infrastructure"
+  event: "International Workshop on Genome Privacy and Security (GenoPri)"
+  event_short: "GenoPri 2018"
+  location: "Basel"
+  date: "2018-01-01"
+  type: attended
+  url: "https://www.genopri.org"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [data_infrastructure, regulated_delivery]
+  weight: 2
+  note: ""
+
+- id: conf_2018_transmart_talk
+  title: "Translational data infrastructure for genomic research"
+  event: "i2b2 tranSMART Academic Users Group Conference"
+  event_short: "tranSMART 2018"
+  location: "Basel"
+  date: "2018-01-01"
+  type: attended
+  url: "https://transmartfoundation.org/europe-fall-meeting-2018/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [data_infrastructure, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2018_nihr_talk
+  title: "Rare immune disease genetics and genomic interpretation"
+  event: "NIHR BioResource Rare Diseases"
+  event_short: "NIHR BioResource 2018"
+  location: "Cambridge"
+  date: "2018-01-01"
+  type: invited_talk
+  url: "https://www.cambridgebioresource.group.cam.ac.uk/volunteers/rare"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics]
+  weight: 2
+  note: ""
+
+# --- 2017 ---
+
+- id: conf_2017_esid_talk
+  title: "Rare genetic variants in primary immunodeficiency"
+  event: "European Society for Immunodeficiencies (ESID)"
+  event_short: "ESID 2017"
+  location: "Edinburgh"
+  date: "2017-01-01"
+  type: poster
+  url: "http://esid2017.kenes.com/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2017_rheumatology_talk
+  title: "Genomic approaches to autoinflammatory disease"
+  event: "Annual Northern and Yorkshire Rheumatology Meeting"
+  event_short: "NY Rheumatology 2017"
+  location: "York"
+  date: "2017-01-01"
+  type: contributed_talk
+  url: "https://conferences.ncl.ac.uk/nyrm2020/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics]
+  weight: 1
+  note: ""
+
+- id: conf_2017_wellcome_talk
+  title: "Immunogenomics of rare immune disease"
+  event: "Immunogenomics of Disease, Wellcome Genome Campus"
+  event_short: "Wellcome Genome Campus 2017"
+  location: "Cambridge"
+  date: "2017-01-01"
+  type: invited_talk
+  url: "https://coursesandconferences.wellcomegenomecampus.org/Conferences.wt"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics, statistical_genetics]
+  weight: 2
+  note: "Visitor research grant awarded."
+
+- id: conf_2017_cloud_computing_talk
+  title: "Cloud computing for genomic data analysis"
+  event: "Cloud Computing for Research"
+  event_short: "Cloud Computing 2017"
+  location: "Leeds"
+  date: "2017-01-01"
+  type: contributed_talk
+  url: "http://arc.leeds.ac.uk"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [data_infrastructure, statistical_genetics]
+  weight: 1
+  note: ""
+
+# --- 2016 ---
+
+- id: conf_2016_nihr_talk
+  title: "Rare immune disease genetics"
+  event: "NIHR BioResource Rare Diseases"
+  event_short: "NIHR BioResource 2016"
+  location: "Cambridge"
+  date: "2016-01-01"
+  type: invited_talk
+  url: "http://www.cambridgebioresource.group.cam.ac.uk/volunteers/rare"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics]
+  weight: 2
+  note: ""
+
+- id: conf_2016_esid_talk
+  title: "Genomic approaches to primary immunodeficiency"
+  event: "European Society for Immunodeficiencies (ESID)"
+  event_short: "ESID 2016"
+  location: "Barcelona"
+  date: "2016-01-01"
+  type: poster
+  url: "http://esid.org/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics]
+  weight: 1
+  note: ""
+
+# --- 2014 ---
+
+- id: conf_2014_dgi_talk
+  title: "Innate immune signalling and disease"
+  event: "German Society for Immunology (DGfI)"
+  event_short: "DGfI 2014"
+  location: "Bonn"
+  date: "2014-01-01"
+  type: attended
+  url: "http://www.immunology-conference.de/"
+  abstract_available: false
+  authors: "Dylan Lawless"
+  status: delivered
+  tags: [rare_disease, clinical_genomics]
+  weight: 1
+  note: ""

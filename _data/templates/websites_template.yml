@@ -1,0 +1,14 @@
+# _data/websites.yml — TEMPLATE ENTRY
+# Copy and fill for each new site you build or maintain.
+
+- id: CHANGE_ME
+  name: ""
+  description: ""
+  type: product_site           # product_site | research_platform | association_site | personal_site | data_portal
+  url: ""
+  my_role: founder_and_builder # founder_and_builder | builder | maintainer | contributor
+  launch_year:
+  status: active               # active | archived | redirected
+  tags: []
+  weight: 1
+  note: ""

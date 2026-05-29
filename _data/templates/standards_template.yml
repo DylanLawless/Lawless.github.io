@@ -1,0 +1,17 @@
+# _data/standards.yml — TEMPLATE ENTRY
+# Copy and fill for each new normative standard.
+
+- id: CHANGE_ME
+  name: ""
+  description: ""
+  type: reporting_standard     # reporting_standard | data_standard | classification_standard | format_standard
+  issuing_body: ""
+  version: ""
+  doi: ""
+  url: ""
+  date: ""                     # ISO 8601 e.g. "2026-01-15"
+  grant: ""
+  status: published            # draft | published | superseded
+  tags: []
+  weight: 1
+  note: ""

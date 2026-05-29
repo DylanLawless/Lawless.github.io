@@ -1,0 +1,31 @@
+# _data/datasets.yml
+# Public-renderable records for data depositions, GWAS catalogue entries,
+# Zenodo datasets, and registered data resources.
+# Separate from software.yml (which covers tools) and publications.yml (which covers manuscripts).
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   registered | published | embargoed | deprecated
+#
+# TYPE VOCABULARY
+#   gwas_catalogue | zenodo_dataset | database | data_standard | repository
+#
+# REPOSITORY VOCABULARY (use canonical name)
+#   gwas_catalogue | zenodo | figshare | github | dryad | sra | ega
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: spss_gwas_catalogue
+  name: "SPSS GWAS catalogue entry"
+  description: "GWAS summary statistics for genome-wide association study of pediatric bacteremia and sepsis"
+  type: gwas_catalogue
+  repository: gwas_catalogue
+  accession: "GCST90726424"
+  url: "https://www.ebi.ac.uk/gwas/studies/GCST90726424"
+  doi: ""
+  linked_publication: lawless_2025_spss_gwas
+  grant: "SNF 342730, SNF 153158, SNF 320030_201060"
+  status: published
+  tags: [statistical_genetics, clinical_genomics, paediatrics, open_standard]
+  weight: 2
+  note: "Summary statistics deposited in EBI GWAS Catalogue."

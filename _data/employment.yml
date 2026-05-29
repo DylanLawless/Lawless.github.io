@@ -1,0 +1,119 @@
+# _data/employment.yml
+# Public-renderable records for academic positions, postdoctoral roles,
+# PhD training, and other formal employment in research and clinical settings.
+# Separate from service.yml (voluntary/unpaid roles) and grants.yml (funding).
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   current | completed
+#
+# TYPE VOCABULARY
+#   postdoctoral | phd | masters | bachelors | postgrad_certificate
+#   research_scientist | industry | regulated_lab | founder
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: employ_2023_kispi_uzh
+  title: "Translational Medicine Researcher"
+  type: postdoctoral
+  institution: "Universitäts-Kinderspital Zürich (University Children's Hospital Zurich)"
+  department: "Department of Intensive Care and Neonatology"
+  supervisor: "Prof. Luregn Schlapbach"
+  url: "https://www.kispi.uzh.ch/kinderspital/fachkompetenzen/angebot-fuer-patientinnen-und-patienten/intensivmedizin-neonatologie"
+  location: "Zurich, Switzerland"
+  start: "2023"
+  end: "2026"
+  status: completed
+  tags: [clinical_genomics, multi_omics, paediatrics, statistical_genetics, data_infrastructure, cross_institutional]
+  weight: 3
+  note: "Clinical genomics, multi-omics, and paediatric critical care. Swiss Pediatric Sepsis Study and SwissPedHealth National Data Stream. Precision medicine and  University Hospital clinical decision support."
+
+- id: employ_2018_epfl_fellay
+  title: "Postdoctoral Researcher"
+  type: postdoctoral
+  institution: "EPFL — Global Health Institute"
+  department: "Fellay Lab"
+  supervisor: "Prof. Jacques Fellay"
+  url: "https://www.epfl.ch/labs/fellay-lab/"
+  location: "Lausanne, Switzerland"
+  start: "2018"
+  end: "2023"
+  status: completed
+  tags: [statistical_genetics, clinical_genomics, multi_omics, cross_institutional]
+  weight: 3
+  note: "Human genomics of infection and immunity. Population cohorts at biobank scale. Study design, international collaboration, reproducible workflows, mentoring."
+
+- id: employ_2015_leeds_phd
+  title: "PhD in Medicine and genetics"
+  type: phd
+  institution: "University of Leeds — School of Medicine and St. James's University Hospital"
+  department: "School of Medicine"
+  supervisor: "Prof. Sinisa Savic"
+  url: "https://medicinehealth.leeds.ac.uk/"
+  location: "Leeds, United Kingdom"
+  start: "2015"
+  end: "2019"
+  status: completed
+  tags: [rare_disease, clinical_genomics, statistical_genetics, regulated_delivery]
+  weight: 3
+  note: "Rare immune disease discovery, genomic interpretation, and functional validation. Several new diseases discovered leading to changes IUIS classification. Precision medicine and  University Hospital clinical decision support. Bioinformatics with molecular biology validation."
+
+- id: employ_2014_epfl_ablasser
+  title: "Postgraduate Researcher — Innate Immunity"
+  type: postgrad_certificate
+  institution: "EPFL — Ablasser Lab"
+  department: "School of Life Sciences"
+  supervisor: "Prof. Andrea Ablasser"
+  url: "https://www.epfl.ch/labs/ablasserlab/"
+  location: "Lausanne, Switzerland"
+  start: "2014"
+  end: "2015"
+  status: completed
+  tags: [rare_disease, clinical_genomics]
+  weight: 2
+  note: "cGAS-STING innate immune signalling. Wet-lab functional immunology."
+
+- id: employ_2014_acm_labs
+  title: "Bioanalytical Scientist"
+  type: regulated_lab
+  institution: "ACM Global Laboratories"
+  department: ""
+  supervisor: ""
+  url: "https://www.acmgloballab.com"
+  location: "Lausanne, Switzerland"
+  start: "2014"
+  end: "2015"
+  status: completed
+  tags: [regulated_delivery, multi_omics]
+  weight: 2
+  note: "Regulated bioanalytical laboratory serving global clinical trial programmes. GCP/GLP-adjacent quality standards. Biomarker and assay workflows."
+
+- id: employ_2013_tcd_msc
+  title: "MSc Immunology"
+  type: masters
+  institution: "Trinity College Dublin"
+  department: "Department of Biochemistry"
+  supervisor: ""
+  url: "https://www.tcd.ie/Biochemistry"
+  location: "Dublin, Ireland"
+  start: "2013"
+  end: "2014"
+  status: completed
+  tags: [rare_disease, clinical_genomics]
+  weight: 2
+  note: "First class honours."
+
+- id: employ_2009_ucc_bsc
+  title: "BSc Biochemistry and Microbiology"
+  type: bachelors
+  institution: "University College Cork"
+  department: ""
+  supervisor: ""
+  url: "https://www.ucc.ie/"
+  location: "Cork, Ireland"
+  start: "2009"
+  end: "2013"
+  status: completed
+  tags: []
+  weight: 1
+  note: ""

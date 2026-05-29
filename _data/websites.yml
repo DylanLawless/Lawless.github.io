@@ -1,0 +1,88 @@
+# _data/websites.yml
+# Public-renderable records for websites, platforms, and web properties
+# that you built, founded, or maintain.
+# Distinct from software.yml (code tools) — these are operational web presences.
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   active | archived | redirected
+#
+# TYPE VOCABULARY
+#   product_site | research_platform | association_site | personal_site | data_portal
+#
+# MY_ROLE VOCABULARY
+#   founder_and_builder | builder | maintainer | contributor
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: switzerlandomics_ch
+  name: "Switzerland Omics"
+  description: "Scientific product environment for probabilistic genomics, evidence infrastructure, and biomedical data systems"
+  type: product_site
+  url: "https://switzerlandomics.ch"
+  my_role: founder_and_builder
+  launch_year: 2023
+  status: active
+  tags: [product_strategy, software_product, bayesian_inference, clinical_genomics, data_infrastructure]
+  weight: 3
+  note: "Primary public presence for Switzerland Omics. Hosts technology pages, documentation, and product interfaces."
+
+- id: quantbayes_com
+  name: "QuantBayes Studio"
+  description: "Commercial evidence platform — turns analysis outputs into evidence-based conclusions with Bayesian posterior intervals"
+  type: product_site
+  url: "https://quantbayes.com"
+  my_role: founder_and_builder
+  launch_year: 2025
+  status: active
+  tags: [product_strategy, bayesian_inference, software_product, regulated_delivery]
+  weight: 3
+  note: "Commercial spin-off from QuantBayes R engine."
+
+- id: genomicvault_ch
+  name: "Genomic Vault"
+  description: "Long-term custody and controlled access platform for genomics and precision medicine data"
+  type: data_portal
+  url: "https://genomicvault.switzerlandomics.ch"
+  my_role: founder_and_builder
+  launch_year: 2024
+  status: active
+  tags: [data_infrastructure, regulated_delivery, product_strategy, clinical_genomics]
+  weight: 2
+  note: "Encrypted storage, immutable audit logs, Stripe-integrated payments, SPHN-compliant RDF metadata."
+
+- id: swissgenomicsassociation_ch
+  name: "Swiss Genomics Association"
+  description: "Independent scientific association owning and issuing genomic evidence standards including QEM and ERRS"
+  type: association_site
+  url: "https://www.swissgenomicsassociation.ch"
+  my_role: founder_and_builder
+  launch_year: 2024
+  status: active
+  tags: [open_standard, scientific_leadership, product_strategy, cross_institutional]
+  weight: 3
+  note: "Founded by Dylan Lawless. Issues normative standards. Neutral governance body for QEM and ERRS."
+
+- id: swisspedhealth_com
+  name: "SwissPedHealth"
+  description: "Public web presence for the SwissPedHealth National Data Stream programme"
+  type: research_platform
+  url: "https://swisspedhealth.com"
+  my_role: builder
+  launch_year: 2023
+  status: active
+  tags: [paediatrics, cross_institutional, clinical_genomics, data_infrastructure]
+  weight: 2
+  note: "Built and maintained as part of SwissPedHealth national programme."
+
+- id: variantimpact_vercel
+  name: "Variant Impact"
+  description: "Protein variant interpretation platform integrating gnomAD, UniProt, ClinVar, AlphaFold, and RCSB PDB with Molstar 3D structure viewer"
+  type: product_site
+  url: "https://variantimpact.vercel.app"
+  my_role: founder_and_builder
+  launch_year: 2024
+  status: active
+  tags: [product_strategy, clinical_genomics, software_product, ai_systems]
+  weight: 2
+  note: "Demonstrates fullstack molecular informatics: Next.js, React, TypeScript, Molstar, variant landscape heatmaps."

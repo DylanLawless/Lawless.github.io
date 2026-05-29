@@ -935,3 +935,132 @@
     width: 6.5rem;
   }
 }
+
+/* ============================================================
+   Evidence bank entry styles
+   Add these at the bottom of custom.css, replacing the SCSS
+   block that was appended earlier.
+   .evidence-meta and .evidence-note are used only in evidence_bank.md
+   ============================================================ */
+
+/* Sub-section label inside publications split
+   (Preprints and in progress / Accepted / Published) */
+.evidence-section-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  margin: 1rem 0 0.25rem;
+}
+
+/* One entry block */
+.evidence-line {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.evidence-line strong,
+.evidence-line strong a {
+  font-size: 1rem;
+}
+
+/* Muted metadata line — type, platforms, identifiers, status */
+.evidence-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  display: block;
+  margin-top: 0.1rem;
+}
+
+.evidence-meta a {
+  color: #6b7280;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Status and role values appear slightly darker so they read as labels */
+.evidence-meta em {
+  font-style: normal;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* ============================================================
+   Evidence bank entry styles
+   Replace the SCSS block at the bottom of custom.css with this.
+   Uses site semantic colours:
+     $steel / $text-muted : #5c5a5a
+     $black / $text-main  : #2f2f41
+     $border-light        : #d8d6d6
+   ============================================================ */
+
+/* Summary line and back-link at top of page */
+p.evidence-bank-note {
+  font-size: 0.85rem;
+  color: #5c5a5a;
+  margin-bottom: 0.2rem;
+}
+
+/* One entry — self-contained block with a faint bottom rule */
+.evidence-line {
+  margin: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #d8d6d6;
+  line-height: 1.45;
+}
+
+.evidence-line:last-of-type {
+  border-bottom: none;
+}
+
+/* Name / title — plain weight, link colour carries hierarchy */
+.evidence-line a,
+.evidence-line strong a,
+.evidence-line strong {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+/* Muted metadata line — type, platforms, identifiers, status */
+.evidence-meta {
+  font-size: 0.82rem;
+  color: #5c5a5a;
+  display: block;
+  margin-top: 0.12rem;
+  line-height: 1.4;
+}
+
+.evidence-meta a {
+  color: #5c5a5a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Status and role values rendered via <em> — slightly darker */
+.evidence-meta em {
+  font-style: normal;
+  font-weight: 500;
+  color: #2f2f41;
+}
+
+/* Note — inline after metadata, same line height, no extra gap */
+.evidence-note {
+  font-size: 0.82rem;
+  color: #5c5a5a;
+  display: block;
+  margin-top: 0.08rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* Sub-section label — kept for safety, not currently used */
+.evidence-section-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #5c5a5a;
+  margin: 1rem 0 0.2rem;
+  padding: 0;
+}

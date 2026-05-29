@@ -1,0 +1,161 @@
+# _data/software.yml
+# Public-renderable records for software, databases, CLI tools, and web applications.
+# Covers R packages, Python packages, standalone macOS/Linux binaries,
+# web applications, and database interfaces.
+# Operational notes (release history, known issues, download counts) live in _private/software_log.yml
+# Narrative and STAR content lives in _data/evidence_statements.yml keyed by id.
+#
+# STATUS VOCABULARY
+#   dev | released | cran | pypi | deprecated
+#
+# TYPE VOCABULARY
+#   r_package | python_package | binary | web_app | database | cli | api
+#
+# PLATFORM VOCABULARY (list, use all that apply)
+#   r | python | bash | rust | c | macos | linux | windows | web | cli
+#
+# TAG VOCABULARY: same as publications.yml
+
+- id: archipelago_r
+  name: "Archipelago"
+  description: "Visualising variant set association test results"
+  type: r_package
+  platforms: [r]
+  distributions:
+    cran: "archipelago"
+    cran_doi: "10.32614/CRAN.package.archipelago"
+    zenodo: ""
+    github: "DylanLawless/archipelago"
+    url: "https://switzerlandomics.ch/technologies/archipelago/"
+  citation_doi: "10.1002/gepi.70025"
+  grant: "SNF 320030_201060, NDS-2021-911"
+  status: cran
+  tags: [statistical_genetics, software_product, reproducibility, open_standard]
+  weight: 2
+  note: "Published Genetic Epidemiology 2026. CRAN DOI 10.32614/CRAN.package.archipelago."
+
+- id: quantbayes_r
+  name: "QuantBayes (R package)"
+  description: "Bayesian quantification of evidence sufficiency from binary evidence matrices"
+  type: r_package
+  platforms: [r]
+  distributions:
+    cran: "quantbayes"
+    cran_doi: "10.32614/CRAN.package.quantbayes"
+    zenodo: "10.5281/zenodo.17919369"
+    github: ""
+    url: "https://cran.r-project.org/package=quantbayes"
+  citation_doi: "10.64898/2025.12.02.25341503"
+  grant: "SNF 320030_201060, NDS-2021-911"
+  status: cran
+  tags: [bayesian_inference, clinical_genomics, software_product, regulated_delivery]
+  weight: 3
+  note: "Released CRAN 20251212. Underpins QuantBayes Studio at quantbayes.com."
+
+- id: quantbayes_binary
+  name: "QuantBayes (macOS and Linux binaries)"
+  description: "Standalone QuantBayes binaries for macOS (Intel x86_64 and Apple Silicon arm64) and Linux x86_64"
+  type: binary
+  platforms: [macos, linux, cli]
+  distributions:
+    cran: ""
+    cran_doi: ""
+    zenodo: "10.5281/zenodo.17919369"
+    github: ""
+    url: "https://doi.org/10.5281/zenodo.17919369"
+  citation_doi: "10.64898/2025.12.02.25341503"
+  grant: ""
+  status: released
+  tags: [bayesian_inference, software_product]
+  weight: 2
+  note: "Released Zenodo 20251213. MIT licence. Checksums provided."
+
+- id: vcfheader_r
+  name: "VCFheader (R package)"
+  description: "Fast VCF file header intelligence and audit"
+  type: r_package
+  platforms: [r]
+  distributions:
+    cran: "vcfheader"
+    cran_doi: "10.32614/CRAN.package.vcfheader"
+    zenodo: ""
+    github: ""
+    url: "https://cran.r-project.org/package=vcfheader"
+  citation_doi: ""
+  grant: ""
+  status: cran
+  tags: [software_product, reproducibility, data_infrastructure]
+  weight: 1
+  note: "Released CRAN 20260301."
+
+- id: vcfheader_binary
+  name: "VCFheader (macOS and Linux binaries)"
+  description: "Fast VCF file header intelligence and audit — command-line binary for macOS and Linux"
+  type: binary
+  platforms: [macos, linux, cli]
+  distributions:
+    cran: ""
+    cran_doi: ""
+    zenodo: "10.5281/zenodo.18889118"
+    github: ""
+    url: "https://doi.org/10.5281/zenodo.18889118"
+  citation_doi: ""
+  grant: ""
+  status: released
+  tags: [software_product, data_infrastructure]
+  weight: 1
+  note: "Released Zenodo 20260301."
+
+- id: evidenceratio_r
+  name: "evidenceratio (R package)"
+  description: "Likelihood-based evidence ratios for classical statistical tests"
+  type: r_package
+  platforms: [r]
+  distributions:
+    cran: "evidenceratio"
+    cran_doi: "10.32614/CRAN.package.evidenceratio"
+    zenodo: ""
+    github: ""
+    url: "https://cran.r-project.org/package=evidenceratio"
+  citation_doi: "10.5281/zenodo.18261076"
+  grant: ""
+  status: cran
+  tags: [statistical_genetics, bayesian_inference, software_product, open_standard]
+  weight: 2
+  note: "Released CRAN 20260115. Implements the ERRS standard."
+
+- id: qv_database
+  name: "Qualifying Variant Database"
+  description: "Reusable YAML criteria defining reproducible genomic variant interpretation standards"
+  type: database
+  platforms: [web]
+  distributions:
+    cran: ""
+    cran_doi: ""
+    zenodo: ""
+    github: "DylanLawless/qv2025lawless"
+    url: "https://switzerlandomics.ch/technologies/qv_database/"
+  citation_doi: "10.1093/bioinformatics/btaf676"
+  grant: "SNF 320030_201060, NDS-2021-911"
+  status: released
+  tags: [open_standard, reproducibility, clinical_genomics, regulated_delivery]
+  weight: 2
+  note: ""
+
+- id: panelapprex_app
+  name: "PanelAppRex AI"
+  description: "Harmonised disease-gene panels from structured clinical and genetic queries"
+  type: database
+  platforms: [web]
+  distributions:
+    cran: ""
+    cran_doi: ""
+    zenodo: "10.5281/zenodo.15736689"
+    github: "DylanLawless/PanelAppRex"
+    url: "https://switzerlandomics.ch/technologies/panelAppRexAi/"
+  citation_doi: "10.1093/bioadv/vbag115"
+  grant: "SNF 320030_201060, NDS-2021-911"
+  status: released
+  tags: [ai_systems, clinical_genomics, rare_disease, data_infrastructure]
+  weight: 3
+  note: "Demo page: panelapprex.github.io/landing_page. 6.6M features compressed 5x."
