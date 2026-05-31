@@ -6,7 +6,7 @@
 #   submitted | accepted | delivered | withdrawn
 #
 # TYPE VOCABULARY
-#   poster | contributed_talk | invited_talk | highlight_talk | award_talk | attended
+#   poster | contributed_talk | invited_talk | attended
 #
 # TAG VOCABULARY: same as publications.yml
 

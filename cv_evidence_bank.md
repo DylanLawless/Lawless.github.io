@@ -6,6 +6,12 @@ permalink: "/cv/"
 robots: noindex
 ---
 
+
+This page lists the public career record of Dylan Lawless.
+Selected achievements across projects and collaborations are organised under the [STAR framework](/star/) page.
+Curated professional profiles are available on the [profile pages](/profile/).
+
+
 {% comment %}
   Private career evidence dump. Not in main nav.
   robots: noindex keeps this out of search engines.
@@ -47,18 +53,29 @@ robots: noindex
 {% if site.data.websites    %}{% assign _wb  = site.data.websites    %}{% else %}{% assign _wb  = "" | split: "" %}{% endif %}
 {% if site.data.media       %}{% assign _med = site.data.media       %}{% else %}{% assign _med = "" | split: "" %}{% endif %}
 
-This pages lists the public achievement record for Dylan Lawless.
 
-· Articles published: {{ _published.size }} · in press: {{ _accepted.size }} · pre-prints: {{ _in_progress.size }}  
-· software: {{ _sw.size }} · datasets: {{ _ds.size }} · standards: {{ _std.size }}  
-· funding: {{ _gr.size }} · conferences: {{ _co.size }} · awards: {{ _aw.size }}  
-· service: {{ _sv.size }} · websites: {{ _wb.size }} · social media: {{ _med.size }}
 
 
 {% comment %} Add this line to the pre-compute block in evidence_bank.md {% endcomment %}
 {% if site.data.employment %}{% assign _em = site.data.employment %}{% else %}{% assign _em = "" | split: "" %}{% endif %}
 
 {% comment %} Add "employment: {{ _em.size }} ·" at the start of the summary <p class="evidence-meta"> line {% endcomment %}
+
+<nav class="page-toc">
+  {% if _em.size > 0 %}<a href="#employment">Employment and training ({{ _em.size }})</a>{% endif %}
+  {% if _published.size > 0 %}<a href="#published">Published articles({{ _published.size }})</a>{% endif %}
+  {% if _accepted.size > 0 %}<a href="#accepted">Accepted ({{ _accepted.size }})</a>{% endif %}
+  {% if _in_progress.size > 0 %}<a href="#preprints">Preprints and in progress ({{ _in_progress.size }})</a>{% endif %}
+  {% if _sw.size > 0 %}<a href="#software">Software and tools ({{ _sw.size }})</a>{% endif %}
+  {% if _ds.size > 0 %}<a href="#datasets">Datasets and data depositions ({{ _ds.size }})</a>{% endif %}
+  {% if _std.size > 0 %}<a href="#standards">Standards ({{ _std.size }})</a>{% endif %}
+  {% if _gr.size > 0 %}<a href="#funding">Funding and grants ({{ _gr.size }})</a>{% endif %}
+  {% if _co.size > 0 %}<a href="#conferences">Conferences and presentations ({{ _co.size }})</a>{% endif %}
+  {% if _aw.size > 0 %}<a href="#awards">Awards ({{ _aw.size }})</a>{% endif %}
+  {% if _sv.size > 0 %}<a href="#service">Scientific service and leadership ({{ _sv.size }})</a>{% endif %}
+  {% if _wb.size > 0 %}<a href="#websites">Websites and platforms ({{ _wb.size }})</a>{% endif %}
+  {% if _med.size > 0 %}<a href="#media">Media and videos ({{ _med.size }})</a>{% endif %}
+</nav>
 
 {% comment %}
 ==============================================================================
@@ -68,7 +85,8 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Employment and training ({{ _em.size }})
+
+<h2 id="employment">Employment and training ({{ _em.size }})</h2>
 
 {% if site.data.employment %}
   {% assign employment = site.data.employment | sort: "start" | reverse %}
@@ -90,7 +108,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 {% endif %}
 
 
-## Published ({{ _published.size }})
+<h2 id="published">Published articles ({{ _published.size }})</h2>
 
 {% if _published.size > 0 %}
   {% for pub in _published %}{% include publication_line.html pub=pub %}{% endfor %}
@@ -100,7 +118,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Accepted ({{ _accepted.size }})
+<h2 id="accepted">Accepted (in press) ({{ _accepted.size }})</h2>
 
 {% if _accepted.size > 0 %}
   {% for pub in _accepted %}{% include publication_line.html pub=pub %}{% endfor %}
@@ -110,7 +128,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Preprints and in progress ({{ _in_progress.size }})
+<h2 id="preprints">Preprints and in progress ({{ _in_progress.size }})</h2>
 
 {% if _in_progress.size > 0 %}
   {% for pub in _in_progress %}{% include publication_line.html pub=pub %}{% endfor %}
@@ -120,7 +138,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Software and tools ({{ _sw.size }})
+<h2 id="software">Software and tools ({{ _sw.size }})</h2>
 
 {% if site.data.software %}
   {% assign software = site.data.software | sort: "name" %}
@@ -145,7 +163,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Datasets and data depositions ({{ _ds.size }})
+<h2 id="datasets">Datasets and data depositions ({{ _ds.size }})</h2>
 
 {% if site.data.datasets %}
   {% assign datasets = site.data.datasets | sort: "name" %}
@@ -169,7 +187,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Standards ({{ _std.size }})
+<h2 id="standards">Standards ({{ _std.size }})</h2>
 
 {% if site.data.standards %}
   {% assign standards = site.data.standards | sort: "name" %}
@@ -192,7 +210,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Funding and grants ({{ _gr.size }})
+<h2 id="funding">Funding and grants ({{ _gr.size }})</h2>
 
 {% if site.data.funding %}
   {% assign funding = site.data.funding | sort: "start" | reverse %}
@@ -216,7 +234,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Conferences and presentations ({{ _co.size }})
+<h2 id="conferences">Conferences and presentations ({{ _co.size }})</h2>
 
 {% if site.data.conferences %}
   {% assign conferences = site.data.conferences | sort: "date" | reverse %}
@@ -239,7 +257,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Awards ({{ _aw.size }})
+<h2 id="awards">Awards ({{ _aw.size }})</h2>
 
 {% if site.data.awards %}
   {% assign awards = site.data.awards | sort: "year" | reverse %}
@@ -260,7 +278,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Scientific service and leadership ({{ _sv.size }})
+<h2 id="service">Scientific service and leadership ({{ _sv.size }})</h2>
 
 {% if site.data.service %}
   {% assign service = site.data.service | sort: "start" | reverse %}
@@ -281,7 +299,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Websites and platforms ({{ _wb.size }})
+<h2 id="websites">Websites and platforms ({{ _wb.size }})</h2>
 
 {% if site.data.websites %}
   {% assign websites = site.data.websites | sort: "name" %}
@@ -302,7 +320,7 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 
 ---
 
-## Media and videos ({{ _med.size }})
+<h2 id="media">Media and videos ({{ _med.size }})</h2>
 
 {% if site.data.media %}
   {% assign media = site.data.media | sort: "date" | reverse %}
@@ -322,3 +340,5 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
 {% endif %}
 
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+

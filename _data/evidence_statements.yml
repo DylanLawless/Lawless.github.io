@@ -1,289 +1,469 @@
 # _data/evidence_statements.yml
-# Employer-facing narrative layer. Single source of truth for STAR content.
-# Keyed by topic cluster — one block per topic, may reference multiple _data/ entries.
-# Used by both evidence_bank.md and star_prep.md.
-# Never rendered publicly by default.
+# Factual career narrative. Single source of truth for STAR content.
+# Used by evidence_bank.md and star_prep.md. Public-safe — no company targets.
+# Private strategy lives in _private/star_strategy.md only.
 #
-# COMPETENCY VOCABULARY (maps to Roche framework and generic pharma/industry use)
-#   scientific_excellence    — study design, analytical rigour, evidence quality, publications
-#   digital_innovation       — software, AI, agentic systems, platforms, product delivery
-#   stakeholder_influence    — cross-functional delivery, communication, clinical translation
-#   delivery                 — programme management, infrastructure, results under constraint
-#   leadership               — founding, mentoring, ownership, strategic initiative
+# COMPETENCY VOCABULARY
+#   scientific_excellence  | digital_innovation | stakeholder_influence
+#   delivery               | leadership
 #
-# STAR STRUCTURE
-#   Situation: the problem or gap that existed
-#   Task:      what you were specifically responsible for
-#   Action:    what you did — concrete, first-person, specific
-#   Result:    what changed — with numbers where possible
+# STAR FIELDS
+#   Situation · Task · Action · Result
 #
-# WEIGHT
-#   3 = flagship story, leads a cover letter or opens an interview answer
-#   2 = solid supporting evidence, used in body or second interview
-#   1 = background colour, used in skills sections or on request
+# WEIGHT  3 = flagship  2 = solid supporting  1 = background
 
-# ── SCIENTIFIC EXCELLENCE ──────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════
+# SCIENTIFIC EXCELLENCE
+# ══════════════════════════════════════════════════════════════════
 
 - id: topic_spss_gwas
   entry_ids: [lawless_2025_spss_gwas, grant_snf_201060_spss]
-  label: "Paediatric sepsis GWAS"
+  label: "Paediatric sepsis GWAS — first reproducible susceptibility locus"
   competency: [scientific_excellence, delivery]
   star: >
-    Situation: The genetic basis of sepsis susceptibility in children was poorly understood,
-    with no reproducible GWAS loci identified in paediatric cohorts.
+    Situation: Sepsis is the leading infectious cause of childhood death; no reproducible
+    genome-wide susceptibility locus had been identified in a paediatric cohort.
     Task: Lead the statistical genetics analysis within a national multi-centre programme
-    across three Swiss children's hospitals.
-    Action: Designed and executed a genome-wide association study in 650 children with
-    blood-culture confirmed sepsis and 1,395 controls, integrating case-control and
-    case-only designs, and coordinated data governance across institutions.
-    Result: Identified a significant locus at CTNNAL1 and ELP1 — the first reproducible
-    paediatric sepsis susceptibility signal. Accepted Lancet eBioMedicine 2025.
-  metric: "650 cases, 1,395 controls. Lancet eBioMedicine accepted 2025. CHF 930K programme."
+    (CHF 930K, three Swiss children's hospitals).
+    Action: Designed and executed a GWAS in 650 blood-culture-confirmed paediatric sepsis
+    cases and 1,395 controls; applied case-control and case-only designs; coordinated
+    genotype data governance across institutions; built analysis pipelines from QC through
+    to fine-mapping.
+    Result: Identified the first reproducible paediatric sepsis susceptibility signal at
+    the CTNNAL1/ELP1 locus. First author. Accepted Lancet eBioMedicine 2025.
+    GWAS summary statistics deposited in EBI GWAS Catalogue (GCST90726424).
+  metric: "First author. Lancet eBioMedicine accepted 2025. 650 cases / 1,395 controls. CHF 930K programme. GWAS Catalogue GCST90726424."
   tags: [statistical_genetics, clinical_genomics, paediatrics, cross_institutional]
   weight: 3
 
 - id: topic_spss_wes
   entry_ids: [lawless_2025_spss_wes, grant_snf_201060_spss]
-  label: "Paediatric sepsis rare variant pathways"
+  label: "Paediatric sepsis rare variant pathways — 66 IEI candidates"
   competency: [scientific_excellence, delivery]
   star: >
-    Situation: Common variant analysis leaves most heritability in sepsis unexplained;
-    rare variants in immune pathways were hypothesised but not systematically tested in children.
+    Situation: Common variants explain little sepsis heritability; rare immune pathway
+    variants had not been systematically tested in a paediatric clinical cohort.
     Task: Design and execute multi-tiered rare variant analyses — single-case, single-variant,
-    gene-level, and pathway-level — in the same paediatric cohort.
-    Action: Built automated interpretation pipelines covering SKAT-O, burden testing,
-    and protein pathway clustering. Applied novel pathway methods and identified 66 candidate
-    IEI cases alongside two enriched immune pathway hits spanning 50 genes.
-    Result: Manuscript ready for resubmission; findings directly inform precision medicine
-    approaches to paediatric critical care.
-  metric: "66 IEI candidates. 50-gene pathway hits. Ready for resubmission."
+    gene-level, and protein pathway — across 940 children with confirmed sepsis.
+    Action: Built automated interpretation pipelines covering SKAT-O, burden testing, and
+    protein pathway clustering. Applied novel pathway grouping to identify enriched
+    immune pathway hits.
+    Result: Identified 66 candidate inborn error of immunity cases and two immune pathway
+    hits spanning 50 genes. Findings inform treatment decisions at the Molecular Board.
+    First author. Under review.
+  metric: "First author. Under review. 66 IEI candidates. Two pathway hits (50 genes). 940 children."
   tags: [statistical_genetics, rare_disease, clinical_genomics, paediatrics]
   weight: 3
 
 - id: topic_tet2_discovery
   entry_ids: [stremenova_2020_tet2]
-  label: "Germline TET2 disease discovery"
+  label: "Germline TET2 deficiency — new disease entity in Blood"
   competency: [scientific_excellence]
   star: >
-    Situation: A cluster of patients with childhood immunodeficiency and lymphoma had no
-    identified genetic cause despite extensive clinical workup.
-    Task: Contribute genomic interpretation and functional validation to identify the
-    disease-causing mechanism.
-    Action: Led genomic analysis identifying germline TET2 loss-of-function variants;
-    supported functional validation and coordinated the IUIS classification submission.
-    Result: Germline TET2 deficiency established as a new disease entity, published in Blood
-    (2020), and added to the IUIS inborn errors of immunity classification.
-  metric: "Published Blood 2020. New IUIS disease classification. TET2 added to IEI registry."
+    Situation: A cluster of children with immunodeficiency and lymphoma had no genetic
+    diagnosis despite extensive workup across multiple centres.
+    Task: Lead genomic interpretation and support functional validation to identify the
+    mechanism in an international collaborative study.
+    Action: Identified germline TET2 loss-of-function as the causal mechanism; supported
+    functional validation including B-cell differentiation assays, flow cytometry, and
+    immunofluorescence; coordinated IUIS disease classification submission.
+    Result: Germline TET2 deficiency established as a new disease entity. Published Blood
+    (2020, IF ~20). Added to the IUIS inborn errors of immunity classification.
+    Treatment implications confirmed (rituximab). Joint lead author on 30-centre study.
+  metric: "Joint lead author. Blood 2020 (IF ~20). New IUIS disease. Treatment decision confirmed."
   tags: [rare_disease, clinical_genomics, scientific_leadership]
   weight: 3
 
 - id: topic_qv_framework
   entry_ids: [lawless_2026_qv, qv_database]
-  label: "Qualifying variant framework and database"
+  label: "Qualifying variant framework — published open standard"
   competency: [scientific_excellence, digital_innovation]
   star: >
     Situation: Variant selection criteria were embedded in pipeline code, making them
-    invisible to reviewers and impossible to reuse across studies or institutions.
-    Task: Propose and publish a unified framework for expressing variant selection criteria
-    as standalone, versioned, pipeline-independent specifications.
-    Action: Designed the QV framework with YAML-based criteria, a reference model covering
-    16 variant states, and a validation case study achieving bitwise-identical results to
-    conventional hard-coded methods. Released as a public database and peer-reviewed paper.
-    Result: Published Oxford Academic Bioinformatics (2026). CRAN-released. Adopted in
-    SwissPedHealth clinical pipeline serving approximately 1,000 children.
-  metric: "Published OUP Bioinformatics 2026. CRAN. Live in clinical pipeline."
+    invisible to reviewers, impossible to audit, and unable to be reused across studies.
+    Task: Propose and publish a unified framework for expressing variant criteria as
+    standalone, versioned, pipeline-independent specifications.
+    Action: Designed the QV framework with YAML/JSON criteria, a reference model covering
+    16 variant states, and three validation studies (rare disease WES cohort of 940
+    individuals, HapMap3 GWAS, GIAB WGS trio) each achieving bitwise-identical outputs
+    to conventional hard-coded methods. Released as a public database and peer-reviewed paper.
+    Result: First author. Published OUP Bioinformatics (2026). CRAN-released. Adopted in
+    the SwissPedHealth clinical pipeline serving approximately 1,000 children.
+    NHS Genomic Test Directory panels integrated.
+  metric: "First author. OUP Bioinformatics 2026. CRAN. Live clinical pipeline. Three validation studies."
   tags: [open_standard, reproducibility, clinical_genomics, regulated_delivery]
   weight: 3
 
 - id: topic_quantbayes
   entry_ids: [quant_group_2025_quantbayes, quantbayes_r, quantbayes_binary]
-  label: "QuantBayes — Bayesian variant evidence quantification"
+  label: "QuantBayes — Bayesian evidence sufficiency for variant interpretation"
   competency: [scientific_excellence, digital_innovation]
   star: >
     Situation: Genomic variant evidence is expressed heterogeneously across pipelines and
-    institutions; no standard existed for quantifying evidence sufficiency with uncertainty.
-    Task: Build a closed-form Bayesian model that produces posterior evidence sufficiency
-    estimates with credible intervals, operable without simulation or external databases.
-    Action: Designed the model operating on binary evidence matrices, implemented as a
-    deterministic algorithm, released as standalone binaries for macOS and Linux and as
-    an R package on CRAN, and preprinted with full methodology.
-    Result: CRAN-released December 2025. Over 3,000 combined CRAN downloads per quarter.
-    Commercial spin-off QuantBayes Studio launched at quantbayes.com.
-  metric: "CRAN Dec 2025. 3,000+ downloads/quarter. Commercial product live."
+    institutions; no quantitative standard existed for measuring evidence sufficiency with
+    calibrated uncertainty.
+    Task: Build a closed-form Bayesian model producing posterior evidence sufficiency
+    estimates with credible intervals from binary evidence matrices.
+    Action: Designed a Beta-Binomial model, implemented as a deterministic C algorithm
+    (no simulation required), released as standalone macOS/Linux binaries and as an R
+    package on CRAN, validated on the GIAB trio WGS dataset, and preprinted with full
+    methodology. A user survey (DESAT ethics approved) confirmed improved clinician
+    understanding with explicit evidence reporting.
+    Result: Senior/corresponding author. CRAN-released December 2025. Over 3,000
+    combined downloads per quarter. Implementation at quantbayes.com.
+  metric: "Senior author. CRAN Dec 2025. 3,000+ downloads/quarter. Commercial product."
   tags: [bayesian_inference, clinical_genomics, software_product, regulated_delivery]
   weight: 3
 
-# ── DIGITAL INNOVATION ─────────────────────────────────────────────────────────
+- id: topic_iei_genetics_database
+  entry_ids: [quant_group_2025_var_risk_est]
+  label: "IEI prior probability database — 54,814 ClinVar classifications"
+  competency: [scientific_excellence, digital_innovation]
+  star: >
+    Situation: Clinical variant interpretation in inborn errors of immunity lacked a
+    quantitative prior probability baseline, forcing reliance on qualitative expert
+    judgement without uncertainty estimates.
+    Task: Build a systematic prior probability database covering the full IEI gene
+    landscape from population-scale ClinVar data.
+    Action: Processed 54,814 ClinVar variant classifications across 557 IEI genes.
+    Derived gene-level and variant-level prior probabilities under both autosomal dominant
+    and autosomal recessive inheritance models. Validated against NFKB1 (AD) and CFTR
+    (AR) clinical cohorts.
+    Result: Senior author. Under review npj Genomic Medicine. Database publicly released
+    at iei-genetics.github.io.
+  metric: "Senior author. Under review npj Genomic Medicine. 54,814 ClinVar entries. 557 IEI genes. Validated AD+AR."
+  tags: [bayesian_inference, rare_disease, clinical_genomics, statistical_genetics]
+  weight: 3
+
+- id: topic_rag1_rag2_priors
+  entry_ids: [lawless_2019_rag1_rag2]
+  label: "RAG1/RAG2 variant occurrence — probabilistic precursor to QuantBayes"
+  competency: [scientific_excellence]
+  star: >
+    Situation: RAG1 and RAG2 deficiency spans a spectrum of rare immune disease; no
+    quantitative basis existed for predicting which variants would be observed clinically
+    versus in the general population.
+    Task: Develop a probabilistic framework for predicting variant occurrence across RAG1
+    and RAG2 using population genetics and functional annotation.
+    Action: Integrated gnomAD population allele frequencies, Hardy-Weinberg priors,
+    inheritance models, and structural/functional annotation. Applied to approximately
+    500 severe clinical cases from the NIHR BioResource rare disease cohort.
+    Result: First author. Published Journal of Clinical Immunology (2019). Established
+    the quantitative variant occurrence methodology that became the conceptual precursor
+    to the QuantBayes framework.
+  metric: "First author. JCI 2019. ~500 NIHR BioResource cases. Precursor to QuantBayes."
+  tags: [rare_disease, clinical_genomics, bayesian_inference, statistical_genetics]
+  weight: 2
+
+- id: topic_rare_disease_leeds
+  entry_ids: [stremenova_2020_tet2, lawless_2019_rag1_rag2, lawless_2018_rag_deficiency, lawless_2018_tnfaip3_stills, masters_2016_pyrin, wu_2021_cracr2a]
+  label: "Leeds rare immune disease programme — 10+ disease discoveries"
+  competency: [scientific_excellence, delivery]
+  star: >
+    Situation: Approximately 500 patients with severe immune-mediated disease at St James's
+    University Hospital lacked a genetic diagnosis, preventing targeted treatment.
+    Task: Contribute genomic discovery and functional validation across multiple disease
+    programmes within the NIHR BioResource rare disease cohort.
+    Action: Led or co-led discovery of germline TET2 deficiency (Blood 2020, IUIS-classified),
+    RAG deficiency in adults (JACI 2018), RAG1/2 variant occurrence modelling (JCI 2019),
+    CRACR2A deficiency (eLife 2021), TNFAIP3 autoinflammation (Frontiers Immunol 2018),
+    CFTR as a modifying cofactor in PID (JACI 2023), and pyrin pathway autoinflammation
+    (Science Translational Medicine 2016). Applied WES/WGS, flow cytometry, B-cell
+    differentiation, iPSC haematopoietic systems, and functional assays.
+    Result: More than 10 peer-reviewed disease discovery and precision treatment findings.
+    Treatments confirmed including rituximab, anakinra, and tocilizumab.
+  metric: "10+ disease publications. Blood, eLife, JACI, Sci Transl Med, JCI, Frontiers. Treatments confirmed."
+  tags: [rare_disease, clinical_genomics, scientific_leadership, regulated_delivery]
+  weight: 3
+
+- id: topic_rsv_viral_genomics
+  entry_ids: [lawless_2022_rsv_prolonged]
+  label: "RSV viral genomics — birth cohort determinants of prolonged infection"
+  competency: [scientific_excellence]
+  star: >
+    Situation: The viral genetic determinants of prolonged RSV infection in infants were
+    unknown, limiting understanding of why some children suffer more severe and extended illness.
+    Task: Identify viral genetic factors associated with prolonged RSV infection in a
+    healthy term birth cohort.
+    Action: Analysed RSV genome sequences from 300+ infants in the Vanderbilt birth cohort.
+    Applied viral genome-wide association methods and gene-level tests to identify viral
+    loci associated with infection duration.
+    Result: First author. Published Journal of Infectious Diseases (2022). Identified
+    specific RSV genomic loci associated with prolonged infection, providing targets for
+    intervention strategy.
+  metric: "First author. Journal of Infectious Diseases 2022. 300+ infants. Vanderbilt birth cohort."
+  tags: [statistical_genetics, clinical_genomics]
+  weight: 2
+
+# ══════════════════════════════════════════════════════════════════
+# DIGITAL INNOVATION
+# ══════════════════════════════════════════════════════════════════
 
 - id: topic_panelapprex
   entry_ids: [quant_group_2026_panelapprex, panelapprex_app]
-  label: "PanelAppRex AI — disease-gene panel system"
+  label: "PanelAppRex — disease-gene panel aggregation and AI search"
   competency: [digital_innovation, scientific_excellence]
   star: >
     Situation: Disease-gene panel data was fragmented across sources, inconsistently
-    annotated, and not accessible for programmatic use in clinical or research pipelines.
-    Task: Build an AI-assisted system that aggregates, harmonises, and makes queryable
-    the full landscape of disease-gene panel evidence.
-    Action: Aggregated over 58,000 curated gene-disease associations from ClinVar, UniProt,
-    and Genomics England PanelApp. Compressed 6.6 million features fivefold into structured
-    disease-aware summaries. Built a natural-language search interface and machine-readable
-    export formats. Validated at 93–100% accuracy on immune disease diagnostic cases.
-    Result: Published Bioinformatics Advances (2026). Public dataset on Zenodo. Deployed
-    as a live application integrated in SwissPedHealth workflows.
-  metric: "Published OUP Bioinformatics Advances 2026. 93-100% accuracy. 6.6M→135K features."
+    annotated, and inaccessible for programmatic use in diagnostic pipelines.
+    Task: Build a system aggregating, harmonising, and making queryable the full
+    landscape of curated disease-gene panel evidence.
+    Action: Aggregated 58,592 gene-disease associations from Genomics England PanelApp,
+    ClinVar, UniProt, and Ensembl. Applied RAG on the UniProtKB human proteome to compress
+    6.6 million features fivefold into structured disease-aware panel summaries. Built a
+    natural-language search interface and machine-readable export formats. Benchmarked
+    across 15 published case studies spanning immunology, neurology, and mixed disease areas.
+    Result: Senior/corresponding author. Published Bioinformatics Advances (OUP, 2026).
+    93–100% benchmark accuracy. Public dataset on Zenodo. Integrated in SwissPedHealth
+    clinical workflows.
+  metric: "Senior author. OUP Bioinformatics Advances 2026. 58,592 entries. 93-100% benchmark. 6.6M→135K features."
   tags: [ai_systems, clinical_genomics, rare_disease, software_product]
   weight: 3
 
 - id: topic_secure_ai_clinical
   entry_ids: []
-  label: "Secure LLM deployment for clinical genetics"
+  label: "Secure LLM deployment — clinical variant interpretation at BioMedIT"
   competency: [digital_innovation, delivery]
   star: >
-    Situation: Clinical genetics teams needed AI-assisted variant interpretation but could
-    not expose patient data to external cloud APIs under Swiss data protection requirements.
-    Task: Deploy open-weight large language models on secure high-performance computing
-    infrastructure for clinical report generation with human review.
-    Action: Deployed Llama and DeepSeek R1 on BioMedIT HPC infrastructure. Built a report
-    generation pipeline producing structured variant interpretation outputs reviewed by the
-    Molecular Board (geneticists, clinicians, researchers). Integrated with WGS, RNA-seq,
-    and proteomics data flows.
-    Result: High-throughput clinical variant interpretation with full audit trail, operational
-    at Children's Hospital Zurich within the SwissPedHealth programme.
-  metric: "Live at Kispi Zurich. BioMedIT secure HPC. Molecular Board review workflow."
+    Situation: Clinical genetics teams required AI-assisted variant interpretation but
+    could not expose patient data to external cloud APIs under Swiss data protection law.
+    Task: Deploy open-weight LLMs on secure HPC infrastructure for clinical report
+    generation with Molecular Board review.
+    Action: Deployed Llama and DeepSeek R1 on BioMedIT HPC. Built a structured report
+    generation pipeline integrating WGS, RNA-seq, and proteomics outputs, reviewed by
+    geneticists, clinicians, and researchers. Implemented audit-trail logging meeting
+    Swiss data governance requirements.
+    Result: High-throughput clinical variant interpretation with full audit trail,
+    operational at University Children's Hospital Zurich within SwissPedHealth.
+  metric: "Live at University Children's Hospital Zurich. BioMedIT secure HPC. Molecular Board workflow."
   tags: [ai_systems, clinical_genomics, regulated_delivery, data_infrastructure]
   weight: 3
 
 - id: topic_archipelago
   entry_ids: [lawless_2026_archipelago, archipelago_r]
-  label: "Archipelago — variant set visualisation"
+  label: "Archipelago — variant set association visualisation method"
   competency: [digital_innovation, scientific_excellence]
   star: >
-    Situation: Variant set association test statistics lacked intrinsic genomic coordinates,
-    making visual interpretation and comparison with single-variant results impossible.
-    Task: Design a method that assigns meaningful genomic positions to VSAT p-values and
-    integrates both dimensions into a single navigable plot.
-    Action: Developed the Archipelago method, validated across three independent datasets
-    including UK Biobank (490,640 participants), and released as an R package on CRAN with
-    full customisation support.
-    Result: Published Genetic Epidemiology (2026). CRAN-released. Used in SPSS and
-    SwissPedHealth analyses.
-  metric: "Published Wiley Genetic Epidemiology 2026. Validated in 490,640 UK Biobank participants."
+    Situation: Variant set association test (VSAT) statistics lacked genomic coordinates,
+    making visual comparison with single-variant GWAS results impossible.
+    Task: Design a method assigning meaningful genomic positions to VSAT p-values and
+    integrating both scales into a single navigable plot.
+    Action: Developed the Archipelago method. Validated across three independent datasets:
+    1000 Genomes, Pan-UK Biobank (490,640 participants), and UK Biobank WGS. Released
+    as an R package on CRAN with full customisation.
+    Result: First author. Published Genetic Epidemiology (Wiley, 2026). Applied in SPSS
+    and SwissPedHealth analyses. CRAN DOI 10.32614/CRAN.package.archipelago.
+  metric: "First author. Wiley Genetic Epidemiology 2026. Validated in 490,640 UK Biobank participants. CRAN."
   tags: [statistical_genetics, software_product, reproducibility]
-  weight: 2
-
-- id: topic_sga_standards
-  entry_ids: [qem_standard, errs_standard, sga_founder_president]
-  label: "Swiss Genomics Association — founded standards body"
-  competency: [leadership, digital_innovation]
-  star: >
-    Situation: No institution-neutral standard existed for expressing genomic evidence
-    matrices or reporting statistical evidence ratios across heterogeneous study designs.
-    Task: Found an independent scientific association capable of issuing and maintaining
-    normative standards for the Swiss and international genomics community.
-    Action: Established the Swiss Genomics Association, issued the Qualifying Evidence
-    Matrix (QEM) standard and the Evidence Ratio Reporting Standard (ERRS), registered
-    both on Zenodo with DOIs, and built a member network spanning Swiss academic,
-    clinical, and industry bioinformatics.
-    Result: Two normative standards published and referenced in peer-reviewed work.
-    Association active with 35+ members across Swiss institutions.
-  metric: "2 published standards. 35+ members. DOIs registered. Referenced in publications."
-  tags: [scientific_leadership, open_standard, cross_institutional]
   weight: 3
 
-# ── STAKEHOLDER INFLUENCE ──────────────────────────────────────────────────────
+- id: topic_variant_impact
+  entry_ids: [variantimpact_vercel]
+  label: "Variant Impact — fullstack molecular informatics platform"
+  competency: [digital_innovation, delivery]
+  star: >
+    Situation: Protein variant interpretation required integration of gnomAD, UniProt,
+    ClinVar, AlphaFold, and RCSB PDB — no single platform combined all with an
+    interactive 3D structure viewer and variant landscape visualisation.
+    Task: Build a fullstack web application demonstrating end-to-end molecular informatics.
+    Action: Built with Next.js, React, TypeScript, and Tailwind. Integrated Molstar 3D
+    protein structure viewer, variant landscape heatmaps, protein feature tracks, gnomAD
+    constraint scores, ClinVar classifications, AlphaFold confidence scores, and RCSB
+    structure data. Deployed on Vercel.
+    Result: Deployed at variantimpact.vercel.app. Demonstrates the complete fullstack
+    molecular informatics stack: molecular databases, interactive 3D visualisation,
+    and variant landscape analysis in a single application.
+  metric: "Live deployed product. Molstar 3D. gnomAD + UniProt + ClinVar + AlphaFold + RCSB PDB integrated."
+  tags: [software_product, clinical_genomics, ai_systems, product_strategy]
+  weight: 2
+
+# ══════════════════════════════════════════════════════════════════
+# STAKEHOLDER INFLUENCE
+# ══════════════════════════════════════════════════════════════════
 
 - id: topic_swisspedhealth_infrastructure
   entry_ids: [grant_swisspedhealth_nds, grant_snf_201060_spss]
-  label: "SwissPedHealth multi-omics infrastructure"
+  label: "SwissPedHealth — CHF 5M national multi-omics infrastructure"
   competency: [stakeholder_influence, delivery]
   star: >
     Situation: A CHF 5M national programme required unified multi-omics analytical
-    infrastructure across three children's hospitals with heterogeneous data systems,
-    governance requirements, and clinical workflows.
+    infrastructure across multiple children's hospitals with heterogeneous data systems,
+    governance structures, and clinical workflows.
     Task: Design and deliver the computational workflows, database architecture, and
-    reporting systems connecting WGS, RNA-seq, proteomics, metabolomics, and EHR data.
-    Action: Built reproducible pipelines operating on BioMedIT secure HPC, structured
-    outputs for clinical research review, and coordinated technical delivery across
-    UZH, ETHZ, CHUV, HUG, and EPFL. Engaged clinicians, data scientists, governance
-    teams, and software engineers simultaneously.
+    reporting systems connecting WGS, RNA-seq, proteomics, metabolomics, and EHR data
+    across UZH, ETHZ, CHUV, HUG, and EPFL.
+    Action: Built reproducible pipelines on BioMedIT secure HPC. Structured clinical
+    research outputs for Molecular Board review. Coordinated technical delivery across
+    30+ collaborators spanning wet-lab, bioinformatics, governance, ethics, and clinical
+    teams simultaneously.
     Result: Approximately 1,000 children enrolled. Over 100 TB biomedical data under
-    traceable infrastructure. Multiple peer-reviewed outputs. Programme completed on schedule.
-  metric: "CHF 5M programme. 1,000 children. 100+ TB. 3 hospitals. Multiple publications."
+    traceable infrastructure. Multiple peer-reviewed publications. Programme completed
+    on schedule across seven institutions.
+  metric: "CHF 5M programme. ~1,000 children enrolled. 100+ TB. 7 institutions. 30+ collaborators."
   tags: [multi_omics, clinical_genomics, cross_institutional, regulated_delivery, paediatrics]
+  weight: 3
+
+- id: topic_epfl_infection_cohorts
+  entry_ids: [lawless_2022_rsv_prolonged, grant_snf_175603_fellay_infections, grant_snf_177163_tb_sinergia, grant_nih_rsv_hartert]
+  label: "EPFL translational cohort analyses — population-scale infection genomics"
+  competency: [stakeholder_influence, scientific_excellence]
+  star: >
+    Situation: Understanding why some individuals develop severe responses to infection
+    required integrating host genome, pathogen genome, and clinical outcome data across
+    large population cohorts and international collaborations.
+    Task: Design and execute statistical genetics and multi-omic analyses across four
+    major infection programmes — RSV, tuberculosis, HBV, and chronic inflammatory disease.
+    Action: Developed analytical workflows for GWAS, host-pathogen joint analysis, and
+    multi-omic integration across cohorts up to 5,000 participants and biobank-scale
+    analyses exceeding 100,000 genomes. Released R packages adopted by independent groups.
+    Mentored 3 PhD and 22 MSc students. Contributed to Phase II trial design integrating
+    multi-omic data with patient trajectory modelling.
+    Result: Multiple lead-author publications in JACI, JID, Genetic Epidemiology.
+    CHF 3M+ in collaborative funding programmes. Software adopted as independent
+    infrastructure.
+  metric: "CHF 3M+ programmes. Cohorts to 5,000 participants. 100,000+ genomes. 25 students mentored."
+  tags: [statistical_genetics, clinical_genomics, multi_omics, cross_institutional]
   weight: 3
 
 - id: topic_epfl_guest_lecturer
   entry_ids: [epfl_bio491_guest_lecturer]
-  label: "EPFL guest lecturer — personalized health"
+  label: "EPFL BIO-491 guest lecturer — personalised health master programme"
   competency: [stakeholder_influence, leadership]
   star: >
-    Situation: BIO-491 is a Master-level EPFL course on personalised health technologies
-    requiring research-active guest lecturers with current clinical genomics expertise.
+    Situation: BIO-491 is a flagship EPFL MSc course on personalised health requiring
+    research-active guest lecturers with current clinical genomics expertise.
     Task: Deliver annual guest lectures to Life Sciences Engineering Master students
-    across four consecutive years.
+    over four consecutive years.
     Action: Designed and delivered lectures on human genomics of infection and immunity,
-    probabilistic variant interpretation, and translational precision medicine,
-    drawing on active research at EPFL and Kispi.
-    Result: Four years of annual contribution to a flagship EPFL course, 2021–2024.
-  metric: "4 consecutive years. EPFL Master programme. Spring semester."
+    probabilistic variant interpretation, and translational precision medicine, drawing
+    on active research at EPFL and University Children's Hospital Zurich.
+    Result: Four years of annual contribution (2021–2024). Spring semester, 2 hours
+    per week format.
+  metric: "4 consecutive years. EPFL Life Sciences Engineering Master. 2021–2024."
   tags: [scientific_leadership, clinical_genomics, cross_institutional]
   weight: 2
 
-# ── DELIVERY ───────────────────────────────────────────────────────────────────
+- id: topic_sga_standards
+  entry_ids: [qem_standard, errs_standard, sga_founder_president]
+  label: "Swiss Genomics Association — founded neutral standards body"
+  competency: [leadership, stakeholder_influence]
+  star: >
+    Situation: No institution-neutral standard existed for expressing genomic evidence
+    matrices or reporting statistical evidence ratios across heterogeneous study designs
+    and institutions.
+    Task: Found an independent scientific association capable of issuing and maintaining
+    normative standards for the Swiss and international genomics community.
+    Action: Established the Swiss Genomics Association (2024). Issued the Qualifying
+    Evidence Matrix (QEM, Zenodo DOI 10.5281/zenodo.17936587) and the Evidence Ratio
+    Reporting Standard (ERRS, Zenodo DOI 10.5281/zenodo.18261075). Registered both as
+    versioned standards with permanent DOIs. Built a member network spanning Swiss
+    academic, clinical, and industry bioinformatics.
+    Result: Two normative published standards cited in peer-reviewed work. 35+ members
+    across Swiss institutions. ERRS implemented in the CRAN evidenceratio package.
+  metric: "2 published standards. Zenodo DOIs. 35+ members. Cited in publications. CRAN implementation."
+  tags: [scientific_leadership, open_standard, cross_institutional]
+  weight: 3
+
+# ══════════════════════════════════════════════════════════════════
+# DELIVERY
+# ══════════════════════════════════════════════════════════════════
+
+- id: topic_quantitative_omics_group
+  entry_ids: [lawless_2026_qv, quant_group_2025_quantbayes, quant_group_2026_panelapprex, lawless_2026_archipelago, quant_group_2025_var_risk_est]
+  label: "Quantitative Omics Epidemiology Group — founding, direction, and delivery"
+  competency: [delivery, leadership]
+  star: >
+    Situation: Clinical genomics at the children's hospital needed a computational group
+    with a shared methodological foundation that could build trusted infrastructure
+    rather than disposable in-house pipelines.
+    Task: Found and lead a research group delivering validated, reusable, openly published
+    genomics infrastructure within a CHF 5M+ national programme.
+    Action: Founded the Quantitative Omics Epidemiology Group within SwissPedHealth.
+    Defined the core strategy: validate every method using public biobank-scale data before
+    clinical deployment, publish reusable open software rather than internal pipelines,
+    and require independent peer review before clinical use. Coordinated 30+ collaborators
+    across wet-lab, bioinformatics, molecular board, ethics, and clinical teams.
+    Result: Five lead/senior-author publications across OUP, Wiley, Lancet journals within two years. Multiple CRAN packages with 3,000+ combined downloads
+    per quarter. Technologies adopted in clinical diagnostic workflows.
+  metric: "5 publications in 2 years. CRAN packages. 3,000+ downloads/quarter. Clinical adoption."
+  tags: [scientific_leadership, software_product, clinical_genomics, cross_institutional]
+  weight: 3
 
 - id: topic_microsoft_azure
   entry_ids: [award_2018_microsoft_azure, grant_microsoft_azure_2018]
-  label: "Microsoft Azure Research Award"
+  label: "Microsoft Azure Research Award — USD 100K competitive cloud funding"
   competency: [delivery, digital_innovation]
   star: >
-    Situation: Large-scale genomic data science required cloud computing resources not
-    available through standard academic infrastructure.
-    Task: Compete for and secure a Microsoft Azure Research Award to fund cloud-based
+    Situation: Population-scale genomic data science required cloud computing capacity
+    not available through standard academic infrastructure at Leeds.
+    Task: Compete for and secure external research funding to enable cloud-based
     genomic data science and machine learning work.
     Action: Wrote and submitted a competitive proposal for data science and ML in
-    predictive genomics. Award granted as USD 100,000 in cloud computing credits.
-    Result: Enabled population-scale genomic analysis and ML pipeline development
-    that contributed to subsequent peer-reviewed publications.
-  metric: "USD 100,000 competitive award. 2018. University of Leeds."
+    predictive genomics. Award granted as USD 100,000 in Azure cloud computing credits.
+    Result: Enabled population-scale genomic analysis and ML pipeline development that
+    contributed to subsequent peer-reviewed publications.
+  metric: "USD 100,000. Competitive award. Microsoft Research 2018."
   tags: [data_infrastructure, ai_systems, statistical_genetics]
   weight: 2
 
 - id: topic_genomic_vault
   entry_ids: [genomicvault_ch]
-  label: "Genomic Vault — custodianship platform"
+  label: "Genomic Vault — custodianship and governance platform"
   competency: [delivery, digital_innovation]
   star: >
-    Situation: No neutral, governance-ready platform existed for long-term genomic data
-    custody with auditable access control and payment infrastructure.
-    Task: Build a working custodianship and governance platform deployable as a
-    commercial and institutional service.
+    Situation: Genome data custody was handled informally, with no auditable access
+    control, governance trail, or payment infrastructure for institutional or individual use.
+    Task: Build a working custodianship and governance platform deployable commercially
+    and institutionally.
     Action: Built fullstack application with encrypted storage, Drizzle ORM, Supabase
-    row-level security, Stripe payment webhooks, immutable audit logs, and
-    SPHN-compliant RDF metadata. Deployed with operational access controls.
-    Result: Live at genomicvault.switzerlandomics.ch with working payments and access
-    governance.
-  metric: "Live deployed product. Stripe, Supabase RLS, immutable audit trail."
+    row-level security, Stripe payment webhooks, immutable audit logs, and SPHN-compliant
+    RDF metadata. Deployed with operational access controls.
+    Result: Live at genomicvault.switzerlandomics.ch. Working payments, access governance,
+    and immutable audit trail. Designed to SPHN compliance standards.
+  metric: "Deployed. Stripe payments. Supabase RLS. Immutable audit trail. SPHN-compliant RDF."
   tags: [data_infrastructure, regulated_delivery, product_strategy]
   weight: 2
 
-# ── LEADERSHIP ─────────────────────────────────────────────────────────────────
+- id: topic_acm_regulated_lab
+  entry_ids: [employ_2014_acm_labs]
+  label: "ACM Global Laboratories — regulated bioanalytical delivery"
+  competency: [delivery]
+  star: >
+    Situation: Global clinical trial sponsors required high-quality bioanalytical
+    assay delivery under GCP-aligned standards.
+    Task: Deliver ELISA, flow cytometry, and metabolomics assays within regulated
+    commercial clinical trial workflows.
+    Action: Executed biomarker and assay workflows under GCP/GLP-adjacent quality
+    standards. Maintained documentation, chain of custody, and reporting to
+    sponsor requirements.
+    Result: Reliable quality-controlled assay delivery in a regulated commercial
+    laboratory environment. Direct experience of the documentation and quality
+    culture required in pharmaceutical analytical operations.
+  metric: "GCP/GLP-adjacent. Commercial clinical trial sponsor workflows. ELISA, flow cytometry, metabolomics."
+  tags: [regulated_delivery, multi_omics]
+  weight: 1
+
+# ══════════════════════════════════════════════════════════════════
+# LEADERSHIP
+# ══════════════════════════════════════════════════════════════════
 
 - id: topic_switzerland_omics_product
-  entry_ids: [switzerlandomics_ch, quantbayes_com]
-  label: "Switzerland Omics — scientific product ecosystem"
+  entry_ids: [switzerlandomics_ch, quantbayes_com, genomicvault_ch, variantimpact_vercel]
+  label: "Switzerland Omics — scientific product ecosystem from IP to revenue"
   competency: [leadership, digital_innovation]
   star: >
     Situation: Probabilistic genomics methods existed in research code but lacked the
-    product architecture, documentation, regulatory positioning, and brand credibility
-    needed for institutional or commercial adoption.
-    Task: Build a complete scientific product environment from naming and IP through
-    to deployed products and commercial revenue.
-    Action: Established Switzerland Omics, registered the trademark (Swissreg, Nice
-    classes 9 and 42, valid to 2035), designed the product taxonomy, built and shipped
-    multiple products including QuantBayes Studio, PanelAppRex, Genomic Vault, and
-    Variant Impact, and structured the commercial spin-off.
-    Result: Registered trademark. Multiple live products. Commercial revenue stream
-    via QuantBayes Studio. AWS research funding secured 2026.
-  metric: "Registered trademark 2035. Multiple live products. Commercial revenue. AWS funding 2026."
+    product architecture, IP positioning, and brand credibility for adoption outside
+    the originating institution.
+    Task: Build a complete scientific product environment from intellectual property
+    registration through to deployed products and commercial revenue.
+    Action: Established Switzerland Omics. Registered the trademark (Swissreg, Nice
+    classes 9 and 42, valid to 2035). Designed the product taxonomy. Built and shipped
+    QuantBayes Studio, PanelAppRex, Genomic Vault, and Variant Impact. Structured the
+    commercial spin-off and AWS research funding application.
+    Result: Registered trademark valid 2035. Multiple live deployed products. Commercial
+    revenue via QuantBayes Studio. AWS research funding secured 2026. Products in
+    clinical and research use internationally.
+  metric: "Registered trademark 2035. Live products. Commercial revenue. AWS 2026. Clinical use."
   tags: [product_strategy, scientific_leadership, software_product, bayesian_inference]
   weight: 3

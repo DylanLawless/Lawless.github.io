@@ -736,11 +736,21 @@
   },
   {
     "date": "2026-05-28",
-    "count": 0,
+    "count": 9,
     "package": "archipelago"
   },
   {
     "date": "2026-05-29",
+    "count": 6,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-05-30",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-05-31",
     "count": 0,
     "package": "archipelago"
   },
@@ -1481,11 +1491,21 @@
   },
   {
     "date": "2026-05-28",
-    "count": 0,
+    "count": 4,
     "package": "evidenceratio"
   },
   {
     "date": "2026-05-29",
+    "count": 5,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-05-30",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-05-31",
     "count": 0,
     "package": "evidenceratio"
   },
@@ -2226,11 +2246,21 @@
   },
   {
     "date": "2026-05-28",
-    "count": 0,
+    "count": 8,
     "package": "quantbayes"
   },
   {
     "date": "2026-05-29",
+    "count": 6,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-05-30",
+    "count": 0,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-05-31",
     "count": 0,
     "package": "quantbayes"
   },
@@ -2971,11 +3001,21 @@
   },
   {
     "date": "2026-05-28",
-    "count": 0,
+    "count": 4,
     "package": "vcfheader"
   },
   {
     "date": "2026-05-29",
+    "count": 5,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-05-30",
+    "count": 0,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-05-31",
     "count": 0,
     "package": "vcfheader"
   }

@@ -18,17 +18,6 @@ home:
 collections:
   technologies:
     output: true
-  team:
-    output: true
-  blog:
-    output: true
-    permalink: /blog/:name/
-  release:
-    output: true
-    permalink: /release/:name/
-  learn:
-    output: true
-    permalink: /learn/:name/
 
 
 defaults:
@@ -42,20 +31,6 @@ defaults:
       type: "publications"
     values:
       layout: "publication"
-  - scope:
-      path: ""
-      type: "releases"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
-  - scope:
-      path: "assets/panel_ai"
-    values:
-      sitemap: false
 
 sass:
   style: compressed # possible values: nested expanded compact compressed

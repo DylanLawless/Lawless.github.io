@@ -1138,3 +1138,117 @@ li img[src*="cranlogs.r-pkg.org/badges"] {
   margin-top: auto;
   padding-bottom: 2rem;
 }
+
+/* Homepage hero */
+
+/* Homepage hero */
+
+.page-home .intro-home {
+  min-height: calc(100vh - var(--header-height, 0px));
+  display: flex;
+  flex-direction: column;
+}
+
+.page-home .intro-home-content {
+  flex: 1;
+}
+
+.page-home .home-hero-row {
+  align-items: center;
+}
+
+.home-hero-copy {
+  max-width: 36rem;
+}
+
+.home-title {
+  margin-bottom: 0.9rem;
+}
+
+.home-kicker {
+  margin: 0 0 0.85rem;
+  max-width: 32rem;
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: $black;
+}
+
+.home-subtitle {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  color: $steel;
+}
+
+.home-body {
+  margin: 1rem 0 0;
+  max-width: 34rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: $steel;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.page-home .home-portrait-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-home .intro-image-home-profile {
+  display: block;
+  width: min(100%, 27rem);
+  max-height: 34rem;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+  box-shadow:
+    0 1px 2px rgba(47, 47, 65, 0.06),
+    0 18px 42px rgba(47, 47, 65, 0.10);
+  filter: saturate(0.92) contrast(0.98);
+}
+
+.page-home .intro-home-marquee {
+  margin-top: auto;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 767.98px) {
+  .page-home .home-hero-row {
+    align-items: flex-start;
+  }
+
+  .home-kicker {
+    font-size: 1.25rem;
+  }
+
+  .home-actions {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .page-home .home-portrait-col {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+
+  .page-home .intro-image-home-profile {
+    width: min(100%, 18rem);
+    max-height: 22rem;
+    border-radius: 12px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .page-home .intro-home-marquee {
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+}

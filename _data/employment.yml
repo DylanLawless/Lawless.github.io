@@ -8,7 +8,7 @@
 #   current | completed
 #
 # TYPE VOCABULARY
-#   postdoctoral | phd | masters | bachelors | postgrad_certificate
+#   postdoctoral | phd | masters | bachelors | certificate | postgrad_fellow
 #   research_scientist | industry | regulated_lab | founder
 #
 # TAG VOCABULARY: same as publications.yml
@@ -60,7 +60,7 @@
 
 - id: employ_2014_epfl_ablasser
   title: "Postgraduate Researcher — Innate Immunity"
-  type: postgrad_certificate
+  type: postgrad_fellow
   institution: "EPFL — Ablasser Lab"
   department: "School of Life Sciences"
   supervisor: "Prof. Andrea Ablasser"

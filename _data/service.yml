@@ -9,7 +9,7 @@
 #   active | completed | emeritus
 #
 # TYPE VOCABULARY
-#   association_founder | association_officer | editorial_board | reviewer
+#   leadership | association |  editorial_board | reviewer
 #   committee_member | advisory_board | programme_committee | working_group
 #   guest_lecturer | teaching_assistant
 #
@@ -23,7 +23,7 @@
 - id: sga_founder_president
   organisation: "Swiss Genomics Association"
   description: "Independent scientific association issuing normative standards for genomic evidence and reporting"
-  type: association_founder
+  type: association
   my_role: founder_and_president
   url: "https://www.swissgenomicsassociation.ch"
   start: "2024"
@@ -45,3 +45,27 @@
   tags: [scientific_leadership, clinical_genomics, statistical_genetics, cross_institutional]
   weight: 2
   note: "Annual guest lectures across four consecutive years. Spring semester, 2 hours per week format. Topics drawn from human genomics of infection, immunity, and precision medicine."
+
+- id: quantitative_omics_epi_group
+  organisation: "Quantitative Omics Epidemiology Group (Quant Group)"
+  description: "Founder and lead of a research group delivering validated, reusable genomics infrastructure for clinical and translational multi-omics"
+  type: leadership
+  url: ""
+  start: "2023"
+  end: ""
+  status: active
+  tags: [scientific_leadership, clinical_genomics, multi_omics, software_product, cross_institutional]
+  weight: 3
+  note: "Founded by collaboration in UZH, EPFL, and others. Delivered lead and senior-author publications, CRAN software, clinical diagnostic workflows, and cross-institutional infrastructure."
+
+- id: switzerland_omics_founder
+  organisation: "Switzerland Omics"
+  description: "Founder of a scientific product company translating probabilistic genomics, clinical data infrastructure, and biomedical software into deployed products"
+  type: leadership
+  url: "https://switzerlandomics.ch"
+  start: "2024"
+  end: ""
+  status: active
+  tags: [scientific_leadership, software_product, product_strategy, bayesian_inference, data_infrastructure]
+  weight: 3
+  note: "Built the Switzerland Omics product ecosystem including QuantBayes Studio, PanelAppRex, Genomic Vault, and Variant Impact."

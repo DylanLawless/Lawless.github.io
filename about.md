@@ -7,7 +7,16 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-<!-- My work connects biomedical science, multi-omics, statistics, software, data infrastructure, and product delivery. I focus on the chain that turns scientific work into usable systems: evidence, method, data structure, interface, documentation, governance, and decision support. This site presents my work through several professional profiles it connects different settings: the lab, the data team, the clinic, the software team, the product room, and the regulated environment. -->
+I work at the intersection of statistical multi-omics, precision medicine, and clinical data infrastructure. My work turns complex biomedical data into evidence systems that researchers, clinicians, and institutions can trust and use.
+My scientific background spans rare immune disease, infectious disease genomics, paediatric critical care, multi-omics, and probabilistic variant interpretation. I trained at University College Cork, Trinity College Dublin, the University of Leeds, and EPFL, completing a PhD in Medicine and Genetics under Prof. Sinisa Savic before postdoctoral work with Prof. Jacques Fellay at EPFL and Prof. Luregn Schlapbach at the University Children's Hospital Zurich.
+I lead the Quantitative Omics Epidemiology Group and have worked on national programmes including SwissPedHealth and the Swiss Pediatric Sepsis Study. I am founder and president of the Swiss Genomics Association and founder of Switzerland Omics.
+
+
+<!-- My work has appeared in The Lancet eBioMedicine, Blood, OUP Bioinformatics, Bioinformatics Advances, Genetic Epidemiology, eLife, and JACI, among others. -->
+
+- See the [detailed CV and record](/cv/) page.
+- See the [profile pages](/profile/) for curated topics.
+- See the [STAR framework](/star/) for selected achievements.
 
 ## Academic training and employment
 

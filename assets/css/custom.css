@@ -1064,3 +1064,36 @@ p.evidence-bank-note {
   margin: 1rem 0 0.2rem;
   padding: 0;
 }
+
+.page-toc {
+  display: block;
+  margin: 1rem 0 1.4rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid $border-light;
+  border-bottom: 1px solid $border-light;
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
+.page-toc a {
+  display: block;
+  width: fit-content;
+  margin: 0 0 0.22rem;
+  color: $steel;
+  text-decoration: none;
+}
+
+.page-toc a:last-child {
+  margin-bottom: 0;
+}
+
+.page-toc a:hover {
+  color: $black;
+  text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .page-toc {
+    font-size: 0.78rem;
+  }
+}

@@ -128,13 +128,13 @@
 - id: lawless_2025_spss_gwas
   title: "Genome-wide association study of pediatric bacteremia and sepsis"
   authors: "Dylan Lawless, Flavia Aurelia Hodel, Christian W. Thorball, Zhi Ming Xu, Alessandro Borghesi, Eric Giannoni, Johannes Trück, Martin Stocker, Klara M. Posfay-Barbe, Ulrich Heininger, Sara Bernhard-Stirnemann, Anita Niederer-Loher, Christian R. Kahlert, Giancarlo Natalucci, Christa Relly, Christoph Berger, Thomas Riedel, Christoph Aebi, Philipp Agyeman, Jacques Fellay, Luregn J. Schlapbach, for the Swiss Pediatric Sepsis Study Group"
-  journal: "eBioMedicine"
+  journal: "The Lancet eBioMedicine"
   year: 2026
   month: ""
   volume: ""
   number: ""
   pages: ""
-  doi: ""
+  doi: "10.1016/j.ebiom.2026.106320"
   preprint_doi: "10.1101/2025.06.12.25329506"
   url: "https://doi.org/10.1101/2025.06.12.25329506"
   publisher: "Elsevier"
