@@ -746,7 +746,7 @@
   },
   {
     "date": "2026-05-30",
-    "count": 0,
+    "count": 5,
     "package": "archipelago"
   },
   {
@@ -1501,7 +1501,7 @@
   },
   {
     "date": "2026-05-30",
-    "count": 0,
+    "count": 2,
     "package": "evidenceratio"
   },
   {
@@ -2256,7 +2256,7 @@
   },
   {
     "date": "2026-05-30",
-    "count": 0,
+    "count": 4,
     "package": "quantbayes"
   },
   {
@@ -3011,7 +3011,7 @@
   },
   {
     "date": "2026-05-30",
-    "count": 0,
+    "count": 3,
     "package": "vcfheader"
   },
   {

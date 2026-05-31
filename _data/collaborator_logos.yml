@@ -54,9 +54,9 @@
   file: uof_logo.jpg
   url: "#"
 
-- name: Roche
-  file: roche_logo.png
-  url: "#"
+# - name: Roche
+#   file: roche_logo.png
+#   url: "#"
 
 - name: UCD
   file: ucd_logo.jpg
