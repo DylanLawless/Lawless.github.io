@@ -751,6 +751,31 @@
   },
   {
     "date": "2026-05-31",
+    "count": 12,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-06-01",
+    "count": 5,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-06-02",
+    "count": 3,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-06-03",
+    "count": 3,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-06-04",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-06-05",
     "count": 0,
     "package": "archipelago"
   },
@@ -1506,6 +1531,31 @@
   },
   {
     "date": "2026-05-31",
+    "count": 9,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-06-01",
+    "count": 6,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-06-02",
+    "count": 3,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-06-03",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-06-04",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-06-05",
     "count": 0,
     "package": "evidenceratio"
   },
@@ -2261,6 +2311,31 @@
   },
   {
     "date": "2026-05-31",
+    "count": 11,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-06-01",
+    "count": 3,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-06-02",
+    "count": 2,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-06-03",
+    "count": 8,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-06-04",
+    "count": 0,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-06-05",
     "count": 0,
     "package": "quantbayes"
   },
@@ -3016,6 +3091,31 @@
   },
   {
     "date": "2026-05-31",
+    "count": 12,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-06-01",
+    "count": 2,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-06-02",
+    "count": 2,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-06-03",
+    "count": 7,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-06-04",
+    "count": 0,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-06-05",
     "count": 0,
     "package": "vcfheader"
   }

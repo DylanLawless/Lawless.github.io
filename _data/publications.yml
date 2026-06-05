@@ -486,3 +486,63 @@
   tags: [bayesian_inference, clinical_genomics, statistical_genetics]
   weight: 2
   note: ""
+
+- id: sga_qvss_2026
+  title: "Qualifying Variant Set Standard SGA-QVSS-1.0.0"
+  authors: "Swiss Genomics Association"
+  journal: "Zenodo"
+  year: 2026
+  month: "June"
+  volume: ""
+  number: "SGA-QVSS-1.0"
+  pages: ""
+  doi: "10.5281/zenodo.20553447"
+  preprint_doi: ""
+  url: "https://www.swissgenomicsassociation.ch/assets/release/sga_qvss/latest/sga_qvss_1.0.pdf"
+  publisher: "Zenodo"
+  type: dataset
+  grant: ""
+  status: published
+  tags: [open_standard, reproducibility, regulated_delivery]
+  weight: 2
+  note: "Normative standard. Version sga-QVSS-1.0. Source repository: https://github.com/swissgenomicsassociation/sga_qvss"
+
+- id: sga_errs_2026
+  title: "Evidence Ratio Reporting Standard SGA-ERRS-1.0.0"
+  authors: "Swiss Genomics Association"
+  journal: "Zenodo"
+  year: 2026
+  month: "January"
+  volume: ""
+  number: "SGA-ERRS-1.0"
+  pages: ""
+  doi: "10.5281/zenodo.18261076"
+  preprint_doi: ""
+  url: "https://www.swissgenomicsassociation.ch/assets/release/sga_errs/latest/sga_errs_1.0.pdf"
+  publisher: "Zenodo"
+  type: dataset
+  grant: ""
+  status: published
+  tags: [open_standard, reproducibility, regulated_delivery]
+  weight: 2
+  note: "Normative standard. Version sga-errs-1.0. Source repository: https://github.com/swissgenomicsassociation/sga_errs"
+
+- id: sga_qem_2025
+  title: "Qualifying Evidence Matrix standard for verifiable evidence"
+  authors: "Swiss Genomics Association"
+  journal: "Zenodo"
+  year: 2025
+  month: ""
+  volume: ""
+  number: "SGA-QEM-1.0"
+  pages: ""
+  doi: "10.5281/zenodo.17936587"
+  preprint_doi: ""
+  url: "https://doi.org/10.5281/zenodo.17936587"
+  publisher: "Zenodo"
+  type: dataset
+  grant: ""
+  status: published
+  tags: [open_standard, reproducibility, regulated_delivery]
+  weight: 2
+  note: "Normative standard. Source repository: https://github.com/swissgenomicsassociation/sga_qem"

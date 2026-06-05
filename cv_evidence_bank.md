@@ -71,10 +71,10 @@ Curated professional profiles are available on the [profile pages](/profile/).
   {% if _std.size > 0 %}<a href="#standards">Standards ({{ _std.size }})</a>{% endif %}
   {% if _gr.size > 0 %}<a href="#funding">Funding and grants ({{ _gr.size }})</a>{% endif %}
   {% if _co.size > 0 %}<a href="#conferences">Conferences and presentations ({{ _co.size }})</a>{% endif %}
-  {% if _aw.size > 0 %}<a href="#awards">Awards ({{ _aw.size }})</a>{% endif %}
   {% if _sv.size > 0 %}<a href="#service">Scientific service and leadership ({{ _sv.size }})</a>{% endif %}
   {% if _wb.size > 0 %}<a href="#websites">Websites and platforms ({{ _wb.size }})</a>{% endif %}
   {% if _med.size > 0 %}<a href="#media">Media and videos ({{ _med.size }})</a>{% endif %}
+  {% if _aw.size > 0 %}<a href="#awards">Awards ({{ _aw.size }})</a>{% endif %}
 </nav>
 
 {% comment %}
@@ -255,26 +255,6 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
   <p><em>No conferences data found.</em></p>
 {% endif %}
 
----
-
-<h2 id="awards">Awards ({{ _aw.size }})</h2>
-
-{% if site.data.awards %}
-  {% assign awards = site.data.awards | sort: "year" | reverse %}
-  {% for a in awards %}
-  <p class="evidence-line">
-    {{ a.title }}{% if a.url and a.url != "" %} — <a href="{{ a.url }}">{{ a.body }}</a>{% else %} — {{ a.body }}{% endif %}<br>
-    <span class="evidence-meta">
-      year: {{ a.year }}
-      {% if a.linked_entry and a.linked_entry != "" %} · linked entry: {{ a.linked_entry }}{% endif %}
-      · status: <em>{{ a.status }}</em>
-    </span>
-    {% if a.note and a.note != "" %}<span class="evidence-note">{{ a.note }}</span>{% endif %}
-  </p>
-  {% endfor %}
-{% else %}
-  <p><em>No awards data found.</em></p>
-{% endif %}
 
 ---
 
@@ -337,6 +317,27 @@ SECTION TO INSERT AT THE TOP OF evidence_bank.md, BEFORE ## Published
   {% endfor %}
 {% else %}
   <p><em>No media data found.</em></p>
+{% endif %}
+
+---
+
+<h2 id="awards">Awards ({{ _aw.size }})</h2>
+
+{% if site.data.awards %}
+  {% assign awards = site.data.awards | sort: "year" | reverse %}
+  {% for a in awards %}
+  <p class="evidence-line">
+    {{ a.title }}{% if a.url and a.url != "" %} — <a href="{{ a.url }}">{{ a.body }}</a>{% else %} — {{ a.body }}{% endif %}<br>
+    <span class="evidence-meta">
+      year: {{ a.year }}
+      {% if a.linked_entry and a.linked_entry != "" %} · linked entry: {{ a.linked_entry }}{% endif %}
+      · status: <em>{{ a.status }}</em>
+    </span>
+    {% if a.note and a.note != "" %}<span class="evidence-note">{{ a.note }}</span>{% endif %}
+  </p>
+  {% endfor %}
+{% else %}
+  <p><em>No awards data found.</em></p>
 {% endif %}
 
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

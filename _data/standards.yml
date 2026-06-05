@@ -13,6 +13,21 @@
 #
 # TAG VOCABULARY: same as publications.yml
 
+- id: qvss_standard
+  name: "Qualifying Variant Set Standard (QVSS)"
+  description: "Minimal, interoperable representation of rule-based criteria used to determine whether records of genetic variation qualify under a declared genomic analysis context"
+  type: data_standard
+  issuing_body: "Swiss Genomics Association"
+  version: "1.0"
+  doi: "10.5281/zenodo.20553447"
+  url: "https://www.swissgenomicsassociation.ch/pages/sga_qvss/"
+  date: "2026-06-05"
+  grant: ""
+  status: published
+  tags: [open_standard, reproducibility, regulated_delivery, clinical_genomics, data_infrastructure]
+  weight: 3
+  note: "Defines QVSS as a portable, auditable, reproducible, and reusable representation of qualifying variant criteria across genomic studies, pipelines, registries, and implementation environments."
+
 - id: qem_standard
   name: "Qualifying Evidence Matrix (QEM) standard"
   description: "Normative binary matrix format for verifiable evidence derived from rule-based evaluations, pipeline-independent and institution-neutral"
