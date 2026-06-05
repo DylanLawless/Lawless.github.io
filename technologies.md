@@ -26,6 +26,24 @@ a universal metric for clinical trials and studies by standardising results on a
 - [IEI genetics database](https://switzerlandomics.ch/technologies/iei_genetics/): genetic panels and prior probabilities for disease-causing variants in inborn errors of immunity, preprinted in [Lawless et al (2025)](https://doi.org/10.1101/2025.03.25.25324607).
 
 
+## Normative standards
+
+
+
+[Zenodo swissgenomicsassociation/sga_errs](https://zenodo.org/account/settings/github/repository/swissgenomicsassociation/sga_errs)
+[![DOI](https://zenodo.org/badge/1135132727.svg)](https://doi.org/10.5281/zenodo.18261075)  
+Evidence Ratio Reporting Standard (ERRS) defines a minimal, model-agnostic reporting structure for likelihood-based statistical evidence using an effect estimate, uncertainty interval, and evidence ratio.
+
+
+[Zenodo swissgenomicsassociation/sga_qem](https://zenodo.org/account/settings/github/repository/swissgenomicsassociation/sga_qem)
+[![DOI](https://zenodo.org/badge/1116700370.svg)](https://doi.org/10.5281/zenodo.17936586)  
+Qualifying Evidence Matrix (QEM) defines a minimal binary matrix for recording whether verifiable evidence is present or absent for evaluated items.
+
+[Zeonodo swissgenomicsassociation/sga_qvss](https://zenodo.org/account/settings/github/repository/swissgenomicsassociation/sga_qvss) 
+[![DOI](https://zenodo.org/badge/1258109244.svg)](https://doi.org/10.5281/zenodo.20553446)  
+Qualifying Variant Set Standard (QVSS) defines a portable, auditable, and reusable way to represent rule-based criteria for qualifying records of genetic variation.
+
+
 <!-- [Quant](/technologies/quant/): probabilistic genomic interpretation using priors, observed evidence and Bayesian inference, preprinted in Quant Group et al (2025) -->
 
 
