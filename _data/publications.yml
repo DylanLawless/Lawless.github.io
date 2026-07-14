@@ -130,8 +130,8 @@
   authors: "Dylan Lawless, Flavia Aurelia Hodel, Christian W. Thorball, Zhi Ming Xu, Alessandro Borghesi, Eric Giannoni, Johannes Trück, Martin Stocker, Klara M. Posfay-Barbe, Ulrich Heininger, Sara Bernhard-Stirnemann, Anita Niederer-Loher, Christian R. Kahlert, Giancarlo Natalucci, Christa Relly, Christoph Berger, Thomas Riedel, Christoph Aebi, Philipp Agyeman, Jacques Fellay, Luregn J. Schlapbach, for the Swiss Pediatric Sepsis Study Group"
   journal: "The Lancet eBioMedicine"
   year: 2026
-  month: ""
-  volume: ""
+  month: "July"
+  volume: "129"
   number: ""
   pages: ""
   doi: "10.1016/j.ebiom.2026.106320"
@@ -140,7 +140,7 @@
   publisher: "Elsevier"
   type: article
   grant: "SNF 342730, SNF 153158, SNF 320030_201060"
-  status: accepted
+  status: published
   tags: [statistical_genetics, clinical_genomics, paediatrics, cross_institutional]
   weight: 3
   note: "Accepted 20251222. OA licence agreed 20260526. CTNNAL1 and ELP1 locus associated with sepsis susceptibility. 650 cases, 1395 controls."

@@ -27,7 +27,16 @@ permalink: "/publications/"
 {% assign accepted    = pubs | where: "status", "accepted" %}
 {% assign published   = pubs | where: "status", "published" | sort: "year" | reverse %}
 
+## Published
+
+{% for pub in published %}
+{% include publication_line.html pub=pub %}
+{% endfor %}
+
+{% endif %}
+
 {% if in_progress.size > 0 %}
+
 ## Preprints and in progress
 
 {% for pub in in_progress %}
@@ -41,14 +50,6 @@ permalink: "/publications/"
 {% for pub in accepted %}
 {% include publication_line.html pub=pub %}
 {% endfor %}
-{% endif %}
-
-## Published
-
-{% for pub in published %}
-{% include publication_line.html pub=pub %}
-{% endfor %}
-
 {% endif %}
 
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

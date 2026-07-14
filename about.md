@@ -21,11 +21,11 @@ I lead the Quantitative Omics Epidemiology Group and have worked on national pro
 ## Academic training and employment
 
 | --- | ---|
-| 2023--2026 | Translational medicine at the University of Zurich and the Department of Intensive Care and Neonatology, [Universitäts-Kinderspital Zürich](https://www.kispi.uzh.ch/kinderspital/fachkompetenzen/angebot-fuer-patientinnen-und-patienten/intensivmedizin-neonatologie), with Prof. Luregn Schlapbach, across clinical genomics, multi-omics, and paediatric critical care. |
+| 2023--2026 | Translational medicine at the [University of Zurich](https://www.uzh.ch) and the Department of Intensive Care and Neonatology, [Universitäts-Kinderspital Zürich](https://www.kispi.uzh.ch/kinderspital/fachkompetenzen/angebot-fuer-patientinnen-und-patienten/intensivmedizin-neonatologie), with Prof. Luregn Schlapbach, across clinical genomics, multi-omics, and paediatric critical care. |
 | 2018--2023 | Postdoctoral research with Prof. Jacques Fellay at Global Health Institute, [EPFL](https://www.epfl.ch/labs/fellay-lab/), working on the human genomics of infection and immunity. |
 | 2015--2019 | PhD in Medicine at the School of Medicine and St. James’s University Hospital, [University of Leeds](https://medicinehealth.leeds.ac.uk/), under Prof. Sinisa Savic, focused on rare immune disease discovery, genomic interpretation, and functional validation. |
 | 2014--2015 | Postgrad in innate immunity, under Prof. Andrea Ablasser at [EPFL](https://www.epfl.ch/labs/ablasserlab/). |
-| 2013--2014 | MSc in Immunology at [Trinity College Dublin](https://www.tcd.ie/Biochemistry), with first class honours. |
+| 2013--2014 | MSc in Immunology with first class honours at [Trinity College Dublin](https://www.tcd.ie/Biochemistry). Thesis work under Prof. Andrew Bowie. |
 | 2009--2013 | BSc Biochemistry and Microbiology at [University College Cork](https://www.ucc.ie/). |
 {: .table-dates-description}
 <!-- | 2006--2008 | Fine art oil painting and graphic design. -->
