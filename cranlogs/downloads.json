@@ -966,11 +966,41 @@
   },
   {
     "date": "2026-07-13",
-    "count": 0,
+    "count": 6,
     "package": "archipelago"
   },
   {
     "date": "2026-07-14",
+    "count": 5,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-07-15",
+    "count": 6,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-07-16",
+    "count": 10,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-07-17",
+    "count": 5,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-07-18",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-07-19",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-07-20",
     "count": 0,
     "package": "archipelago"
   },
@@ -1941,11 +1971,41 @@
   },
   {
     "date": "2026-07-13",
-    "count": 0,
+    "count": 6,
     "package": "evidenceratio"
   },
   {
     "date": "2026-07-14",
+    "count": 8,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-07-15",
+    "count": 4,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-07-16",
+    "count": 11,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-07-17",
+    "count": 4,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-07-18",
+    "count": 1,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-07-19",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-07-20",
     "count": 0,
     "package": "evidenceratio"
   },
@@ -2916,11 +2976,41 @@
   },
   {
     "date": "2026-07-13",
-    "count": 0,
+    "count": 11,
     "package": "quantbayes"
   },
   {
     "date": "2026-07-14",
+    "count": 6,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-07-15",
+    "count": 5,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-07-16",
+    "count": 12,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-07-17",
+    "count": 11,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-07-18",
+    "count": 1,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-07-19",
+    "count": 0,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-07-20",
     "count": 0,
     "package": "quantbayes"
   },
@@ -3891,11 +3981,41 @@
   },
   {
     "date": "2026-07-13",
-    "count": 0,
+    "count": 4,
     "package": "vcfheader"
   },
   {
     "date": "2026-07-14",
+    "count": 4,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-07-15",
+    "count": 1,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-07-16",
+    "count": 9,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-07-17",
+    "count": 1,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-07-18",
+    "count": 1,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-07-19",
+    "count": 0,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-07-20",
     "count": 0,
     "package": "vcfheader"
   }
