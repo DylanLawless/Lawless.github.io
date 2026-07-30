@@ -11,3 +11,7 @@ For professional enquiries, recruitment, scientific collaboration, advisory work
 
 **Location**  
 Zürich, Switzerland
+
+
+**Linked In**  
+[www.linkedin.com/in/dylan-lawless-ch](https://www.linkedin.com/in/dylan-lawless-ch)
