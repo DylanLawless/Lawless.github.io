@@ -4,6 +4,12 @@ Public profile, CV, publications, technologies, and professional work record for
 
 Website: [lawless.ch](https://lawless.ch)
 
+## Temp dev 
+
+We have an issue recently with GitHub. 
+If it comes up use:
+`git restore --source=ee92741 -- Gemfile.lock`
+
 ## Focus
 
 Scientific software, statistical genomics, clinical genomics, rare disease interpretation, multi-omics analysis, biomedical data infrastructure, and translational product delivery.
