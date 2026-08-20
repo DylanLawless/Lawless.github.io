@@ -9,7 +9,7 @@ intro_image_hide_on_mobile: false
 
 I work at the intersection of statistical multi-omics, precision medicine, and clinical data infrastructure. My work turns complex biomedical data into evidence systems that researchers, clinicians, and institutions can trust and use.
 My scientific background spans rare immune disease, infectious disease genomics, paediatric critical care, multi-omics, and probabilistic variant interpretation. I trained at University College Cork, Trinity College Dublin, the University of Leeds, and EPFL, completing a PhD in Medicine and Genetics under Prof. Sinisa Savic before postdoctoral work with Prof. Jacques Fellay at EPFL and Prof. Luregn Schlapbach at the University Children's Hospital Zurich.
-I lead the Quantitative Omics Epidemiology Group and have worked on national programmes including SwissPedHealth and the Swiss Pediatric Sepsis Study. I am founder and president of the Swiss Genomics Association and founder of Switzerland Omics.
+I lead the Quantitative Omics Epidemiology Group and have worked on national programmes including SwissPedHealth and the Swiss Pediatric Sepsis Study. I participate in the Swiss Genomics Association and Switzerland Omics.
 
 
 <!-- My work has appeared in The Lancet eBioMedicine, Blood, OUP Bioinformatics, Bioinformatics Advances, Genetic Epidemiology, eLife, and JACI, among others. -->
