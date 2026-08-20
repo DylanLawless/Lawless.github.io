@@ -48,7 +48,7 @@
 
 - id: quantitative_omics_epi_group
   organisation: "Quantitative Omics Epidemiology Group (Quant Group)"
-  description: "Founder and lead of a research group delivering validated, reusable genomics infrastructure for clinical and translational multi-omics"
+  description: "Lead of a research group delivering validated, reusable genomics infrastructure for clinical and translational multi-omics"
   type: leadership
   url: ""
   start: "2023"
@@ -60,7 +60,7 @@
 
 - id: switzerland_omics_founder
   organisation: "Switzerland Omics"
-  description: "Founder of a scientific product company translating probabilistic genomics, clinical data infrastructure, and biomedical software into deployed products"
+  description: "Lead of scientific products translating probabilistic genomics, clinical data infrastructure, and biomedical software into deployed products"
   type: leadership
   url: "https://switzerlandomics.ch"
   start: "2024"

@@ -11,7 +11,7 @@
 #   product_site | research_platform | association_site | personal_site | data_portal
 #
 # MY_ROLE VOCABULARY
-#   founder_and_builder | builder | maintainer | contributor
+#   manage | founder_and_builder | builder | maintainer | contributor
 #
 # TAG VOCABULARY: same as publications.yml
 
@@ -20,7 +20,7 @@
   description: "Scientific product environment for probabilistic genomics, evidence infrastructure, and biomedical data systems"
   type: product_site
   url: "https://switzerlandomics.ch"
-  my_role: founder_and_builder
+  my_role: manage
   launch_year: 2023
   status: active
   tags: [product_strategy, software_product, bayesian_inference, clinical_genomics, data_infrastructure]
@@ -32,7 +32,7 @@
   description: "Commercial evidence platform — turns analysis outputs into evidence-based conclusions with Bayesian posterior intervals"
   type: product_site
   url: "https://quantbayes.com"
-  my_role: founder_and_builder
+  my_role: manage
   launch_year: 2025
   status: active
   tags: [product_strategy, bayesian_inference, software_product, regulated_delivery]
@@ -44,7 +44,7 @@
   description: "Long-term custody and controlled access platform for genomics and precision medicine data"
   type: data_portal
   url: "https://genomicvault.switzerlandomics.ch"
-  my_role: founder_and_builder
+  my_role: manage
   launch_year: 2024
   status: active
   tags: [data_infrastructure, regulated_delivery, product_strategy, clinical_genomics]
@@ -56,12 +56,12 @@
   description: "Independent scientific association owning and issuing genomic evidence standards including QEM and ERRS"
   type: association_site
   url: "https://www.swissgenomicsassociation.ch"
-  my_role: founder_and_builder
+  my_role: manage
   launch_year: 2024
   status: active
   tags: [open_standard, scientific_leadership, product_strategy, cross_institutional]
   weight: 3
-  note: "Founded by Dylan Lawless. Issues normative standards. Neutral governance body for QEM and ERRS."
+  note: "Lead. Issues normative standards. Neutral governance body for QEM, ERRS, and other technical specifications."
 
 - id: swisspedhealth_com
   name: "SwissPedHealth"
@@ -80,7 +80,7 @@
   description: "Protein variant interpretation platform integrating gnomAD, UniProt, ClinVar, AlphaFold, and RCSB PDB with Molstar 3D structure viewer"
   type: product_site
   url: "https://variantimpact.vercel.app"
-  my_role: founder_and_builder
+  my_role: manage
   launch_year: 2024
   status: active
   tags: [product_strategy, clinical_genomics, software_product, ai_systems]
