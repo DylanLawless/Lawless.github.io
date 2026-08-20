@@ -6,9 +6,9 @@ Website: [lawless.ch](https://lawless.ch)
 
 ## Temp dev 
 
-We have an issue recently with GitHub. 
-If it comes up use:
+We have an issue recently with GitHub. If it comes up, use:
 `git restore --source=ee92741 -- Gemfile.lock`
+which gives `ffi (1.17.1-x86_64-linux-gnu)` instead of ` ffi (1.17.1-x86_64-linux)`.
 
 ## Focus
 
