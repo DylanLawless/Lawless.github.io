@@ -24,8 +24,9 @@ show_call_box: false
 
 
   <p class="home-body">
-    Statistical genomics, rare disease, multi-omics, clinical data infrastructure, and probabilistic evidence systems. 
-Postdoctoral work at EPFL, University of Zurich, and University Children’s Hospital Zurich. Founder in Swiss biotech.
+    <!-- Statistical genomics, rare disease, multi-omics, clinical data infrastructure, and probabilistic evidence systems. --> 
+<!-- Postdoctoral work at EPFL, University of Zurich, and University Children’s Hospital Zurich. Founder in Swiss biotech. -->
+I take cutting-edge discoveries in genetics and biology and turn them into practical, real-world applications that improve human health.
   </p>
 
   <div class="home-actions">

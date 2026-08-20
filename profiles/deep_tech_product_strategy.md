@@ -278,12 +278,12 @@ In life-science products, scientific quality depends on more than the method. It
 
 </section>
 
-<section class="profile-section" markdown="1">
+<!-- <section class="profile-section" markdown="1"> -->
 
-## Working fit
+<!-- ## Working fit -->
 
-Biomedical product teams need scientific systems that are credible, usable, documented, and reviewable. The useful output is a product where the science, data model, interface, documentation, claims, regulation, and adoption path form one coherent system.
+<!-- Biomedical product teams need scientific systems that are credible, usable, documented, and reviewable. The useful output is a product where the science, data model, interface, documentation, claims, regulation, and adoption path form one coherent system. -->
 
-</section>
+<!-- </section> -->
 
 </div>

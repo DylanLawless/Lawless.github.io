@@ -275,12 +275,12 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 
 </section>
 
-<section class="profile-section" markdown="1">
+<!-- <section class="profile-section" markdown="1"> -->
 
-## Working fit
+<!-- ## Working fit -->
 
-Statistical genomics teams need analyses that support replication, review, and reuse. The useful output is not only a significant result, but a defensible chain from cohort definition to interpretable evidence.
+<!-- Statistical genomics teams need analyses that support replication, review, and reuse. The useful output is not only a significant result, but a defensible chain from cohort definition to interpretable evidence. -->
 
-</section>
+<!-- </section> -->
 
 </div>

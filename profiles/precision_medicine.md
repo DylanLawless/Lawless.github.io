@@ -276,11 +276,11 @@ the open standard for variant interpretation. Defining reusable YAML criteria fo
 </section>
 
 
-<section class="profile-section" markdown="1">
+<!-- <section class="profile-section" markdown="1"> -->
 
-## Working fit
+<!-- ## Working fit -->
 
-Rare disease and precision medicine teams need evidence that supports review. The useful output is not another filtered variant list, but a traceable conclusion linking phenotype, mechanism, molecular evidence, and uncertainty.
+<!-- Rare disease and precision medicine teams need evidence that supports review. The useful output is not another filtered variant list, but a traceable conclusion linking phenotype, mechanism, molecular evidence, and uncertainty. -->
 
-</section>
+<!-- </section> -->
 

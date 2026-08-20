@@ -7,20 +7,11 @@ permalink: "/profile/"
 
 <section class="profile-hero" markdown="1">
 
-<!--
-<p class="profile-subtitle">
-Scientific research from first principles to polished products.
-</p>
--->
-
 <p class="profile-subtitle">
 Biomedical evidence, software, infrastructure, and product delivery from one connected scientific foundation.
 </p>
 
-<!-- These profiles organise my experience around the problems teams need to solve across evidence, data, software, infrastructure, and delivery. -->
-
 </section>
-
 
 <section class="profile-section profile-router" markdown="1">
 
@@ -101,29 +92,12 @@ Biomedical evidence, software, infrastructure, and product delivery from one con
 
 <section class="profile-section profile-closing" markdown="1">
 
-## From discovery to delivery
+<!-- ## From discovery to delivery -->
 
-Useful biomedical work depends on a chain of decisions: what biology to trust, what evidence to generate, what method to use, what must be documented, and what users need before they can act.
+<!-- Useful biomedical work depends on a chain of decisions: what biology to trust, what evidence to generate, what method to use, what must be documented, and what users need before they can act. -->
 
-My work connects that chain across discovery, clinical evidence, statistical inference, regulated data infrastructure, software, documentation, product translation, and adoption.
+<!-- My work connects that chain across discovery, clinical evidence, statistical inference, regulated data infrastructure, software, documentation, product translation, and adoption. -->
 
-
-<!-- 
-<div class="profile-actions"> 
-  <a href="{{ '/contact' | relative_url }}" class="button-link">
-    Contact
-  </a>
-
-  <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
-    Publications
-  </a>
-
-  <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary">
-    Technologies
-  </a>
-</div>
-
--->
 
 <section class="profile-product-lifecycle">
   <div class="profile-product-lifecycle-card">

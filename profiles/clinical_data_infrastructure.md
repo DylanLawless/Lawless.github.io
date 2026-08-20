@@ -272,12 +272,12 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 
 </section>
 
-<section class="profile-section" markdown="1">
+<!-- <section class="profile-section" markdown="1"> -->
 
-## Working fit
+<!-- ## Working fit -->
 
-Clinical and regulated data teams need evidence systems that can be inspected, reused, and defended. The useful output is not only analysis, but a reliable chain from source data to structured decision support.
+<!-- Clinical and regulated data teams need evidence systems that can be inspected, reused, and defended. The useful output is not only analysis, but a reliable chain from source data to structured decision support. -->
 
-</section>
+<!-- </section> -->
 
 </div>

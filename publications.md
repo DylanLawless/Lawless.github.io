@@ -18,22 +18,22 @@ permalink: "/publications/"
 {% assign pubs = site.data.publications %}
 
 {% comment %}
-  Sort note: sort: "year" requires year to be an integer on every entry.
-  Entries without a year (e.g. unpublished manuscripts) are filtered out of
-  the published pool and handled in in_progress instead.
+  Keep filtering operations simple for Jekyll/Liquid compatibility.
+  Technical records currently use type: technical and status: published.
 {% endcomment %}
 
 {% assign in_progress = pubs | where_exp: "p", "p.status == 'under_review' or p.status == 'revision' or p.status == 'preprint' or p.status == 'in_progress'" %}
-{% assign accepted    = pubs | where: "status", "accepted" %}
-{% assign published   = pubs | where: "status", "published" | sort: "year" | reverse %}
+{% assign accepted = pubs | where: "status", "accepted" %}
+{% assign published_all = pubs | where: "status", "published" | sort: "year" | reverse %}
+{% assign technical = pubs | where: "type", "technical" | sort: "year" | reverse %}
 
 ## Published
 
-{% for pub in published %}
+{% for pub in published_all %}
+{% unless pub.type == "technical" %}
 {% include publication_line.html pub=pub %}
+{% endunless %}
 {% endfor %}
-
-{% endif %}
 
 {% if in_progress.size > 0 %}
 
@@ -42,14 +42,29 @@ permalink: "/publications/"
 {% for pub in in_progress %}
 {% include publication_line.html pub=pub %}
 {% endfor %}
+
+{% endif %}
+
+{% if technical.size > 0 %}
+
+## Technical documents
+
+{% for pub in technical %}
+{% include publication_line.html pub=pub %}
+{% endfor %}
+
 {% endif %}
 
 {% if accepted.size > 0 %}
+
 ## Accepted
 
 {% for pub in accepted %}
 {% include publication_line.html pub=pub %}
 {% endfor %}
+
+{% endif %}
+
 {% endif %}
 
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

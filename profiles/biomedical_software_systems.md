@@ -276,10 +276,10 @@ Scientific software needs to preserve the evidence while making the work operati
 </section>
 
 
-<section class="profile-section" markdown="1">
+<!-- <section class="profile-section" markdown="1"> -->
 
-## Working fit
+<!-- ## Working fit -->
 
-Biomedical software teams need maintained workflows where data, method, report, and user action stay connected while preserving the underlying science.
+<!-- Biomedical software teams need maintained workflows where data, method, report, and user action stay connected while preserving the underlying science. -->
 
-</section>
+<!-- </section> -->

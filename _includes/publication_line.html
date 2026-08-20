@@ -48,10 +48,12 @@
   {% endunless %}
 
   {% comment %} Dimensions badge — only when a published DOI exists {% endcomment %}
+  {% comment %}
   {% if p.doi and p.doi != "" %}
     <span class="publication-dimensions">
       <span class="__dimensions_badge_embed__" data-doi="{{ p.doi }}" data-style="small_rectangle"></span>
     </span>
   {% endif %}
+  {% endcomment %}
 
 </p>

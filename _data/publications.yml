@@ -7,7 +7,7 @@
 #   in_progress | preprint | under_review | revision | accepted | published
 #
 # TYPE VOCABULARY
-#   article | review | letter | perspective | preprint | book_chapter | dataset
+#   article | review | letter | perspective | preprint | book_chapter | dataset | technical
 #
 # TAG VOCABULARY (employer-value axis — use consistently across all _data/ files)
 #   clinical_genomics | rare_disease | multi_omics | statistical_genetics
@@ -500,7 +500,7 @@
   preprint_doi: ""
   url: "https://www.swissgenomicsassociation.ch/assets/release/sga_qvss/latest/sga_qvss_1.0.pdf"
   publisher: "Zenodo"
-  type: dataset
+  type: technical
   grant: ""
   status: published
   tags: [open_standard, reproducibility, regulated_delivery]
@@ -520,7 +520,7 @@
   preprint_doi: ""
   url: "https://www.swissgenomicsassociation.ch/assets/release/sga_errs/latest/sga_errs_1.0.pdf"
   publisher: "Zenodo"
-  type: dataset
+  type: technical
   grant: ""
   status: published
   tags: [open_standard, reproducibility, regulated_delivery]
@@ -540,7 +540,7 @@
   preprint_doi: ""
   url: "https://doi.org/10.5281/zenodo.17936587"
   publisher: "Zenodo"
-  type: dataset
+  type: technical
   grant: ""
   status: published
   tags: [open_standard, reproducibility, regulated_delivery]

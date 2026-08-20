@@ -95,6 +95,24 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 
 <section class="profile-section" markdown="1">
 
+## Portfolio samples
+
+<div class="video-demo-grid" style="--video-demo-columns: 2; --video-demo-gap: 1.25rem;">
+
+  {% include lazy_video.html
+    src="/videos/20260227_panelapprex_promo_2_crop.mov"
+    poster="/videos/panelapprex_thumbnail.png"
+    alt="Second demo video preview"
+    badge="Video demo"
+    duration="0:23"
+    caption="PanelAppRex AI. Harmonised disease-gene panels from structured clinical and genetic queries. For humans and for machines."
+  %}
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
 ## Methods, standards, and systems
 
 <div class="profile-grid">
@@ -210,12 +228,12 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 
 </section>
 
-<section class="profile-section" markdown="1">
+<!-- <section class="profile-section" markdown="1"> -->
 
-## Working fit
+<!-- ## Working fit -->
 
-AI systems for science and medicine need traceable inputs, reviewable outputs, secure deployment, and evidence that can be tested. My work focuses on agentic systems that help teams move from documents, data, code, and clinical information into structured outputs that people can inspect, validate, and use.
+<!-- AI systems for science and medicine need traceable inputs, reviewable outputs, secure deployment, and evidence that can be tested. My work focuses on agentic systems that help teams move from documents, data, code, and clinical information into structured outputs that people can inspect, validate, and use. -->
 
-</section>
+<!-- </section> -->
 
 </div>

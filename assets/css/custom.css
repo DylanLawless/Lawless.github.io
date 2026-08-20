@@ -86,19 +86,19 @@
   color: #2f2f41;
 }
 
-.profile-page .profile-section > h2::after {
-  content: "";
-  display: block;
-  width: 2.4rem;
-  min-height: 0.2rem;
-  max-height: 0.1rem;
-  margin-top: 0.55rem;
-  background: #e5261f;
-  border: none;
-  padding: 0;
-  box-shadow: none;
-  line-height: 0;
-}
+/* .profile-page .profile-section > h2::after { */
+  /* content: ""; */
+  /* display: block; */
+  /* width: 2.4rem; */
+  /* min-height: 0.2rem; */
+  /* max-height: 0.1rem; */
+  /* margin-top: 0.55rem; */
+  /* background: #e5261f; */
+  /* border: none; */
+  /* padding: 0; */
+  /* box-shadow: none; */
+  /* line-height: 0; */
+/* } */
 
 .profile-section h3 {
   margin: 1.6rem 0 0.45rem;
@@ -575,8 +575,8 @@
 
 .profile-product-lifecycle {
   width: 100%;
-  /* max-width: 100%; */
-  max-width: 45rem;
+  max-width: 100%;
+  /* max-width: 45rem; */
   /* margin-top: 4rem; */
   margin-left: 0;
   margin-right: 0;
