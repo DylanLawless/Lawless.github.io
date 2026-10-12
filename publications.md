@@ -19,20 +19,21 @@ permalink: "/publications/"
 
 {% comment %}
   Keep filtering operations simple for Jekyll/Liquid compatibility.
-  Technical records currently use type: technical and status: published.
+  Technical documents and standalone software have separate sections.
+  Filter them out before sorting published articles because software records
+  may have no publication year.
 {% endcomment %}
 
 {% assign in_progress = pubs | where_exp: "p", "p.status == 'under_review' or p.status == 'revision' or p.status == 'preprint' or p.status == 'in_progress'" %}
 {% assign accepted = pubs | where: "status", "accepted" %}
-{% assign published_all = pubs | where: "status", "published" | sort: "year" | reverse %}
+{% assign published_all = pubs | where: "status", "published" | where_exp: "p", "p.type != 'technical' and p.type != 'software'" | sort: "year" | reverse %}
 {% assign technical = pubs | where: "type", "technical" | sort: "year" | reverse %}
+{% assign software = pubs | where: "type", "software" | where: "status", "published" %}
 
 ## Published
 
 {% for pub in published_all %}
-{% unless pub.type == "technical" %}
 {% include publication_line.html pub=pub %}
-{% endunless %}
 {% endfor %}
 
 {% if in_progress.size > 0 %}
@@ -50,6 +51,18 @@ permalink: "/publications/"
 ## Technical documents
 
 {% for pub in technical %}
+{% include publication_line.html pub=pub %}
+{% endfor %}
+
+{% endif %}
+
+{% if software.size > 0 %}
+
+## Standalone open-source software
+
+Completed software projects with repository-based citations and no associated research paper. For larger research technologies and published software, see the [Technologies](/technologies/) page.
+
+{% for pub in software %}
 {% include publication_line.html pub=pub %}
 {% endfor %}
 

@@ -546,3 +546,63 @@
   tags: [open_standard, reproducibility, regulated_delivery]
   weight: 2
   note: "Normative standard. Source repository: https://github.com/swissgenomicsassociation/sga_qem"
+
+# - id: biologyskills_2026
+#   title: "Biology Skills (Version 0.1.0)"
+#   authors: "Biology Skills contributors"
+#   journal: ""
+#   year: "2026"
+#   month: ""
+#   volume: ""
+#   number: ""
+#   pages: ""
+#   doi: ""
+#   preprint_doi: ""
+#   url: "https://github.com/biologyskills/biology-skills"
+#   publisher: ""
+#   type: software
+#   grant: ""
+#   status: published
+#   tags: [ai_systems, software_product, reproducibility]
+#   weight: 2
+#   note: "Computer software. Version 0.1.0."
+#
+# - id: lawless_2026_cpc
+#   title: "cpc: copy code (Version 0.1.0)"
+#   authors: "Dylan Lawless"
+#   journal: ""
+#   year: 2026
+#   month: "October"
+#   volume: ""
+#   number: ""
+#   pages: ""
+#   doi: ""
+#   preprint_doi: ""
+#   url: "https://github.com/DylanLawless/cpc"
+#   publisher: ""
+#   type: software
+#   grant: ""
+#   status: published
+#   tags: [software_product, reproducibility, ai_systems]
+#   weight: 2
+#   note: "Computer software. Rust CLI for copying files and directories into labelled clipboard output with character and token counts."
+#
+# - id: lawless_2026_gpt2_r
+#   title: "GPT-2-style language model from scratch in R"
+#   authors: "Dylan Lawless"
+#   journal: ""
+#   year: 2026
+#   month: "September"
+#   volume: ""
+#   number: ""
+#   pages: ""
+#   doi: ""
+#   preprint_doi: ""
+#   url: "https://github.com/switzerlandomics/src-min_gpt2_r"
+#   publisher: ""
+#   type: software
+#   grant: ""
+#   status: published
+#   tags: [ai_systems, software_product, reproducibility]
+#   weight: 2
+#   note: "Computer software. CPU-only GPT-2-style Transformer implemented in R without deep-learning frameworks or pretrained weights. https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/"

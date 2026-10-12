@@ -22,11 +22,12 @@ a universal metric for clinical trials and studies by standardising results on a
 
 ## Web, desktop, and databases
 
-- [ACMG validator](): Review the evidence, not just the verdict. Variant interpretation often ends with a classification. Clinical review needs the record behind it.
+- [ACMG validator](https://switzerlandomics.ch/technologies/acmg-validator/): Review the evidence, not just the verdict. Variant interpretation often ends with a classification. Clinical review needs the record behind it.
 
 - [Pedigree](https://switzerlandomics.ch/technologies/pedigree/): Family trees (clinical pedigrees) remain foundational to genetic assessment. Pedigree gives a professional UI/UX and structured data that are standardised, FHIR-compatible, and suitable for clinical reuse.
 
 - [PanelAppRex AI](https://switzerlandomics.ch/technologies/panelAppRexAi/): harmonised disease-gene panels from structured clinical and genetic queries, preprinted in [Quant Group et al (2026)](https://doi.org/10.1093/bioadv/vbag115) _Bioinformatics Advances_. [![GitHub stars](https://img.shields.io/github/stars/DylanLawless/PanelAppRex?style=social)](https://github.com/DylanLawless/PanelAppRex) [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15736689.svg)](https://doi.org/10.5281/zenodo.15736689)
+
 
 - [QuantBayes Studio](https://quantbayes.com): Commercial spin off. "Trust your result. Measure the evidence behind it." QuantBayes Studio turns your analysis into evidence-based conclusions. One evidence layer for AI, science, engineering, and regulated work.
 
@@ -37,6 +38,16 @@ the open standard for variant interpretation. Defining reusable YAML criteria fo
 
 - [IEI genetics database](https://switzerlandomics.ch/technologies/iei_genetics/): genetic panels and prior probabilities for disease-causing variants in inborn errors of immunity, [Lawless et al (2025)](https://doi.org/10.1101/2025.03.25.25324607) and 
 [Soomann et al (2025)](https://doi.org/10.1097/INF.0000000000004904) _Pediatric Infectious Disease Journal_.
+
+## Open-source software projects
+
+- [GPT-2 model from scratch in R](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/): designed and trained without deep-learning frameworks. The final project reproducing three key stages in the 2015–2019 progression of AI LLMs: [recurrent neural networks](https://switzerlandomics.ch/blog/2026-09-19-building-a-rnn-language-model-from-scratch-in-r/) (2015), the [Transformer](https://switzerlandomics.ch/blog/2026-09-21-transformer-in-r/) (2017), and [GPT-2](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/) (2019). [Lawless (2026)](https://github.com/switzerlandomics/src-min_gpt2_r) _GitHub_.
+
+- [Biology Skills](https://github.com/biologyskills/biology-skills): an open-source project for improving biological accuracy in AI systems for agents. [biologyskills.com](https://biologyskills.com)  [![GitHub stars](https://img.shields.io/github/stars/biologyskills/biology-skills?style=social)](https://github.com/biologyskills/biology-skills)
+
+- [cpc: copy code](https://github.com/DylanLawless/cpc): Rust command-line tool for copying source files and directories into structured clipboard output, including file paths, character counts and token counts.
+
+- [fast_mm](https://github.com/switzerlandomics/ai-fast_mm_search): Python software for discovering matrix-multiplication algorithms through numerical optimisation, exact coefficient reconstruction and independent verification. Recovered and verified a rank-7 algorithm for 2×2 matrix multiplication, independently reproducing Strassen's seven-product result. [Technical article](https://switzerlandomics.ch/blog/2026-10-07-fast-mm/).
 
 ## Normative standards
 
