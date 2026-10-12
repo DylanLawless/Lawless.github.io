@@ -2,7 +2,7 @@
 title: Legal statement
 layout: page
 description: Legal
-permalink: "/legal/"
+permalink: "/legal-tmp/"
 ---
 
 ## Scope

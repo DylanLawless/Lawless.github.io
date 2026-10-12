@@ -18,6 +18,8 @@ home:
 collections:
   technologies:
     output: true
+  legal:
+    output: true
 
 
 defaults:

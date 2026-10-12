@@ -1,7 +1,7 @@
 ---
 title: AI and agentic scientific systems
 layout: page_wide
-description: AI, agentic workflows, retrieval, verification, clinical genetics interpretation, systematic review automation, scientific software, and customer-facing biomedical AI systems profile for Dylan Lawless
+description: Neural network development, foundation-model fine-tuning, agentic workflows, retrieval, verification, clinical genetics interpretation, and biomedical AI systems profile for Dylan Lawless
 permalink: "/profiles/ai-agentic-scientific-systems/"
 ---
 
@@ -10,10 +10,10 @@ permalink: "/profiles/ai-agentic-scientific-systems/"
 <section class="profile-hero" markdown="1">
 
 <p class="profile-subtitle">
-AI systems become useful when they produce evidence people can inspect, test, and use.
+AI systems become useful when they produce evidence people can inspect, test, and trust.
 </p>
 
-AI is becoming a horizontal layer for scientific evidence, workflow execution, software development, clinical interpretation, and product delivery. My work focuses on agentic systems where retrieval, structured extraction, code generation, clinical information handling, verification, and human review are built into the workflow from the start.
+My work spans AI model development and scientific applications, from implementing neural networks and language models from first principles to fine-tuning foundation models and developing biologically informed representations. I apply these methods to genomic interpretation, scientific evidence extraction, and secure clinical systems, with an emphasis on statistical foundations, reproducibility, and validation.
 
 <div class="profile-actions">
   <a href="{{ '/contact' | relative_url }}" class="button-link">
@@ -82,7 +82,7 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 
   <div class="profile-metric">
     <strong>Secure HPC</strong>
-    <span>open-weight LLM deployment for clinical genetics support on BioMedIT infrastructure</span>
+    <span>open-weight LLM deployment for clinical genetics support on secure HPC infrastructure</span>
   </div>
 
   <div class="profile-metric">
@@ -118,9 +118,23 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 <div class="profile-grid">
 
   <div class="profile-card">
+    <h3>Neural network development</h3>
+    <p>
+    RNNs, causal Transformers, GPT-2-style decoders, self-attention, forward and backward passes, manual gradients, and optimisation in base R.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Foundation-model adaptation</h3>
+    <p>
+    Hugging Face Transformers, PyTorch, DistilBERT, fine-tuning, task-specific classification, training evaluation, and model validation.
+    </p>
+  </div>
+
+  <div class="profile-card">
     <h3>Agentic workflows</h3>
     <p>
-    Retrieval, task planning, evidence review, structured extraction, code generation, output comparison, failure inspection, and iterative refinement. Experienced with OpenAI ChatGPT, Google Gemini, Anthropic Claude, Hugging Face.
+    Retrieval, task planning, evidence review, structured extraction, code generation, output comparison, failure inspection, and iterative refinement. Experienced with OpenAI ChatGPT, Google Gemini, and Anthropic Claude.
     </p>
   </div>
 
@@ -141,7 +155,7 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
   <div class="profile-card">
     <h3>Secure deployment</h3>
     <p>
-    Open-weight models, Llama, DeepSeek R1, BioMedIT infrastructure, secure high-performance computing, controlled access, and review-ready outputs.
+    Open-weight models, Llama, DeepSeek R1, cloud infrastructure, secure high-performance computing, controlled access, and review-ready outputs.
     </p>
   </div>
 
@@ -170,21 +184,44 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 <div class="profile-experience-list">
 
   <article class="profile-experience-card">
-    <div class="profile-experience-meta">PanelAppRex AI · disease-gene evidence</div>
-    <h3>AI-assisted panel-level interpretation</h3>
+    <div class="profile-experience-meta">Language models from first principles · R · open source</div>
+    <h3>Reproducing neural language models from scratch</h3>
     <p>
-    Built an AI-assisted information layer over structured disease-gene panel evidence, combining UniProtKB mechanistic text with panel metadata, inheritance, disease group, and reported phenotypes.
+    Rebuilt a recurrent neural network, a causal Transformer, and a GPT-2-style decoder in base R. Implemented attention, forward and backward passes, loss functions, and optimisation directly, without pretrained weights, deep-learning frameworks, or automatic differentiation.
     </p>
     <p class="profile-experience-proof">
-    6.6 million features compressed 5x into disease-aware summaries, integrated into a user-facing application for interpretation and review.
+    Three reproducible CPU-trained implementations with source code and validation; the GPT-2-style model has 369,504 trainable parameters. <a href="https://switzerlandomics.ch/blog/2026-09-19-building-a-rnn-language-model-from-scratch-in-r/">RNN</a> · <a href="https://switzerlandomics.ch/blog/2026-09-21-transformer-in-r/">Transformer</a> · <a href="https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/">GPT-2</a> · <a href="https://github.com/switzerlandomics/src-min_gpt2_r">Source code</a>
     </p>
   </article>
+
+  <article class="profile-experience-card">
+    <div class="profile-experience-meta">Foundation-model fine-tuning · Hugging Face · PyTorch</div>
+    <h3>Fine-tuning pretrained language models</h3>
+    <p>
+    Fine-tuned DistilBERT using Hugging Face Transformers and PyTorch for four-class news classification. Implemented task-specific training, validation, held-out evaluation, and probabilistic inference.
+    </p>
+    <p class="profile-experience-proof">
+    Held-out accuracy of 88.8% and macro F1 of 0.886 after one CPU training epoch using 1,000 labelled training articles. <a href="https://switzerlandomics.ch/blog/2026-08-15-fine-tuning/">Methods and results</a>
+    </p>
+  </article>
+
+<article class="profile-experience-card">
+  <div class="profile-experience-meta">PanelAppRex AI · disease-gene evidence</div>
+  <h3>AI-assisted disease panel-level interpretation</h3>
+  <p>
+    Built an AI-assisted information layer over structured disease-gene panel evidence, combining UniProtKB mechanistic text with panel metadata, inheritance, disease group, and reported phenotypes.
+  </p>
+  <p class="profile-experience-proof">
+    6.6 million features compressed 5x into disease-aware summaries, integrated into a user-facing application for interpretation and review.
+    <a href="https://doi.org/10.1093/bioadv/vbag115">Quant Group et al., 2026</a>.
+  </p>
+</article>
 
   <article class="profile-experience-card">
     <div class="profile-experience-meta">Universitäts-Kinderspital Zürich · secure clinical genetics</div>
     <h3>Secure AI-assisted variant interpretation</h3>
     <p>
-    Built a secure AI-assisted clinical genetics system on BioMedIT high-performance computing infrastructure using open-weight models including Llama and DeepSeek R1.
+    Built a secure AI-assisted clinical genetics system on cloud high-performance computing infrastructure using open-weight models including Llama and DeepSeek R1.
     </p>
     <p class="profile-experience-proof">
     High-throughput variant interpretation and report generation for human review by the Molecular Board, including geneticists, doctors, and researchers.
@@ -226,6 +263,9 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 
 [Reply to Dages et al: You AIn’t using it right: artificial intelligence progress in allergy](https://doi.org/10.1016/j.jaci.2023.09.023). Dylan Lawless. *Journal of Allergy and Clinical Immunology* 153(1), 355 to 356, 2024. DOI: [10.1016/j.jaci.2023.09.023](https://doi.org/10.1016/j.jaci.2023.09.023).
 
+[Building a GPT-2-style language model from scratch in R](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/). Dylan Lawless. *Switzerland Omics* (2026).
+
+
 </section>
 
 <!-- <section class="profile-section" markdown="1"> -->
@@ -237,3 +277,4 @@ AI is becoming a horizontal layer for scientific evidence, workflow execution, s
 <!-- </section> -->
 
 </div>
+

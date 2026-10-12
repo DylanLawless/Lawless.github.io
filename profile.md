@@ -19,16 +19,16 @@ Biomedical evidence, software, infrastructure, and product delivery from one con
 
 <div class="route-grid">
 
-  <article class="route-card">
-    <h3>AI and agentic scientific systems</h3>
-    <p class="route-card-kicker">Agents, retrieval, verification, workflow automation</p>
-    <p class="route-card-body">
-      For teams using AI to turn documents, data, code, clinical information, and scientific workflows into reviewable systems.
-    </p>
-    <a href="{{ '/profiles/ai-agentic-scientific-systems/' | relative_url }}" class="route-card-link">
-      View profile
-    </a>
-  </article>
+<article class="route-card">
+  <h3>AI and agentic scientific systems</h3>
+  <p class="route-card-kicker">Neural networks, foundation models, agents, clinical AI</p>
+  <p class="route-card-body">
+    Building language models from first principles, fine-tuning foundation models, and delivering secure, evidence-aware AI systems for science and medicine.
+  </p>
+  <a href="{{ '/profiles/ai-agentic-scientific-systems/' | relative_url }}" class="route-card-link">
+    View profile
+  </a>
+</article>
 
   <article class="route-card">
     <h3>Rare disease and precision medicine</h3>

@@ -1,0 +1,518 @@
+.
+├── 404.html
+├── CNAME
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── _blog
+├── _config.yml
+├── _data
+│   ├── awards.yml
+│   ├── collaborator_logos.yml
+│   ├── conferences.yml
+│   ├── contact.yml
+│   ├── datasets.yml
+│   ├── employment.yml
+│   ├── evidence_statements.yml
+│   ├── features.json
+│   ├── funding.yml
+│   ├── immunology_wet
+│   ├── media.yml
+│   ├── menus.yml
+│   ├── publications.yml
+│   ├── publications_original.yml
+│   ├── seo.yml
+│   ├── service.yml
+│   ├── social.json
+│   ├── software.yml
+│   ├── standards.yml
+│   ├── templates
+│   │   ├── datasets_template.yml
+│   │   ├── service_template.yml
+│   │   ├── standards_template.yml
+│   │   └── websites_template.yml
+│   └── websites.yml
+├── _includes
+│   ├── call.html
+│   ├── collaborator_logo_marquee.html
+│   ├── footer.html
+│   ├── google-analytics.html
+│   ├── hamburger.html
+│   ├── header.html
+│   ├── infrastructure_maturity.bak
+│   ├── infrastructure_maturity.html
+│   ├── lazy_video.html
+│   ├── main-menu-mobile.html
+│   ├── main-menu.html
+│   ├── mathjax.html
+│   ├── newsletter_signup.html
+│   ├── publication_line.html
+│   ├── quant_card.html
+│   ├── quant_card_v0.html
+│   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   ├── social.html
+│   └── sub-footer.html
+├── _layouts
+│   ├── contact.html
+│   ├── default.html
+│   ├── default_no_brand.html
+│   ├── default_panelapprex.html
+│   ├── home.html
+│   ├── learn-index.html
+│   ├── learn.html
+│   ├── mathjax.html
+│   ├── page.html
+│   ├── page_no_brand.html
+│   ├── page_wide.html
+│   ├── team.html
+│   ├── teams.html
+│   ├── tech.html
+│   └── technologies.html
+├── _sass
+│   ├── _bootstrap-variables.scss
+│   ├── bootstrap
+│   │   ├── _accordion.scss
+│   │   ├── _alert.scss
+│   │   ├── _badge.scss
+│   │   ├── _breadcrumb.scss
+│   │   ├── _button-group.scss
+│   │   ├── _buttons.scss
+│   │   ├── _card.scss
+│   │   ├── _carousel.scss
+│   │   ├── _close.scss
+│   │   ├── _containers.scss
+│   │   ├── _dropdown.scss
+│   │   ├── _forms.scss
+│   │   ├── _functions.scss
+│   │   ├── _grid.scss
+│   │   ├── _helpers.scss
+│   │   ├── _images.scss
+│   │   ├── _list-group.scss
+│   │   ├── _maps.scss
+│   │   ├── _mixins.scss
+│   │   ├── _modal.scss
+│   │   ├── _nav.scss
+│   │   ├── _navbar.scss
+│   │   ├── _offcanvas.scss
+│   │   ├── _pagination.scss
+│   │   ├── _placeholders.scss
+│   │   ├── _popover.scss
+│   │   ├── _progress.scss
+│   │   ├── _reboot.scss
+│   │   ├── _root.scss
+│   │   ├── _spinners.scss
+│   │   ├── _tables.scss
+│   │   ├── _toasts.scss
+│   │   ├── _tooltip.scss
+│   │   ├── _transitions.scss
+│   │   ├── _type.scss
+│   │   ├── _utilities.scss
+│   │   ├── _variables-dark.scss
+│   │   ├── _variables.scss
+│   │   ├── bootstrap-grid.scss
+│   │   ├── bootstrap-reboot.scss
+│   │   ├── bootstrap-utilities.scss
+│   │   ├── bootstrap.scss
+│   │   ├── forms
+│   │   │   ├── _floating-labels.scss
+│   │   │   ├── _form-check.scss
+│   │   │   ├── _form-control.scss
+│   │   │   ├── _form-range.scss
+│   │   │   ├── _form-select.scss
+│   │   │   ├── _form-text.scss
+│   │   │   ├── _input-group.scss
+│   │   │   ├── _labels.scss
+│   │   │   └── _validation.scss
+│   │   ├── helpers
+│   │   │   ├── _clearfix.scss
+│   │   │   ├── _color-bg.scss
+│   │   │   ├── _colored-links.scss
+│   │   │   ├── _focus-ring.scss
+│   │   │   ├── _icon-link.scss
+│   │   │   ├── _position.scss
+│   │   │   ├── _ratio.scss
+│   │   │   ├── _stacks.scss
+│   │   │   ├── _stretched-link.scss
+│   │   │   ├── _text-truncation.scss
+│   │   │   ├── _visually-hidden.scss
+│   │   │   └── _vr.scss
+│   │   ├── mixins
+│   │   │   ├── _alert.scss
+│   │   │   ├── _backdrop.scss
+│   │   │   ├── _banner.scss
+│   │   │   ├── _border-radius.scss
+│   │   │   ├── _box-shadow.scss
+│   │   │   ├── _breakpoints.scss
+│   │   │   ├── _buttons.scss
+│   │   │   ├── _caret.scss
+│   │   │   ├── _clearfix.scss
+│   │   │   ├── _color-mode.scss
+│   │   │   ├── _color-scheme.scss
+│   │   │   ├── _container.scss
+│   │   │   ├── _deprecate.scss
+│   │   │   ├── _forms.scss
+│   │   │   ├── _gradients.scss
+│   │   │   ├── _grid.scss
+│   │   │   ├── _image.scss
+│   │   │   ├── _list-group.scss
+│   │   │   ├── _lists.scss
+│   │   │   ├── _pagination.scss
+│   │   │   ├── _reset-text.scss
+│   │   │   ├── _resize.scss
+│   │   │   ├── _table-variants.scss
+│   │   │   ├── _text-truncate.scss
+│   │   │   ├── _transition.scss
+│   │   │   ├── _utilities.scss
+│   │   │   └── _visually-hidden.scss
+│   │   ├── tests
+│   │   │   ├── jasmine.js
+│   │   │   ├── mixins
+│   │   │   │   ├── _color-modes.test.scss
+│   │   │   │   ├── _media-query-color-mode-full.test.scss
+│   │   │   │   └── _utilities.test.scss
+│   │   │   ├── sass-true
+│   │   │   │   ├── register.js
+│   │   │   │   └── runner.js
+│   │   │   └── utilities
+│   │   │       └── _api.test.scss
+│   │   ├── utilities
+│   │   │   └── _api.scss
+│   │   └── vendor
+│   │       └── _rfs.scss
+│   ├── components
+│   │   ├── _buttons.scss
+│   │   ├── _call.scss
+│   │   ├── _content.scss
+│   │   ├── _feature.scss
+│   │   ├── _fonts.scss
+│   │   ├── _footer.scss
+│   │   ├── _hamburger.scss
+│   │   ├── _header.scss
+│   │   ├── _intro-image.scss
+│   │   ├── _intro.scss
+│   │   ├── _logo.scss
+│   │   ├── _main-menu-mobile.scss
+│   │   ├── _main-menu.scss
+│   │   ├── _page.scss
+│   │   ├── _social.scss
+│   │   ├── _strip.scss
+│   │   ├── _sub-footer.scss
+│   │   ├── _title.scss
+│   │   └── _type.scss
+│   ├── custom
+│   ├── libraries
+│   │   └── hamburgers
+│   │       ├── _base.scss
+│   │       ├── hamburgers.scss
+│   │       └── types
+│   │           ├── _3dx-r.scss
+│   │           ├── _3dx.scss
+│   │           ├── _3dxy-r.scss
+│   │           ├── _3dxy.scss
+│   │           ├── _3dy-r.scss
+│   │           ├── _3dy.scss
+│   │           ├── _arrow-r.scss
+│   │           ├── _arrow.scss
+│   │           ├── _arrowalt-r.scss
+│   │           ├── _arrowalt.scss
+│   │           ├── _arrowturn-r.scss
+│   │           ├── _arrowturn.scss
+│   │           ├── _boring.scss
+│   │           ├── _collapse-r.scss
+│   │           ├── _collapse.scss
+│   │           ├── _elastic-r.scss
+│   │           ├── _elastic.scss
+│   │           ├── _emphatic-r.scss
+│   │           ├── _emphatic.scss
+│   │           ├── _minus.scss
+│   │           ├── _slider-r.scss
+│   │           ├── _slider.scss
+│   │           ├── _spin-r.scss
+│   │           ├── _spin.scss
+│   │           ├── _spring-r.scss
+│   │           ├── _spring.scss
+│   │           ├── _squeeze.scss
+│   │           ├── _stand-r.scss
+│   │           ├── _stand.scss
+│   │           ├── _vortex-r.scss
+│   │           └── _vortex.scss
+│   └── pages
+│       ├── _page-home.scss
+│       ├── _page-teams.scss
+│       └── _page-tech.scss
+├── _site
+│   ├── 404
+│   │   └── index.html
+│   ├── CNAME
+│   ├── about
+│   │   └── index.html
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── custom.css
+│   │   │   ├── panelapprex_particles.css
+│   │   │   ├── style.bak
+│   │   │   ├── style.css
+│   │   │   └── style.css.map
+│   │   ├── fonts
+│   │   │   └── playfair-display.woff2
+│   │   ├── js
+│   │   │   ├── lazy-video.js
+│   │   │   ├── mathjax-script-type.js
+│   │   │   └── scripts.js
+│   │   ├── pdf
+│   │   │   └── 20250918_lawless_quant.pdf
+│   │   ├── quant
+│   │   │   └── quant_card_demo.html
+│   │   ├── qv_database
+│   │   │   ├── generate_qv_database.sh
+│   │   │   ├── qv_acmg_sf_v3_3_20250828.yaml
+│   │   │   ├── qv_acmg_sf_v3_3_20250828_json.yaml
+│   │   │   ├── qv_acmg_sf_v3_3_prompt.txt
+│   │   │   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   │   │   ├── qv_variant_interpretation.yaml
+│   │   │   └── qv_variant_interpretation_prompt.txt
+│   │   ├── qv_submission
+│   │   │   └── index.html
+│   │   └── submission_mailing_list
+│   │       └── index.html
+│   ├── builtatlightspeed.json
+│   ├── contact
+│   │   └── index.html
+│   ├── cranlogs
+│   │   ├── cranlogs.css
+│   │   ├── cranlogs.js
+│   │   ├── downloads.json
+│   │   ├── index.html
+│   │   ├── run_update.sh
+│   │   ├── test_download.R
+│   │   └── update_cranlogs.R
+│   ├── cv
+│   │   └── index.html
+│   ├── images
+│   │   ├── 2025_E_L_Laurent_etherial_precision
+│   │   │   └── 1EBA3CDE-7455-49FD-8686-017F290965E3_wide.jpeg
+│   │   ├── ORCID-iD_icon_vector.svg
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── bsmg_recommendation_screenshot.png
+│   │   ├── collaborator_logos
+│   │   │   ├── PHRT_Logo_transparent.png
+│   │   │   ├── SIB-Logo-2023.svg
+│   │   │   ├── SPHN-Logo-SIB.png
+│   │   │   ├── SwissPedHealthLogo_trim.png
+│   │   │   ├── Universita�\210t_Zu�\210rich_logo.png
+│   │   │   ├── Vanderbilt-University-Logo.jpg
+│   │   │   ├── genomics-england-logo.png
+│   │   │   ├── health2030_logo.png
+│   │   │   ├── logo-epfl.png
+│   │   │   ├── logo_kinderspital.svg
+│   │   │   ├── roche_logo.png
+│   │   │   ├── swissgenomicsassociation_logo.png
+│   │   │   ├── switzerlandomics_logo_screenshot.png
+│   │   │   ├── tcd_logo.jpg
+│   │   │   ├── ucd_logo.jpg
+│   │   │   ├── university-of-leeds-logo.png
+│   │   │   ├── uof_logo.jpg
+│   │   │   └── venturelab_logo.jpg
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   ├── logo
+│   │   │   ├── logo4.2_150ppi.png
+│   │   │   ├── logo4.2_300.png
+│   │   │   ├── logo4.2_300_grey.png
+│   │   │   └── logo4.2_300_white.png
+│   │   ├── profile
+│   │   │   ├── dylan_small.jpg
+│   │   │   ├── product_dev.png
+│   │   │   ├── product_dev_original.png
+│   │   │   ├── product_dev_v2.png
+│   │   │   └── profile_lawless_small.jpg
+│   │   ├── site.webmanifest
+│   │   ├── social
+│   │   │   ├── discord.svg
+│   │   │   ├── email.svg
+│   │   │   ├── facebook.svg
+│   │   │   ├── github.svg
+│   │   │   ├── instagram.svg
+│   │   │   └── twitter.svg
+│   │   └── team
+│   │       ├── DSCF3023_small_1mb.jpg
+│   │       └── profile_dylan_2026.jpg
+│   ├── index.html
+│   ├── jek.sh
+│   ├── kill_serve.sh
+│   ├── legal
+│   │   └── index.html
+│   ├── profile
+│   │   └── index.html
+│   ├── profiles
+│   │   ├── ai-agentic-scientific-systems
+│   │   │   └── index.html
+│   │   ├── biomedical-software-systems
+│   │   │   └── index.html
+│   │   ├── clinical-data-infrastructure
+│   │   │   └── index.html
+│   │   ├── deep-tech-product-strategy
+│   │   │   └── index.html
+│   │   ├── precision-medicine
+│   │   │   └── index.html
+│   │   └── statistical-genomics
+│   │       └── index.html
+│   ├── publications
+│   │   └── index.html
+│   ├── publications_original
+│   │   └── index.html
+│   ├── publications_selected
+│   │   └── index.html
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── star
+│   │   └── index.html
+│   ├── technologies
+│   │   └── index.html
+│   ├── technologies_gallery
+│   │   └── index.html
+│   ├── technologies_readme.txt
+│   ├── video_player_example.md
+│   └── videos
+│       ├── 20250512_qualifying_variants_v1.MP4
+│       ├── 20250627_quant_scan_v1_compressed.mp4
+│       ├── 20260207_Archipelago_promo.mp4
+│       ├── 20260227_panelapprex_promo_2_crop.mov
+│       ├── Archipelago_thumbnail.png
+│       ├── panelapprex_thumbnail.png
+│       ├── quant_icons_thumbnail.jpg
+│       └── qv_thumbnail.jpg
+├── _team
+│   ├── advisor-brand-communication.md
+│   ├── advisor-scientific.md
+│   ├── advisor-security-regulatory.md
+│   ├── bill-mcdonald.md
+│   └── dylan-lawless.md
+├── about.md
+├── assets
+│   ├── css
+│   │   ├── _page-infra-maturity.scss
+│   │   ├── custom.css
+│   │   ├── panelapprex_particles.css
+│   │   ├── style.bak
+│   │   └── style.scss
+│   ├── fonts
+│   │   └── playfair-display.woff2
+│   ├── js
+│   │   ├── lazy-video.js
+│   │   ├── mathjax-script-type.js
+│   │   └── scripts.js
+│   ├── pdf
+│   │   └── 20250918_lawless_quant.pdf
+│   ├── quant
+│   │   └── quant_card_demo.html
+│   ├── qv_database
+│   │   ├── generate_qv_database.sh
+│   │   ├── qv_acmg_sf_v3_3_20250828.yaml
+│   │   ├── qv_acmg_sf_v3_3_20250828_json.yaml
+│   │   ├── qv_acmg_sf_v3_3_prompt.txt
+│   │   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   │   ├── qv_variant_interpretation.yaml
+│   │   └── qv_variant_interpretation_prompt.txt
+│   ├── qv_submission.md
+│   └── submission_mailing_list.md
+├── builtatlightspeed.json
+├── contact.md
+├── cranlogs
+│   ├── cranlogs.css
+│   ├── cranlogs.js
+│   ├── downloads.json
+│   ├── index.md
+│   ├── run_update.sh
+│   ├── test_download.R
+│   └── update_cranlogs.R
+├── cv_evidence_bank.md
+├── images
+│   ├── 2025_E_L_Laurent_etherial_precision
+│   │   └── 1EBA3CDE-7455-49FD-8686-017F290965E3_wide.jpeg
+│   ├── ORCID-iD_icon_vector.svg
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── bsmg_recommendation_screenshot.png
+│   ├── collaborator_logos
+│   │   ├── PHRT_Logo_transparent.png
+│   │   ├── SIB-Logo-2023.svg
+│   │   ├── SPHN-Logo-SIB.png
+│   │   ├── SwissPedHealthLogo_trim.png
+│   │   ├── Universita�\210t_Zu�\210rich_logo.png
+│   │   ├── Vanderbilt-University-Logo.jpg
+│   │   ├── genomics-england-logo.png
+│   │   ├── health2030_logo.png
+│   │   ├── logo-epfl.png
+│   │   ├── logo_kinderspital.svg
+│   │   ├── roche_logo.png
+│   │   ├── swissgenomicsassociation_logo.png
+│   │   ├── switzerlandomics_logo_screenshot.png
+│   │   ├── tcd_logo.jpg
+│   │   ├── ucd_logo.jpg
+│   │   ├── university-of-leeds-logo.png
+│   │   ├── uof_logo.jpg
+│   │   └── venturelab_logo.jpg
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── logo
+│   │   ├── logo4.2_150ppi.png
+│   │   ├── logo4.2_300.png
+│   │   ├── logo4.2_300_grey.png
+│   │   └── logo4.2_300_white.png
+│   ├── profile
+│   │   ├── dylan_small.jpg
+│   │   ├── product_dev.png
+│   │   ├── product_dev_original.png
+│   │   ├── product_dev_v2.png
+│   │   └── profile_lawless_small.jpg
+│   ├── site.webmanifest
+│   ├── social
+│   │   ├── discord.svg
+│   │   ├── email.svg
+│   │   ├── facebook.svg
+│   │   ├── github.svg
+│   │   ├── instagram.svg
+│   │   └── twitter.svg
+│   └── team
+│       ├── DSCF3023_small_1mb.jpg
+│       └── profile_dylan_2026.jpg
+├── index.md
+├── jek.sh
+├── kill_serve.sh
+├── legal.md
+├── profile.md
+├── profiles
+│   ├── ai-agentic-scientific-systems.md
+│   ├── biomedical_software_systems.md
+│   ├── clinical_data_infrastructure.md
+│   ├── deep_tech_product_strategy.md
+│   ├── precision_medicine.md
+│   └── statistical_genomics.md
+├── publications.md
+├── publications_original.md
+├── publications_selected.md
+├── robots.txt
+├── star_evidence_statements.md
+├── technologies.md
+├── technologies_gallery.md
+├── technologies_readme.txt
+├── temp
+├── video_player_example.md
+└── videos
+    ├── 20250512_qualifying_variants_v1.MP4
+    ├── 20250627_quant_scan_v1_compressed.mp4
+    ├── 20260207_Archipelago_promo.mp4
+    ├── 20260227_panelapprex_promo_2_crop.mov
+    ├── Archipelago_thumbnail.png
+    ├── panelapprex_thumbnail.png
+    ├── quant_icons_thumbnail.jpg
+    └── qv_thumbnail.jpg
+
+78 directories, 437 files
