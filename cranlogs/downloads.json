@@ -1431,11 +1431,66 @@
   },
   {
     "date": "2026-10-14",
-    "count": 0,
+    "count": 4,
     "package": "archipelago"
   },
   {
     "date": "2026-10-15",
+    "count": 19,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-16",
+    "count": 9,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-17",
+    "count": 3,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-18",
+    "count": 5,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-19",
+    "count": 8,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-20",
+    "count": 3,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-21",
+    "count": 9,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-22",
+    "count": 11,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-23",
+    "count": 11,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-24",
+    "count": 11,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-25",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-10-26",
     "count": 0,
     "package": "archipelago"
   },
@@ -2871,11 +2926,66 @@
   },
   {
     "date": "2026-10-14",
-    "count": 0,
+    "count": 8,
     "package": "evidenceratio"
   },
   {
     "date": "2026-10-15",
+    "count": 19,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-16",
+    "count": 6,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-17",
+    "count": 3,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-18",
+    "count": 11,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-19",
+    "count": 3,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-20",
+    "count": 4,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-21",
+    "count": 15,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-22",
+    "count": 6,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-23",
+    "count": 7,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-24",
+    "count": 2,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-25",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-10-26",
     "count": 0,
     "package": "evidenceratio"
   },
@@ -4311,11 +4421,66 @@
   },
   {
     "date": "2026-10-14",
-    "count": 0,
+    "count": 11,
     "package": "quantbayes"
   },
   {
     "date": "2026-10-15",
+    "count": 10,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-16",
+    "count": 11,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-17",
+    "count": 7,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-18",
+    "count": 9,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-19",
+    "count": 5,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-20",
+    "count": 2,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-21",
+    "count": 11,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-22",
+    "count": 8,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-23",
+    "count": 6,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-24",
+    "count": 3,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-25",
+    "count": 0,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-10-26",
     "count": 0,
     "package": "quantbayes"
   },
@@ -5751,11 +5916,66 @@
   },
   {
     "date": "2026-10-14",
-    "count": 0,
+    "count": 10,
     "package": "vcfheader"
   },
   {
     "date": "2026-10-15",
+    "count": 15,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-16",
+    "count": 10,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-17",
+    "count": 2,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-18",
+    "count": 2,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-19",
+    "count": 6,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-20",
+    "count": 8,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-21",
+    "count": 6,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-22",
+    "count": 5,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-23",
+    "count": 6,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-24",
+    "count": 4,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-25",
+    "count": 0,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-10-26",
     "count": 0,
     "package": "vcfheader"
   }

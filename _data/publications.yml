@@ -20,6 +20,11 @@
 #   preprint_doi: preprint DOI; empty string if none or if this entry IS the preprint
 #   number:      issue number (matches rendering template variable pub.number)
 #   url:         canonical link — use published DOI url if published, preprint url if not yet published
+#
+#
+# Contributions might be used to filter
+  # contribution: "lead" - for first author or senior (last) author
+  # contribution: "contributor" - for any other author position
 
 # --- IN PROGRESS / UNDER REVIEW ---
 
@@ -42,6 +47,9 @@
   tags: [statistical_genetics, rare_disease, clinical_genomics, paediatrics, cross_institutional]
   weight: 3
   note: "Two immune pathway hits (50 genes total); 66 IEI candidate variants. Targets: Lancet eBioMed, Springer Genome Medicine."
+  affiliation: "EPFL, UZH"
+  contribution: "lead"
+  pdf_url: "https://www.medrxiv.org/content/10.1101/2025.06.12.25329504v1.full.pdf"
 
 - id: lawless_2025_hwp_perspective
   title: "Hardy-Weinberg a century later and new horizons in clinical genomics"
@@ -62,6 +70,8 @@
   tags: [bayesian_inference, statistical_genetics, clinical_genomics]
   weight: 2
   note: "Target: Nature Genetics. Submitted Science 20250930, rejected."
+  affiliation: "UZH"
+  contribution: "lead"
 
 - id: quant_group_2025_var_risk_est
   title: "Quantifying prior probabilities for disease-causing variants reveals the top genetic contributors in inborn errors of immunity"
@@ -82,6 +92,9 @@
   tags: [bayesian_inference, rare_disease, clinical_genomics, statistical_genetics]
   weight: 3
   note: "54,814 ClinVar classifications across 557 genes. Validated against NFKB1 (AD) and CFTR (AR) cohorts. Under review npj Genomic Medicine."
+  affiliation: "UZH"
+  contribution: "lead"
+  pdf_url: "https://www.medrxiv.org/content/10.1101/2025.03.25.25324607v6.full.pdf+html"
 
 - id: quant_group_2025_quantbayes
   title: "A Bayesian model for quantifying genomic variant evidence sufficiency in Mendelian disease"
@@ -102,6 +115,8 @@
   tags: [bayesian_inference, clinical_genomics, software_product, regulated_delivery]
   weight: 3
   note: "Target: Oxford Academic Bioinformatics. Closed-form Bayesian model on binary evidence matrices. Underpins QuantBayes R package and QuantBayes Studio."
+  affiliation: "UZH"
+  contribution: "lead"
 
 - id: lawless_2025_actor_critic_variant
   title: "An actor-critic reinforcement learning framework for variant evidence interpretation"
@@ -122,6 +137,8 @@
   tags: [bayesian_inference, ai_systems, clinical_genomics, software_product]
   weight: 2
   note: ""
+  affiliation: "none"
+  contribution: "lead"
 
 # --- ACCEPTED ---
 
@@ -144,6 +161,9 @@
   tags: [statistical_genetics, clinical_genomics, paediatrics, cross_institutional]
   weight: 3
   note: "Accepted 20251222. OA licence agreed 20260526. CTNNAL1 and ELP1 locus associated with sepsis susceptibility. 650 cases, 1395 controls."
+  affiliation: "EPFL, UZH"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2026LanceteBioMed_Lawless_Genome-wide_association_study_of_paediatric_bacteraemia_and_sepsis.pdf"
 
 # --- PUBLISHED (newest first) ---
 
@@ -166,6 +186,9 @@
   tags: [ai_systems, clinical_genomics, rare_disease, data_infrastructure, software_product]
   weight: 3
   note: "93-100% benchmark accuracy. Aggregates ClinVar, UniProt, Genomics England PanelApp including NHS National Genomic Test Directory panels."
+  affiliation: "EPFL, UZH, QuantGroup"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2026BioinformaticsAdvances_QuantGroup_PanelAppRex_aggregates_disease_gene_panels_and_facilitates_sophisticated_search.pdf"
 
 - id: lawless_2026_qv
   title: "Application of qualifying variants for genomic analysis"
@@ -186,6 +209,9 @@
   tags: [open_standard, reproducibility, clinical_genomics, regulated_delivery, software_product]
   weight: 3
   note: "Defines and standardises qualifying variant framework. ACMG validation case study achieves identical results to conventional methods."
+  affiliation: "UZH"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2026Bioinformatics_Lawless_Application_of_qualifying_variants_for_genomic_analysis.pdf"
 
 - id: lawless_2026_archipelago
   title: "Archipelago method for variant set association test statistics"
@@ -206,13 +232,16 @@
   tags: [statistical_genetics, software_product, reproducibility, open_standard]
   weight: 2
   note: "Validated across 1KG, Pan-UK Biobank (490,640 participants), UKBB WGS. CRAN-released."
+  affiliation: "EPFL, UZH"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2026GenEpi_Lawless_Archipelago_Method_for_Variant_Set_Association_Test_Statistics.pdf"
 
 - id: soomann_2025_iei_review
   title: "A practical guide to diagnosing immunodeficiency"
   authors: "Maarja Soomann, Austen Worth, Dylan Lawless, Johannes Trück"
   journal: "Pediatric Infectious Disease Journal"
   year: 2025
-  month: "July"
+  month: "Oct"
   volume: "44"
   number: "10"
   pages: "e374-e377"
@@ -226,6 +255,55 @@
   tags: [rare_disease, clinical_genomics, paediatrics]
   weight: 1
   note: "Linked to IEI genetics database at iei-genetics.github.io."
+  affiliation: "UZH"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2025PIDJ_Sooman_ESPID_a_practical_guide_to_diagnosing_immunodeficiency.21.pdf"
+
+- id: xu_2025_tb_host_pathogen
+  title: "Genome-to-genome analysis reveals associations between human and mycobacterial genetic variation in tuberculosis patients from Tanzania"
+  authors: "Zhi Ming Xu, Michaela Zwyer, Hellen Hiza, Sarah Schmidiger, Mohamed Sasamalo, Miriam Reinhard, Anna Doetsch, Sonia Borrell, Olivier Naret, Sina Rüeger, Dylan Lawless, Simon Tang, Faima Isihaka, Hosiana Temba, Thomas Maroa, Rastard Naftari, Christian Beisel, Jerry Hella, Klaus Reither, Daniela Brites, Damien Portevin, Sebastien Gagneux, Jacques Fellay"
+  journal: "BMC Medical Genomics"
+  year: 2025
+  month: ""
+  volume: "18"
+  number: ""
+  pages: "99"
+  doi: "10.1186/s12920-025-02164-x"
+  preprint_doi: ""
+  url: "https://doi.org/10.1186/s12920-025-02164-x"
+  publisher: ""
+  type: article
+  grant: "SNSF 177163"
+  status: published
+  tags: [statistical_genetics, clinical_genomics, cross_institutional]
+  weight: 2
+  note: "Genome-to-genome analysis of paired human and Mycobacterium tuberculosis genomes from 1,000 Tanzanian patients; identified two significant host-pathogen genetic associations."
+  affiliation: "EPFL"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2025BMCMedGen_Xu_Genome-to-genome_analysis_reveals_associations_between_human_and_mycobacterial_genetic_variation_in_tuberculosis_patients_from_Tanzania.pdf"
+
+- id: xu_2024_hbv_host_pathogen
+  title: "Joint host-pathogen genomic analysis identifies hepatitis B virus mutations associated with human NTCP and HLA class I variation"
+  authors: "Zhi Ming Xu, Gnimah Eva Gnouamozi, Sina Rüeger, Patrick R. Shea, Maria Buti, Henry LY Chan, Patrick Marcellin, Dylan Lawless, Olivier Naret, Matthias Zeller, Arne Schneuing, Andreas Scheck, Thomas Junier, Darius Moradpour, Ondrej Podlaha, Vithika Suri, Anuj Gaggar, Mani Subramanian, Ed Gane, Bruno Correia, David B. Goldstein, David Gfeller, Stephan Urban, Jacques Fellay"
+  journal: "The American Journal of Human Genetics"
+  year: 2024
+  month: "June"
+  volume: "111"
+  number: ""
+  pages: "1018-1034"
+  doi: "10.1016/j.ajhg.2024.04.013"
+  preprint_doi: ""
+  url: "https://doi.org/10.1016/j.ajhg.2024.04.013"
+  publisher: "Cell Press"
+  type: article
+  grant: ""
+  status: published
+  tags: [statistical_genetics, clinical_genomics, cross_institutional]
+  weight: 2
+  note: "Paired human exome and HBV genome analysis of 567 patients; associations supported by structural modelling and functional binding assays."
+  affiliation: "EPFL"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2024AJHG_Xu_Joint_host-pathogen_genomic_analysis_identifies_hepatitis_B_virus_mutations_associated_with_human_NTCP_and_HLA_class_I_variation.pdf"
 
 - id: lawless_2024_reply_ai_allergy
   title: "Reply to Dages et al: You AIn't using it right, artificial intelligence progress in allergy"
@@ -246,6 +324,9 @@
   tags: [ai_systems, clinical_genomics]
   weight: 1
   note: ""
+  affiliation: "UZH"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2023JACI_Lawless_Reply_to_Dages_et_al_-_You_AInt_using_it_right_-_artificial_intelligence_progress_in_allergy.pdf"
 
 - id: lawless_2023_cftr_pid_bronchiectasis
   title: "Prevalence of CFTR variants in primary immunodeficiency patients with bronchiectasis is an important modifying cofactor"
@@ -266,6 +347,9 @@
   tags: [rare_disease, clinical_genomics, statistical_genetics]
   weight: 2
   note: ""
+  affiliation: "Leeds, EPFL"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2023JACI_Lawless_Prevalence_of_CFTR_variants_in_primary_immunodeficiency_patients_with_bronchiectasis_is_an_important_modifying_cofactor.pdf"
 
 - id: lawless_2022_rsv_prolonged
   title: "Viral genetic determinants of prolonged respiratory syncytial virus infection among infants in a healthy term birth cohort"
@@ -286,6 +370,9 @@
   tags: [statistical_genetics, clinical_genomics]
   weight: 1
   note: ""
+  affiliation: "EPFL"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2022JID_Lawless_Viral_Genetic_Determinants_of_Prolonged_Respiratory_Syncytial_Virus_Infection_Among_Infants_in_a_Healthy_Term_Birth_Cohort.pdf"
 
 - id: wu_2021_cracr2a
   title: "Biallelic mutations in calcium release activated channel regulator 2A (CRACR2A) cause a primary immunodeficiency disorder"
@@ -306,9 +393,12 @@
   tags: [rare_disease, clinical_genomics]
   weight: 2
   note: ""
+  affiliation: "Leeds"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2021eLife_Wu_Rice_Biallelic_mutations_in_calcium_release_activated_channel_regulator_2A_(CRACR2A)_cause_a_primary_immunodeficiency_disorder.pdf"
 
 - id: stremenova_2020_tet2
-  title: "Germline TET2 loss of function causes childhood immunodeficiency and lymphoma"
+  title: "Germline TET2 losslead of function causes childhood immunodeficiency and lymphoma"
   authors: "Jarmila Stremenova Spegarova, Dylan Lawless, Siti Mardhiana Binti Mohamad, Karin R. Engelhardt, Gina Doody, Jennifer Shrimpton, Anne Rensing-Ehl, Stephan Ehl, Frederic Rieux-Laucat, Catherine Cargo, Helen Griffin, Aneta Mikulasova, Meghan Acres, Neil V. Morgan, James A. Poulter, Eamonn G. Sheridan, Philip Chetcuti, Sean O'Riordan, Rashida Anwar, Clive R. Carter, Stefan Przyborski, Kevin Windebank, Andrew J. Cant, Majlinda Lako, Chris M. Bacon, Sinisa Savic, Sophie Hambleton"
   journal: "Blood"
   year: 2020
@@ -326,6 +416,55 @@
   tags: [rare_disease, clinical_genomics]
   weight: 3
   note: "Germline TET2 deficiency discovery. IUIS disease classification."
+  affiliation: "Leeds"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2020BloodSpegarovaLawless_Germline_TET2_loss_of_function_causes_childhood_immunodeficiency_and_lymphoma.pdf"
+
+- id: rueger_2020_ebv
+  title: "The influence of human genetic variation on Epstein-Barr virus sequence diversity"
+  authors: "Sina Rüeger, Christian Hammer, Alexis Loetscher, Paul J. McLaren, Dylan Lawless, Olivier Naret, Nina Khanna, Enos Bernasconi, Matthias Cavassini, Huldrych F. Günthard, Christian R. Kahlert, Andri Rauch, Daniel P. Depledge, Sofia Morfopoulou, Judith Breuer, Evgeny Zdobnov, Jacques Fellay"
+  journal: "bioRxiv"
+  year: 2020
+  month: "December"
+  volume: ""
+  number: ""
+  pages: ""
+  doi: ""
+  preprint_doi: "10.1101/2020.12.02.20242370"
+  url: "https://doi.org/10.1101/2020.12.02.20242370"
+  publisher: "Cold Spring Harbor Laboratory"
+  type: preprint
+  grant: ""
+  status: preprint
+  tags: [statistical_genetics, clinical_genomics, cross_institutional]
+  weight: 1
+  note: "Host-pathogen genomics investigating associations between human genetic variation and Epstein-Barr virus sequence diversity."
+  affiliation: "EPFL"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2021SciRepRueger_The_influence_of_human_genetic_variation_on_Epstein%E2%80%93Barr_virus_sequence_diversity.pdf"
+
+# - id: lawless_2017_ttc7a
+#   title: "Bialellic mutations in tetratricopeptide repeat domain 7A (TTC7A) cause common variable immunodeficiency-like phenotype with enteropathy"
+#   authors: "Dylan Lawless, A. Mistry, P. M. Wood, J. Stahlschmidt, G. Arumugakani, M. Hull, D. Parry, R. Anwar, C. Carter, S. Savic"
+#   journal: "Journal of Clinical Immunology"
+#   year: 2017
+#   month: ""
+#   volume: "37"
+#   number: "7"
+#   pages: "617-622"
+#   doi: ""
+#   preprint_doi: ""
+#   url: ""
+#   publisher: ""
+#   type: article
+#   grant: ""
+#   status: published
+#   tags: [rare_disease, clinical_genomics]
+#   weight: 2
+#   note: "First-author study of TTC7A-associated immune deficiency and enteropathy. DOI and exact title spelling require verification."
+#   affiliation: "Leeds"
+#   contribution: "lead"
+
 
 - id: abolhassani_2019_icos
   title: "Expanding clinical phenotype and novel insights into the pathogenesis of ICOS deficiency"
@@ -346,6 +485,9 @@
   tags: [rare_disease, clinical_genomics]
   weight: 1
   note: ""
+  affiliation: "Leeds"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2020JOCIAbolhassaniExpandingClinicalPhenotypeAndNovelInsightsintothe_PathogenesisofICOSDeficiency.pdf"
 
 - id: lawless_2019_rag1_rag2
   title: "Predicting the occurrence of variants in RAG1 and RAG2"
@@ -366,6 +508,9 @@
   tags: [rare_disease, clinical_genomics, bayesian_inference, statistical_genetics]
   weight: 2
   note: "Early probabilistic variant occurrence work. Precursor to QuantBayes framework."
+  affiliation: "Leeds, EPFL"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2019JOCILawless_Predicting_the_Occurrence_of_Variants_in_RAG1_and_RAG2.pdf"
 
 - id: thwaites_2019_rag1_hmgb
   title: "A novel RAG1 mutation reveals a critical in vivo role for HMGB1/2 during V(D)J recombination"
@@ -386,6 +531,9 @@
   tags: [rare_disease, clinical_genomics]
   weight: 1
   note: ""
+  affiliation: "Leeds"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2018BloodThwaites_A_novel_RAG1_mutation_reveals_a_critical_in_vivo_role_for_HMGB1_2_during_V(D)J_recombination.pdf"
 
 - id: lawless_2018_tnfaip3_stills
   title: "A case of adult-onset Still's disease caused by a novel splicing mutation in TNFAIP3 successfully treated with tocilizumab"
@@ -406,6 +554,9 @@
   tags: [rare_disease, clinical_genomics]
   weight: 1
   note: ""
+  affiliation: "Leeds"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2018FrontImmLawless_A_Case_of_Adult-Onset_Stills_Disease_Caused_by_a_Novel_Splicing_Mutation_in_TNFAIP3_Successfully_Treated_With_Tocilizumab.pdf"
 
 - id: lawless_2018_rag_deficiency
   title: "Prevalence and clinical challenges among adult primary immunodeficiency patients with RAG deficiency"
@@ -426,6 +577,9 @@
   tags: [rare_disease, clinical_genomics, cross_institutional]
   weight: 2
   note: ""
+  affiliation: "Leeds"
+  contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/2018JACILawless_Prevalence_and_clinical_challenges_among_adults_with_primary_immunodeficiency_and_recombination-_activating_gene_deficiency.Letter.pdf"
 
 - id: masters_2016_pyrin
   title: "Familial autoinflammation with neutrophilic dermatosis reveals a regulatory mechanism of pyrin activation"
@@ -446,6 +600,9 @@
   tags: [rare_disease, clinical_genomics]
   weight: 2
   note: ""
+  affiliation: "Leeds"
+  contribution: "contributor"
+  pdf_url: "https://lawless.ch/assets/public_papers/2016ScienceTM_Masters_Familial_autoinflammation_with_neutrophilic_dermatosis_reveals_a_regulatory_mechanism_of_pyrin_activation_-_Science_Translational_Medicine.pdf"
 
 - id: lawless_2025_bayesian_reference_model
   title: "A Bayesian reference model for genetic variant interpretation"
@@ -466,6 +623,8 @@
   tags: [bayesian_inference, clinical_genomics, open_standard, statistical_genetics]
   weight: 2
   note: "16-state genotype-phenotype classification framework. Introduces axiomatic and probative variant concepts. Target: Genetic Epidemiology."
+  affiliation: "UZH, QuantGroup"
+  contribution: "lead"
 
 - id: lawless_2025_systematic_review_bayesian_variants
   title: "A systematic review of quantitative Bayesian variant causality"
@@ -486,6 +645,8 @@
   tags: [bayesian_inference, clinical_genomics, statistical_genetics]
   weight: 2
   note: ""
+  affiliation: "UZH, QuantGroup"
+  contribution: "lead"
 
 - id: sga_qvss_2026
   title: "Qualifying Variant Set Standard SGA-QVSS-1.0.0"
@@ -506,6 +667,9 @@
   tags: [open_standard, reproducibility, regulated_delivery]
   weight: 2
   note: "Normative standard. Version sga-QVSS-1.0. Source repository: https://github.com/swissgenomicsassociation/sga_qvss"
+  affiliation: "SGA"
+  contribution: "lead"
+  pdf_url: "https://www.swissgenomicsassociation.ch/assets/release/sga_qvss/latest/sga_qvss_1.0.pdf"
 
 - id: sga_errs_2026
   title: "Evidence Ratio Reporting Standard SGA-ERRS-1.0.0"
@@ -526,6 +690,9 @@
   tags: [open_standard, reproducibility, regulated_delivery]
   weight: 2
   note: "Normative standard. Version sga-errs-1.0. Source repository: https://github.com/swissgenomicsassociation/sga_errs"
+  affiliation: "SGA"
+  contribution: "lead"
+  pdf_url: "https://www.swissgenomicsassociation.ch/assets/release/sga_errs/latest/sga_errs_1.0.pdf"
 
 - id: sga_qem_2025
   title: "Qualifying Evidence Matrix standard for verifiable evidence"
@@ -546,6 +713,9 @@
   tags: [open_standard, reproducibility, regulated_delivery]
   weight: 2
   note: "Normative standard. Source repository: https://github.com/swissgenomicsassociation/sga_qem"
+  affiliation: "SGA"
+  contribution: "lead"
+  pdf_url: "https://www.swissgenomicsassociation.ch/assets/release/sga_qem/latest/sga_qem_1.0.pdf"
 
 # - id: biologyskills_2026
 #   title: "Biology Skills (Version 0.1.0)"
