@@ -605,11 +605,11 @@
   pdf_url: "https://lawless.ch/assets/public_papers/2016ScienceTM_Masters_Familial_autoinflammation_with_neutrophilic_dermatosis_reveals_a_regulatory_mechanism_of_pyrin_activation_-_Science_Translational_Medicine.pdf"
 
 - id: lawless_2025_bayesian_reference_model
-  title: "A Bayesian reference model for genetic variant interpretation"
+  title: "A Bayesian reference model for genetic variant interpretation (A twelve-state notation for genotype-phenotype interpretation)"
   authors: "Dylan Lawless"
   journal: ""
-  year: 2025
-  month: ""
+  year: 2026
+  month: "09"
   volume: ""
   number: ""
   pages: ""
@@ -623,8 +623,9 @@
   tags: [bayesian_inference, clinical_genomics, open_standard, statistical_genetics]
   weight: 2
   note: "16-state genotype-phenotype classification framework. Introduces axiomatic and probative variant concepts. Target: Genetic Epidemiology."
-  affiliation: "UZH, QuantGroup"
+  affiliation: ""
   contribution: "lead"
+  pdf_url: "https://lawless.ch/assets/public_papers/bayesian_dna_model_20260906.pdf"
 
 - id: lawless_2025_systematic_review_bayesian_variants
   title: "A systematic review of quantitative Bayesian variant causality"

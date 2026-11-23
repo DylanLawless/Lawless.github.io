@@ -11,58 +11,77 @@ View metrics for R package downloads: <a href="{{ '/cranlogs/' | relative_url }}
 </a>.
 
 - [Archipelago](https://switzerlandomics.ch/technologies/archipelago/): Manhattan plots are for GWAS. Archipelago plots are for complex variant association studies, published in [Lawless et al (2026)](https://doi.org/10.1002/gepi.70025) _Genetic Epidemiology_. [![CRAN version](https://www.r-pkg.org/badges/version/archipelago)](https://cran.r-project.org/package=archipelago) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/archipelago)](https://cran.r-project.org/package=archipelago)
+ <!-- affiliation: SO, EPFL, UZH, QuantGroup -->
 
 - [VCFheader](https://switzerlandomics.ch/technologies/vcfheader/): parsing VCF headers and generating structured standalone HTML reports, described in [Lawless (2026)](https://cran.r-project.org/package=vcfheader). [![CRAN version](https://www.r-pkg.org/badges/version/vcfheader)](https://cran.r-project.org/package=vcfheader) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/vcfheader)](https://cran.r-project.org/package=vcfheader)
+ <!-- affiliation: SO, QuantGroup -->
 <!-- [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18889119.svg)](https://doi.org/10.5281/zenodo.18889119) -->
 
 - [Evidence ratio](https://switzerlandomics.ch/technologies/evidence_ratio/):
 a universal metric for clinical trials and studies by standardising results on a likelihood-based evidence scale, described in [Lawless (2026)](https://cran.r-project.org/package=evidenceratio). [![CRAN version](https://www.r-pkg.org/badges/version/evidenceratio)](https://cran.r-project.org/package=evidenceratio) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/evidenceratio)](https://cran.r-project.org/package=evidenceratio) [![DOI](https://zenodo.org/badge/1135132727.svg)](https://doi.org/10.5281/zenodo.18261075)  
+ <!-- affiliation: SO, UZH, SGA, QuantGroup -->
 
 - [QuantBayes](/technologies/quantbayes/) (engine): standardises how evidence strength is expressed - quantifying genomic variant evidence sufficiency with Bayesian posterior intervals, preprinted in [Quant Group et al (2025)](https://doi.org/10.64898/2025.12.02.25341503). [![CRAN version](https://www.r-pkg.org/badges/version/quantbayes)](https://cran.r-project.org/package=quantbayes) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/quantbayes)](https://cran.r-project.org/package=quantbayes) [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17919369.svg)](https://doi.org/10.5281/zenodo.17919369)
+
+ <!-- affiliation: SO, UZH, QuantGroup -->
 
 ## Web, desktop, and databases
 
 - [ACMG validator](https://switzerlandomics.ch/technologies/acmg-validator/): Review the evidence, not just the verdict. Variant interpretation often ends with a classification. Clinical review needs the record behind it.
+ <!-- affiliation: SO, QuantGroup -->
 
 - [Pedigree](https://switzerlandomics.ch/technologies/pedigree/): Family trees (clinical pedigrees) remain foundational to genetic assessment. Pedigree gives a professional UI/UX and structured data that are standardised, FHIR-compatible, and suitable for clinical reuse.
+ <!-- affiliation: SO, QuantGroup -->
 
 - [PanelAppRex AI](https://switzerlandomics.ch/technologies/panelAppRexAi/): harmonised disease-gene panels from structured clinical and genetic queries, preprinted in [Quant Group et al (2026)](https://doi.org/10.1093/bioadv/vbag115) _Bioinformatics Advances_. [![GitHub stars](https://img.shields.io/github/stars/DylanLawless/PanelAppRex?style=social)](https://github.com/DylanLawless/PanelAppRex) [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15736689.svg)](https://doi.org/10.5281/zenodo.15736689)
+ <!-- affiliation: SO, UZH, QuantGroup -->
 
 
 - [QuantBayes Studio](https://quantbayes.com): Commercial spin off. "Trust your result. Measure the evidence behind it." QuantBayes Studio turns your analysis into evidence-based conclusions. One evidence layer for AI, science, engineering, and regulated work.
+ <!-- affiliation: SO, UZH, QuantGroup -->
 
 - [Genomic Vault](https://genomicvault.switzerlandomics.ch): Private health genomic custody. Providing long-term custody and controlled access for genomics and precision medicine.
+ <!-- affiliation: SO, QuantGroup -->
 
 - [Qualifying variant database](https://switzerlandomics.ch/technologies/qv_database/):
 the open standard for variant interpretation. Defining reusable YAML criteria for reproducible genomic variant interpretation, published in [Lawless et al (2026)](https://doi.org/10.1093/bioinformatics/btaf676), _Bioinformatics_.
+ <!-- affiliation: SO, UZH, QuantGroup -->
 
 - [IEI genetics database](https://switzerlandomics.ch/technologies/iei_genetics/): genetic panels and prior probabilities for disease-causing variants in inborn errors of immunity, [Lawless et al (2025)](https://doi.org/10.1101/2025.03.25.25324607) and 
 [Soomann et al (2025)](https://doi.org/10.1097/INF.0000000000004904) _Pediatric Infectious Disease Journal_.
+ <!-- affiliation: UZH, QuantGroup -->
 
 ## Open-source software projects
 
 - [GPT-2 model from scratch in R](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/): designed and trained without deep-learning frameworks. The final project reproducing three key stages in the 2015–2019 progression of AI LLMs: [recurrent neural networks](https://switzerlandomics.ch/blog/2026-09-19-building-a-rnn-language-model-from-scratch-in-r/) (2015), the [Transformer](https://switzerlandomics.ch/blog/2026-09-21-transformer-in-r/) (2017), and [GPT-2](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/) (2019). [Lawless (2026)](https://github.com/switzerlandomics/src-min_gpt2_r) _GitHub_.
+ <!-- affiliation: SO -->
 
 - [Biology Skills](https://github.com/biologyskills/biology-skills): an open-source project for improving biological accuracy in AI systems for agents. [biologyskills.com](https://biologyskills.com)  [![GitHub stars](https://img.shields.io/github/stars/biologyskills/biology-skills?style=social)](https://github.com/biologyskills/biology-skills)
+ <!-- affiliation: SO -->
 
 - [cpc: copy code](https://github.com/DylanLawless/cpc): Rust command-line tool for copying source files and directories into structured clipboard output, including file paths, character counts and token counts.
+ <!-- affiliation: SO -->
 
 - [fast_mm](https://github.com/switzerlandomics/ai-fast_mm_search): Python software for discovering matrix-multiplication algorithms through numerical optimisation, exact coefficient reconstruction and independent verification. Recovered and verified a rank-7 algorithm for 2×2 matrix multiplication, independently reproducing Strassen's seven-product result. [Technical article](https://switzerlandomics.ch/blog/2026-10-07-fast-mm/).
+ <!-- affiliation: SO -->
 
 ## Normative standards
 
 [SGA-QEM-1.0.0](https://www.swissgenomicsassociation.ch/pages/sga_qem):
 Qualifying Evidence Matrix (QEM) defines a minimal binary matrix for recording whether verifiable evidence is present or absent for evaluated items.
 [![DOI](https://zenodo.org/badge/1116700370.svg)](https://doi.org/10.5281/zenodo.17936586)  
+ <!-- affiliation: QuantGroup, SGA -->
 
 [SGA-QVSS-1.0.0](https://www.swissgenomicsassociation.ch/pages/sga_qvss):
 Qualifying Variant Set Standard (QVSS) defines a portable, auditable, and reusable way to represent rule-based criteria for qualifying records of genetic variation.
 [![DOI](https://zenodo.org/badge/1258109244.svg)](https://doi.org/10.5281/zenodo.20553446)  
+ <!-- affiliation: QuantGroup, SGA -->
 
 
 [SGA-ERSS-1.0.0](https://www.swissgenomicsassociation.ch/pages/sga_errs):
 Evidence Ratio Reporting Standard (ERRS) defines a minimal, model-agnostic reporting structure for likelihood-based statistical evidence using an effect estimate, uncertainty interval, and evidence ratio.
 [![DOI](https://zenodo.org/badge/1135132727.svg)](https://doi.org/10.5281/zenodo.18261075)  
+ <!-- affiliation: QuantGroup, SGA -->
 
 <!-- [Quant](/technologies/quant/): probabilistic genomic interpretation using priors, observed evidence and Bayesian inference, preprinted in Quant Group et al (2025) -->
 
