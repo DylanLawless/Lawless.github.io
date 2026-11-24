@@ -53,6 +53,8 @@ the open standard for variant interpretation. Defining reusable YAML criteria fo
 
 ## Open-source software projects
 
+- [ACMG Validator CLI](https://github.com/DylanLawless/acmg-validator): open-source toolkit for automated, high-throughput validation of ACMG/AMP variant evidence, with structured JSON/TSV processing, QEM evidence sufficiency assessment and QuantBayes integration. [![GitHub stars](https://img.shields.io/github/stars/DylanLawless/acmg-validator?style=social)](https://github.com/DylanLawless/acmg-validator)
+
 - [GPT-2 model from scratch in R](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/): designed and trained without deep-learning frameworks. The final project reproducing three key stages in the 2015–2019 progression of AI LLMs: [recurrent neural networks](https://switzerlandomics.ch/blog/2026-09-19-building-a-rnn-language-model-from-scratch-in-r/) (2015), the [Transformer](https://switzerlandomics.ch/blog/2026-09-21-transformer-in-r/) (2017), and [GPT-2](https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/) (2019). [Lawless (2026)](https://github.com/switzerlandomics/src-min_gpt2_r) _GitHub_.
  <!-- affiliation: SO -->
 
