@@ -1631,11 +1631,26 @@
   },
   {
     "date": "2026-11-23",
-    "count": 0,
+    "count": 20,
     "package": "archipelago"
   },
   {
     "date": "2026-11-24",
+    "count": 30,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-11-25",
+    "count": 19,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-11-26",
+    "count": 0,
+    "package": "archipelago"
+  },
+  {
+    "date": "2026-11-27",
     "count": 0,
     "package": "archipelago"
   },
@@ -3271,11 +3286,26 @@
   },
   {
     "date": "2026-11-23",
-    "count": 0,
+    "count": 13,
     "package": "evidenceratio"
   },
   {
     "date": "2026-11-24",
+    "count": 20,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-11-25",
+    "count": 14,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-11-26",
+    "count": 0,
+    "package": "evidenceratio"
+  },
+  {
+    "date": "2026-11-27",
     "count": 0,
     "package": "evidenceratio"
   },
@@ -4911,11 +4941,26 @@
   },
   {
     "date": "2026-11-23",
-    "count": 0,
+    "count": 15,
     "package": "quantbayes"
   },
   {
     "date": "2026-11-24",
+    "count": 16,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-11-25",
+    "count": 26,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-11-26",
+    "count": 0,
+    "package": "quantbayes"
+  },
+  {
+    "date": "2026-11-27",
     "count": 0,
     "package": "quantbayes"
   },
@@ -6551,11 +6596,26 @@
   },
   {
     "date": "2026-11-23",
-    "count": 0,
+    "count": 15,
     "package": "vcfheader"
   },
   {
     "date": "2026-11-24",
+    "count": 8,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-11-25",
+    "count": 28,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-11-26",
+    "count": 0,
+    "package": "vcfheader"
+  },
+  {
+    "date": "2026-11-27",
     "count": 0,
     "package": "vcfheader"
   }
